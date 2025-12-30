@@ -166,7 +166,7 @@ export interface MopSpec {
 }
 
 export const MopSpec = {
-  // TODO think of a better way to do this
+  // TODO use zod to validate the data
   is: (specs: Spec[]): specs is MopSpec[] =>
     specs != null && specs.every((spec) => spec?.talentTree == null),
 };

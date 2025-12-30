@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       <Box p={4}>
-        <Box mb={10}>
+        <Box mb={4}>
           <SearchBox linkPrefix={"guild"} />
         </Box>
         <Suspense
@@ -70,7 +70,7 @@ const RecentlyUpdatedGuilds: React.FC = async () => {
     );
   };
   return (
-    <Box display={"flex"} flexDirection={"column"}>
+    <Box display={"flex"} gap={4} flexDirection={"column"}>
       <Text fontSize={"xx-large"} alignSelf={"center"}>
         Recently updated guilds
       </Text>

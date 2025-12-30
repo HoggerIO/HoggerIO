@@ -16,7 +16,6 @@ export const LeaderboardFilters: React.FC<LeaderboardFiltersProps> = ({ gameType
 
   return (
     <RadioGroup
-      my={3}
       display={"flex"}
       justifyContent={"center"}
       onChange={onRadioChange}
