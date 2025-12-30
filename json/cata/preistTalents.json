@@ -1,0 +1,575 @@
+{
+  "talents": {
+    "Discipline": {
+      "10736": {
+        "id": 10736,
+        "row": 0,
+        "col": 0,
+        "icon": "spell_holy_powerwordshield",
+        "ranks": [14748, 14768],
+        "requires": []
+      },
+      "8577": {
+        "id": 8577,
+        "row": 0,
+        "col": 1,
+        "icon": "spell_holy_sealofvengeance",
+        "ranks": [47586, 47587, 47588],
+        "requires": []
+      },
+      "8595": {
+        "id": 8595,
+        "row": 0,
+        "col": 2,
+        "icon": "ability_hibernation",
+        "ranks": [14520, 14780, 14781],
+        "requires": []
+      },
+      "8593": {
+        "id": 8593,
+        "row": 1,
+        "col": 0,
+        "icon": "spell_holy_divineillumination",
+        "ranks": [81659, 81662],
+        "requires": []
+      },
+      "11608": {
+        "id": 11608,
+        "row": 1,
+        "col": 1,
+        "icon": "ability_priest_archangel",
+        "ranks": [87151],
+        "requires": [
+          {
+            "id": 8593,
+            "qty": 2
+          }
+        ]
+      },
+      "8581": {
+        "id": 8581,
+        "row": 1,
+        "col": 2,
+        "icon": "spell_holy_innerfire",
+        "ranks": [14747, 14770, 14771],
+        "requires": []
+      },
+      "8607": {
+        "id": 8607,
+        "row": 1,
+        "col": 3,
+        "icon": "ability_priest_soulwarding",
+        "ranks": [63574, 78500],
+        "requires": []
+      },
+      "11224": {
+        "id": 11224,
+        "row": 2,
+        "col": 0,
+        "icon": "spell_holy_holyprotection",
+        "ranks": [57470, 57472],
+        "requires": []
+      },
+      "8611": {
+        "id": 8611,
+        "row": 2,
+        "col": 1,
+        "icon": "spell_holy_powerinfusion",
+        "ranks": [10060],
+        "requires": []
+      },
+      "11812": {
+        "id": 11812,
+        "row": 2,
+        "col": 2,
+        "icon": "ability_priest_atonement",
+        "ranks": [14523, 81749],
+        "requires": []
+      },
+      "8591": {
+        "id": 8591,
+        "row": 2,
+        "col": 3,
+        "icon": "spell_frost_windwalkon",
+        "ranks": [89485],
+        "requires": []
+      },
+      "8617": {
+        "id": 8617,
+        "row": 3,
+        "col": 1,
+        "icon": "spell_holy_rapture",
+        "ranks": [47535, 47536, 47537],
+        "requires": []
+      },
+      "11523": {
+        "id": 11523,
+        "row": 3,
+        "col": 2,
+        "icon": "spell_holy_borrowedtime",
+        "ranks": [52795, 52797],
+        "requires": []
+      },
+      "8605": {
+        "id": 8605,
+        "row": 3,
+        "col": 3,
+        "icon": "ability_priest_reflectiveshield",
+        "ranks": [33201, 33202],
+        "requires": []
+      },
+      "11813": {
+        "id": 11813,
+        "row": 4,
+        "col": 0,
+        "icon": "spell_holy_ashestoashes",
+        "ranks": [89488, 89489],
+        "requires": [
+          {
+            "id": 11224,
+            "qty": 2
+          }
+        ]
+      },
+      "8609": {
+        "id": 8609,
+        "row": 4,
+        "col": 1,
+        "icon": "spell_holy_devineaegis",
+        "ranks": [47509, 47511, 47515],
+        "requires": []
+      },
+      "8623": {
+        "id": 8623,
+        "row": 4,
+        "col": 2,
+        "icon": "spell_holy_painsupression",
+        "ranks": [33206],
+        "requires": []
+      },
+      "12183": {
+        "id": 12183,
+        "row": 4,
+        "col": 3,
+        "icon": "ability_mage_studentofthemind",
+        "ranks": [92295, 92297],
+        "requires": []
+      },
+      "8621": {
+        "id": 8621,
+        "row": 5,
+        "col": 0,
+        "icon": "ability_priest_focusedwill",
+        "ranks": [45234, 45243],
+        "requires": []
+      },
+      "8625": {
+        "id": 8625,
+        "row": 5,
+        "col": 2,
+        "icon": "spell_holy_hopeandgrace",
+        "ranks": [47516, 47517],
+        "requires": []
+      },
+      "8603": {
+        "id": 8603,
+        "row": 6,
+        "col": 1,
+        "icon": "spell_holy_powerwordbarrier",
+        "ranks": [62618],
+        "requires": [
+          {
+            "id": 8609,
+            "qty": 3
+          }
+        ]
+      }
+    },
+    "Shadow": {
+      "9032": {
+        "id": 9032,
+        "row": 0,
+        "col": 0,
+        "icon": "ability_priest_darkness",
+        "ranks": [15259, 15307, 15308],
+        "requires": []
+      },
+      "9036": {
+        "id": 9036,
+        "row": 0,
+        "col": 1,
+        "icon": "spell_shadow_shadowwordpain",
+        "ranks": [15275, 15317],
+        "requires": []
+      },
+      "9046": {
+        "id": 9046,
+        "row": 0,
+        "col": 2,
+        "icon": "spell_magic_lesserinvisibilty",
+        "ranks": [15274, 15311],
+        "requires": []
+      },
+      "9040": {
+        "id": 9040,
+        "row": 1,
+        "col": 0,
+        "icon": "spell_shadow_psychicscream",
+        "ranks": [15392, 15448],
+        "requires": []
+      },
+      "9042": {
+        "id": 9042,
+        "row": 1,
+        "col": 1,
+        "icon": "spell_shadow_unholyfrenzy",
+        "ranks": [15273, 15312, 15313],
+        "requires": []
+      },
+      "9062": {
+        "id": 9062,
+        "row": 1,
+        "col": 2,
+        "icon": "spell_shadow_devouringplague",
+        "ranks": [63625, 63626],
+        "requires": []
+      },
+      "11673": {
+        "id": 11673,
+        "row": 1,
+        "col": 3,
+        "icon": "spell_shadow_mindtwisting",
+        "ranks": [47573, 47577],
+        "requires": []
+      },
+      "9064": {
+        "id": 9064,
+        "row": 2,
+        "col": 1,
+        "icon": "spell_shadow_shadowform",
+        "ranks": [15473],
+        "requires": []
+      },
+      "9068": {
+        "id": 9068,
+        "row": 2,
+        "col": 2,
+        "icon": "spell_shadow_twistedfaith",
+        "ranks": [47569, 47570],
+        "requires": []
+      },
+      "11606": {
+        "id": 11606,
+        "row": 2,
+        "col": 3,
+        "icon": "inv_misc_orb_04",
+        "ranks": [33191, 78228],
+        "requires": []
+      },
+      "9052": {
+        "id": 9052,
+        "row": 3,
+        "col": 0,
+        "icon": "ability_priest_silence",
+        "ranks": [15487],
+        "requires": [
+          {
+            "id": 9040,
+            "qty": 2
+          }
+        ]
+      },
+      "9054": {
+        "id": 9054,
+        "row": 3,
+        "col": 1,
+        "icon": "spell_shadow_unsummonbuilding",
+        "ranks": [15286],
+        "requires": []
+      },
+      "11778": {
+        "id": 11778,
+        "row": 3,
+        "col": 2,
+        "icon": "spell_shadow_misery",
+        "ranks": [88994, 88995],
+        "requires": [
+          {
+            "id": 9054,
+            "qty": 1
+          }
+        ]
+      },
+      "9060": {
+        "id": 9060,
+        "row": 3,
+        "col": 3,
+        "icon": "spell_shadow_skull",
+        "ranks": [14910, 33371],
+        "requires": []
+      },
+      "9076": {
+        "id": 9076,
+        "row": 4,
+        "col": 0,
+        "icon": "spell_shadow_painandsuffering",
+        "ranks": [47580, 47581],
+        "requires": []
+      },
+      "9074": {
+        "id": 9074,
+        "row": 4,
+        "col": 1,
+        "icon": "spell_holy_stoicism",
+        "ranks": [34914],
+        "requires": [
+          {
+            "id": 9054,
+            "qty": 1
+          }
+        ]
+      },
+      "11663": {
+        "id": 11663,
+        "row": 4,
+        "col": 2,
+        "icon": "ability_rogue_masterofsubtlety",
+        "ranks": [87192, 87195],
+        "requires": []
+      },
+      "9072": {
+        "id": 9072,
+        "row": 5,
+        "col": 0,
+        "icon": "spell_shadow_psychichorrors",
+        "ranks": [64044],
+        "requires": []
+      },
+      "11605": {
+        "id": 11605,
+        "row": 5,
+        "col": 1,
+        "icon": "spell_holy_prayerofshadowprotection",
+        "ranks": [87099, 87100],
+        "requires": [
+          {
+            "id": 9074,
+            "qty": 1
+          }
+        ]
+      },
+      "9070": {
+        "id": 9070,
+        "row": 5,
+        "col": 2,
+        "icon": "ability_priest_shadowyapparition",
+        "ranks": [78202, 78203, 78204],
+        "requires": []
+      },
+      "9080": {
+        "id": 9080,
+        "row": 6,
+        "col": 1,
+        "icon": "spell_shadow_dispersion",
+        "ranks": [47585],
+        "requires": []
+      }
+    },
+    "Holy": {
+      "10746": {
+        "id": 10746,
+        "row": 0,
+        "col": 0,
+        "icon": "spell_holy_renew",
+        "ranks": [14908, 15020],
+        "requires": []
+      },
+      "9553": {
+        "id": 9553,
+        "row": 0,
+        "col": 1,
+        "icon": "spell_holy_greaterheal",
+        "ranks": [33158, 33159, 33160],
+        "requires": []
+      },
+      "9549": {
+        "id": 9549,
+        "row": 0,
+        "col": 2,
+        "icon": "spell_holy_sealofwrath",
+        "ranks": [18530, 18531, 18533],
+        "requires": []
+      },
+      "11669": {
+        "id": 11669,
+        "row": 1,
+        "col": 1,
+        "icon": "spell_holy_restoration",
+        "ranks": [19236],
+        "requires": []
+      },
+      "11765": {
+        "id": 11765,
+        "row": 1,
+        "col": 2,
+        "icon": "spell_holy_surgeoflight",
+        "ranks": [88687, 88690],
+        "requires": []
+      },
+      "9561": {
+        "id": 9561,
+        "row": 1,
+        "col": 3,
+        "icon": "spell_holy_layonhands",
+        "ranks": [14892, 15362],
+        "requires": []
+      },
+      "9593": {
+        "id": 9593,
+        "row": 2,
+        "col": 0,
+        "icon": "ability_paladin_infusionoflight",
+        "ranks": [63534, 63542],
+        "requires": [
+          {
+            "id": 10746,
+            "qty": 2
+          }
+        ]
+      },
+      "9577": {
+        "id": 9577,
+        "row": 2,
+        "col": 1,
+        "icon": "spell_holy_fanaticism",
+        "ranks": [34753, 34859],
+        "requires": []
+      },
+      "11666": {
+        "id": 11666,
+        "row": 2,
+        "col": 2,
+        "icon": "spell_holy_summonlightwell",
+        "ranks": [724],
+        "requires": [],
+        "spellModifiers": [47586, 47587, 47588]
+      },
+      "12184": {
+        "id": 12184,
+        "row": 2,
+        "col": 3,
+        "icon": "inv_misc_book_07",
+        "ranks": [14898, 81625],
+        "requires": []
+      },
+      "14738": {
+        "id": 14738,
+        "row": 3,
+        "col": 0,
+        "icon": "ability_paladin_blessedmending",
+        "ranks": [95649],
+        "requires": [
+          {
+            "id": 9593,
+            "qty": 2
+          }
+        ]
+      },
+      "11670": {
+        "id": 11670,
+        "row": 3,
+        "col": 2,
+        "icon": "inv_enchant_essenceeternallarge",
+        "ranks": [20711],
+        "requires": []
+      },
+      "9573": {
+        "id": 9573,
+        "row": 3,
+        "col": 3,
+        "icon": "spell_holy_serendipity",
+        "ranks": [63730, 63733],
+        "requires": []
+      },
+      "9587": {
+        "id": 9587,
+        "row": 4,
+        "col": 0,
+        "icon": "spell_holy_symbolofhope",
+        "ranks": [64127, 64129],
+        "requires": []
+      },
+      "11667": {
+        "id": 11667,
+        "row": 4,
+        "col": 1,
+        "icon": "spell_priest_chakra",
+        "ranks": [14751],
+        "requires": [
+          {
+            "id": 9577,
+            "qty": 2
+          }
+        ]
+      },
+      "11755": {
+        "id": 11755,
+        "row": 4,
+        "col": 2,
+        "icon": "ability_priest_bindingprayers",
+        "ranks": [88627],
+        "requires": [
+          {
+            "id": 11667,
+            "qty": 1
+          }
+        ]
+      },
+      "11672": {
+        "id": 11672,
+        "row": 4,
+        "col": 3,
+        "icon": "spell_holy_blessedresillience",
+        "ranks": [33142, 33145],
+        "requires": []
+      },
+      "9597": {
+        "id": 9597,
+        "row": 5,
+        "col": 0,
+        "icon": "spell_holy_testoffaith",
+        "ranks": [47558, 47559, 47560],
+        "requires": []
+      },
+      "11668": {
+        "id": 11668,
+        "row": 5,
+        "col": 1,
+        "icon": "ability_priest_heavanlyvoice",
+        "ranks": [87430, 87431],
+        "requires": [
+          {
+            "id": 11667,
+            "qty": 1
+          }
+        ]
+      },
+      "9595": {
+        "id": 9595,
+        "row": 5,
+        "col": 2,
+        "icon": "spell_holy_circleofrenewal",
+        "ranks": [34861],
+        "requires": []
+      },
+      "9601": {
+        "id": 9601,
+        "row": 6,
+        "col": 1,
+        "icon": "spell_holy_guardianspirit",
+        "ranks": [47788],
+        "requires": []
+      }
+    }
+  }
+}

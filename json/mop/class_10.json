@@ -1,0 +1,271 @@
+{
+  "glyphs": {
+    "Glyph of Rapid Rolling": {
+      "id": 82345,
+      "icon": "ability_monk_roll",
+      "type": 1
+    },
+    "Glyph of Guard": {
+      "id": 85691,
+      "icon": "ability_monk_guard",
+      "type": 1
+    },
+    "Glyph of Zen Meditation": {
+      "id": 85695,
+      "icon": "ability_monk_zenmeditation",
+      "type": 1
+    },
+    "Glyph of Surging Mist": {
+      "id": 85699,
+      "icon": "ability_monk_surgingmist",
+      "type": 1
+    },
+    "Glyph of Enduring Healing Sphere": {
+      "id": 85689,
+      "icon": "ability_monk_healthsphere",
+      "type": 1
+    },
+    "Glyph of Transcendence": {
+      "id": 84652,
+      "icon": "monk_ability_transcendence",
+      "type": 1
+    },
+    "Glyph of Spinning Crane Kick": {
+      "id": 85697,
+      "icon": "ability_monk_cranekick_new",
+      "type": 1
+    },
+    "Glyph of Renewing Mist": {
+      "id": 85696,
+      "icon": "ability_monk_renewingmists",
+      "type": 1
+    },
+    "Glyph of Touch of Death": {
+      "id": 85700,
+      "icon": "ability_monk_touchofdeath",
+      "type": 1
+    },
+    "Glyph of Breath of Fire": {
+      "id": 85685,
+      "icon": "ability_monk_breathoffire",
+      "type": 1
+    },
+    "Glyph of Clash": {
+      "id": 85687,
+      "icon": "ability_monk_clashingoxcharge",
+      "type": 1
+    },
+    "Glyph of Flying Serpent Kick": {
+      "id": 87882,
+      "icon": "ability_monk_flyingdragonkick",
+      "type": 2
+    },
+    "Glyph of Spinning Fire Blossom": {
+      "id": 85698,
+      "icon": "ability_monk_explodingjadeblossom",
+      "type": 2
+    },
+    "Glyph of Mana Tea": {
+      "id": 85692,
+      "icon": "monk_ability_cherrymanatea",
+      "type": 1
+    },
+    "Glyph of Leer of the Ox": {
+      "id": 87894,
+      "icon": "ability_monk_leeroftheox",
+      "type": 1
+    },
+    "Glyph of Fortuitous Spheres": {
+      "id": 87896,
+      "icon": "ability_monk_healthsphere",
+      "type": 1
+    },
+    "Glyph of Life Cocoon": {
+      "id": 87895,
+      "icon": "ability_monk_chicocoon",
+      "type": 1
+    },
+    "Glyph of Rising Tiger Kick": {
+      "id": 87885,
+      "icon": "ability_monk_risingsunkick",
+      "type": 2
+    },
+    "Glyph of Spirit Roll": {
+      "id": 87887,
+      "icon": "spell_holy_guardianspirit",
+      "type": 2
+    },
+    "Glyph of Fortifying Brew": {
+      "id": 87893,
+      "icon": "ability_monk_fortifyingale_new",
+      "type": 1
+    },
+    "Glyph of Detox": {
+      "id": 87899,
+      "icon": "spell_holy_dispelmagic",
+      "type": 1
+    },
+    "Glyph of Nimble Brew": {
+      "id": 87880,
+      "icon": "spell_monk_nimblebrew",
+      "type": 1
+    },
+    "Glyph of Jab": {
+      "id": 87884,
+      "icon": "ability_monk_jab",
+      "type": 2
+    },
+    "Glyph of Targeted Expulsion": {
+      "id": 87901,
+      "icon": "ability_monk_expelharm",
+      "type": 1
+    },
+    "Glyph of Fists of Fury": {
+      "id": 87892,
+      "icon": "monk_ability_fistoffury",
+      "type": 1
+    },
+    "Glyph of Sparring": {
+      "id": 87898,
+      "icon": "ability_monk_sparring",
+      "type": 1
+    },
+    "Glyph of Afterlife": {
+      "id": 87891,
+      "icon": "spell_priest_finalprayer",
+      "type": 1
+    },
+    "Glyph of Touch of Karma": {
+      "id": 87900,
+      "icon": "ability_monk_touchofkarma",
+      "type": 1
+    },
+    "Glyph of Honor": {
+      "id": 87883,
+      "icon": "pandarenracial_innerpeace",
+      "type": 2
+    },
+    "Glyph of Paralysis": {
+      "id": 87897,
+      "icon": "ability_monk_paralysis",
+      "type": 1
+    },
+    "Glyph of Fighting Pose": {
+      "id": 87888,
+      "icon": "ability_monk_dpsstance",
+      "type": 2
+    },
+    "Glyph of Zen Flight": {
+      "id": 87890,
+      "icon": "ability_monk_zenflight",
+      "type": 2
+    },
+    "Glyph of Water Roll": {
+      "id": 87889,
+      "icon": "ability_monk_roll",
+      "type": 2
+    },
+    "Glyph of Crackling Tiger Lightning": {
+      "id": 87881,
+      "icon": "ability_monk_cracklingjadelightning",
+      "type": 2
+    },
+    "Glyph of Blackout Kick": {
+      "id": 90715,
+      "icon": "ability_monk_blackoutkick",
+      "type": 2
+    }
+  },
+  "talents": [
+    {
+      "id": 115173,
+      "icon": "ability_monk_quipunch",
+      "name": "Celerity"
+    },
+    {
+      "id": 116841,
+      "icon": "ability_monk_tigerslust",
+      "name": "Tiger's Lust"
+    },
+    {
+      "id": 115174,
+      "icon": "ability_monk_standingkick",
+      "name": "Momentum"
+    },
+    {
+      "id": 115098,
+      "icon": "ability_monk_chiwave",
+      "name": "Chi Wave"
+    },
+    {
+      "id": 124081,
+      "icon": "ability_monk_forcesphere",
+      "name": "Zen Sphere"
+    },
+    {
+      "id": 123986,
+      "icon": "spell_arcane_arcanetorrent",
+      "name": "Chi Burst"
+    },
+    {
+      "id": 121817,
+      "icon": "ability_monk_powerstrikes",
+      "name": "Power Strikes"
+    },
+    {
+      "id": 115396,
+      "icon": "ability_monk_ascension",
+      "name": "Ascension"
+    },
+    {
+      "id": 115399,
+      "icon": "ability_monk_chibrew",
+      "name": "Chi Brew"
+    },
+    {
+      "id": 116844,
+      "icon": "spell_monk_ringofpeace",
+      "name": "Ring of Peace"
+    },
+    {
+      "id": 119392,
+      "icon": "ability_monk_chargingoxwave",
+      "name": "Charging Ox Wave"
+    },
+    {
+      "id": 119381,
+      "icon": "ability_monk_legsweep",
+      "name": "Leg Sweep"
+    },
+    {
+      "id": 122280,
+      "icon": "ability_monk_jasmineforcetea",
+      "name": "Healing Elixirs"
+    },
+    {
+      "id": 122278,
+      "icon": "ability_monk_dampenharm",
+      "name": "Dampen Harm"
+    },
+    {
+      "id": 122783,
+      "icon": "spell_monk_diffusemagic",
+      "name": "Diffuse Magic"
+    },
+    {
+      "id": 116847,
+      "icon": "ability_monk_rushingjadewind",
+      "name": "Rushing Jade Wind"
+    },
+    {
+      "id": 123904,
+      "icon": "ability_monk_summontigerstatue",
+      "name": "Invoke Xuen, the White Tiger"
+    },
+    {
+      "id": 115008,
+      "icon": "ability_monk_quitornado",
+      "name": "Chi Torpedo"
+    }
+  ]
+}

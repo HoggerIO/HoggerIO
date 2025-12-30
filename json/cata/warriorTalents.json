@@ -1,0 +1,543 @@
+{
+  "talents": {
+    "Arms": {
+      "10134": {
+        "id": 10134,
+        "row": 0,
+        "col": 0,
+        "icon": "ability_warrior_unrelentingassault",
+        "ranks": [84570, 84571, 84572],
+        "requires": []
+      },
+      "11163": {
+        "id": 11163,
+        "row": 0,
+        "col": 1,
+        "icon": "inv_misc_bandage_05",
+        "ranks": [84579, 84580],
+        "requires": []
+      },
+      "9664": {
+        "id": 9664,
+        "row": 0,
+        "col": 2,
+        "icon": "warrior_talent_icon_blitz",
+        "ranks": [80976, 80977],
+        "requires": []
+      },
+      "11416": {
+        "id": 11416,
+        "row": 1,
+        "col": 0,
+        "icon": "spell_nature_enchantarmor",
+        "ranks": [12295, 12676],
+        "requires": []
+      },
+      "8190": {
+        "id": 8190,
+        "row": 1,
+        "col": 1,
+        "icon": "ability_hunter_harass",
+        "ranks": [29834, 29838],
+        "requires": []
+      },
+      "8176": {
+        "id": 8176,
+        "row": 1,
+        "col": 2,
+        "icon": "ability_backstab",
+        "ranks": [12834, 12849, 12867],
+        "requires": []
+      },
+      "8184": {
+        "id": 8184,
+        "row": 1,
+        "col": 3,
+        "icon": "achievement_bg_winwsg_3-0",
+        "ranks": [12290, 12963],
+        "requires": []
+      },
+      "10138": {
+        "id": 10138,
+        "row": 2,
+        "col": 0,
+        "icon": "ability_rogue_hungerforblood",
+        "ranks": [56636, 56637, 56638],
+        "requires": []
+      },
+      "8192": {
+        "id": 8192,
+        "row": 2,
+        "col": 1,
+        "icon": "ability_rogue_slicedice",
+        "ranks": [12328],
+        "requires": []
+      },
+      "10741": {
+        "id": 10741,
+        "row": 2,
+        "col": 2,
+        "icon": "ability_searingarrow",
+        "ranks": [16493, 16494],
+        "requires": [
+          {
+            "id": 8176,
+            "qty": 3
+          }
+        ]
+      },
+      "11417": {
+        "id": 11417,
+        "row": 2,
+        "col": 3,
+        "icon": "ability_shockwave",
+        "ranks": [12289, 12668],
+        "requires": []
+      },
+      "11418": {
+        "id": 11418,
+        "row": 3,
+        "col": 0,
+        "icon": "ability_warrior_decisivestrike",
+        "ranks": [86655, 12330],
+        "requires": []
+      },
+      "11223": {
+        "id": 11223,
+        "row": 3,
+        "col": 1,
+        "icon": "achievement_boss_kingymiron",
+        "ranks": [85730],
+        "requires": []
+      },
+      "9662": {
+        "id": 9662,
+        "row": 3,
+        "col": 2,
+        "icon": "ability_warrior_bloodfrenzy",
+        "ranks": [29836, 29859],
+        "requires": []
+      },
+      "10520": {
+        "id": 10520,
+        "row": 4,
+        "col": 0,
+        "icon": "warrior_talent_icon_lambstotheslaughter",
+        "ranks": [84583, 84587, 84588],
+        "requires": []
+      },
+      "8208": {
+        "id": 8208,
+        "row": 4,
+        "col": 1,
+        "icon": "ability_warrior_bullrush",
+        "ranks": [64976],
+        "requires": []
+      },
+      "8214": {
+        "id": 8214,
+        "row": 4,
+        "col": 3,
+        "icon": "ability_warrior_improveddisciplines",
+        "ranks": [29723, 29725],
+        "requires": []
+      },
+      "8194": {
+        "id": 8194,
+        "row": 5,
+        "col": 0,
+        "icon": "ability_warrior_trauma",
+        "ranks": [46867, 56611],
+        "requires": []
+      },
+      "11167": {
+        "id": 11167,
+        "row": 5,
+        "col": 2,
+        "icon": "inv_mace_62",
+        "ranks": [85388],
+        "requires": [
+          {
+            "id": 8208,
+            "qty": 1
+          }
+        ]
+      },
+      "8222": {
+        "id": 8222,
+        "row": 6,
+        "col": 1,
+        "icon": "ability_warrior_bladestorm",
+        "ranks": [46924],
+        "requires": [
+          {
+            "id": 8208,
+            "qty": 1
+          }
+        ]
+      }
+    },
+    "Fury": {
+      "9610": {
+        "id": 9610,
+        "row": 0,
+        "col": 0,
+        "icon": "spell_shadow_summonimp",
+        "ranks": [16487, 16489, 16492],
+        "requires": []
+      },
+      "9606": {
+        "id": 9606,
+        "row": 0,
+        "col": 1,
+        "icon": "inv_helmet_06",
+        "ranks": [12322, 85741, 85742],
+        "requires": []
+      },
+      "9608": {
+        "id": 9608,
+        "row": 0,
+        "col": 2,
+        "icon": "ability_rogue_eviscerate",
+        "ranks": [12320, 12852],
+        "requires": []
+      },
+      "9644": {
+        "id": 9644,
+        "row": 1,
+        "col": 0,
+        "icon": "inv_sword_48",
+        "ranks": [20502, 20503],
+        "requires": []
+      },
+      "9624": {
+        "id": 9624,
+        "row": 1,
+        "col": 1,
+        "icon": "spell_nature_purge",
+        "ranks": [12321, 12835],
+        "requires": []
+      },
+      "11415": {
+        "id": 11415,
+        "row": 1,
+        "col": 2,
+        "icon": "ability_warrior_commandingshout",
+        "ranks": [61216, 61221],
+        "requires": []
+      },
+      "9618": {
+        "id": 9618,
+        "row": 1,
+        "col": 3,
+        "icon": "spell_shadow_deathscream",
+        "ranks": [12323],
+        "requires": []
+      },
+      "9636": {
+        "id": 9636,
+        "row": 2,
+        "col": 0,
+        "icon": "ability_ghoulfrenzy",
+        "ranks": [12319, 12971, 12972],
+        "requires": []
+      },
+      "9630": {
+        "id": 9630,
+        "row": 2,
+        "col": 1,
+        "icon": "spell_shadow_deathpact",
+        "ranks": [12292],
+        "requires": []
+      },
+      "9612": {
+        "id": 9612,
+        "row": 2,
+        "col": 2,
+        "icon": "spell_shadow_unholyfrenzy",
+        "ranks": [12317, 13045, 13046],
+        "requires": []
+      },
+      "11414": {
+        "id": 11414,
+        "row": 3,
+        "col": 0,
+        "icon": "inv_sword_86",
+        "ranks": [81913, 81914],
+        "requires": []
+      },
+      "11208": {
+        "id": 11208,
+        "row": 3,
+        "col": 1,
+        "icon": "ability_hunter_swiftstrike",
+        "ranks": [85288],
+        "requires": [
+          {
+            "id": 9630,
+            "qty": 1
+          }
+        ]
+      },
+      "9650": {
+        "id": 9650,
+        "row": 3,
+        "col": 2,
+        "icon": "ability_warrior_rampage",
+        "ranks": [29801],
+        "requires": [
+          {
+            "id": 11208,
+            "qty": 1
+          }
+        ]
+      },
+      "9648": {
+        "id": 9648,
+        "row": 3,
+        "col": 3,
+        "icon": "warrior_talent_icon_deadlycalm",
+        "ranks": [60970],
+        "requires": []
+      },
+      "9634": {
+        "id": 9634,
+        "row": 4,
+        "col": 0,
+        "icon": "ability_warrior_furiousresolve",
+        "ranks": [46910],
+        "requires": []
+      },
+      "9642": {
+        "id": 9642,
+        "row": 4,
+        "col": 2,
+        "icon": "warrior_talent_icon_mastercleaver",
+        "ranks": [12329, 12950],
+        "requires": []
+      },
+      "10743": {
+        "id": 10743,
+        "row": 4,
+        "col": 3,
+        "icon": "warrior_talent_icon_furyintheblood",
+        "ranks": [46908, 46909],
+        "requires": []
+      },
+      "9654": {
+        "id": 9654,
+        "row": 5,
+        "col": 1,
+        "icon": "ability_warrior_bloodsurge",
+        "ranks": [46913, 46914, 46915],
+        "requires": [
+          {
+            "id": 11208,
+            "qty": 1
+          }
+        ]
+      },
+      "10744": {
+        "id": 10744,
+        "row": 5,
+        "col": 2,
+        "icon": "warrior_talent_icon_skirmisher",
+        "ranks": [29888, 29889],
+        "requires": []
+      },
+      "9658": {
+        "id": 9658,
+        "row": 6,
+        "col": 1,
+        "icon": "ability_warrior_titansgrip",
+        "ranks": [46917],
+        "requires": []
+      },
+      "9660": {
+        "id": 9660,
+        "row": 6,
+        "col": 2,
+        "icon": "warrior_talent_icon_singlemindedfury",
+        "ranks": [81099],
+        "requires": []
+      }
+    },
+    "Protection": {
+      "10464": {
+        "id": 10464,
+        "row": 0,
+        "col": 0,
+        "icon": "ability_warrior_incite",
+        "ranks": [50685, 50686, 50687],
+        "requires": []
+      },
+      "10474": {
+        "id": 10474,
+        "row": 0,
+        "col": 1,
+        "icon": "spell_holy_devotion",
+        "ranks": [12299, 12761, 12762],
+        "requires": []
+      },
+      "10480": {
+        "id": 10480,
+        "row": 0,
+        "col": 2,
+        "icon": "warrior_talent_icon_bloodandthunder",
+        "ranks": [84614, 84615],
+        "requires": []
+      },
+      "10466": {
+        "id": 10466,
+        "row": 1,
+        "col": 0,
+        "icon": "inv_shield_06",
+        "ranks": [12298, 12724, 12725],
+        "requires": []
+      },
+      "10472": {
+        "id": 10472,
+        "row": 1,
+        "col": 1,
+        "icon": "ability_warrior_shieldguard",
+        "ranks": [29598, 84607, 84608],
+        "requires": []
+      },
+      "11170": {
+        "id": 11170,
+        "row": 1,
+        "col": 2,
+        "icon": "achievement_bg_defendxtowers_av",
+        "ranks": [84604, 84621],
+        "requires": []
+      },
+      "10468": {
+        "id": 10468,
+        "row": 1,
+        "col": 3,
+        "icon": "inv_axe_66",
+        "ranks": [12311, 12958],
+        "requires": []
+      },
+      "10482": {
+        "id": 10482,
+        "row": 2,
+        "col": 0,
+        "icon": "spell_holy_ashestoashes",
+        "ranks": [12975],
+        "requires": []
+      },
+      "10478": {
+        "id": 10478,
+        "row": 2,
+        "col": 1,
+        "icon": "ability_thunderbolt",
+        "ranks": [12809],
+        "requires": []
+      },
+      "10934": {
+        "id": 10934,
+        "row": 2,
+        "col": 2,
+        "icon": "ability_defend",
+        "ranks": [29593, 29594],
+        "requires": []
+      },
+      "10494": {
+        "id": 10494,
+        "row": 2,
+        "col": 3,
+        "icon": "ability_warrior_warbringer",
+        "ranks": [57499],
+        "requires": []
+      },
+      "10470": {
+        "id": 10470,
+        "row": 3,
+        "col": 0,
+        "icon": "ability_warrior_revenge",
+        "ranks": [12797, 12799],
+        "requires": []
+      },
+      "10486": {
+        "id": 10486,
+        "row": 3,
+        "col": 2,
+        "icon": "inv_sword_11",
+        "ranks": [20243],
+        "requires": []
+      },
+      "11217": {
+        "id": 11217,
+        "row": 3,
+        "col": 3,
+        "icon": "ability_warrior_devastate",
+        "ranks": [80128, 80129],
+        "requires": [
+          {
+            "id": 10486,
+            "qty": 1
+          }
+        ]
+      },
+      "10488": {
+        "id": 10488,
+        "row": 4,
+        "col": 0,
+        "icon": "warrior_talent_icon_thunderstruck",
+        "ranks": [80979, 80980],
+        "requires": []
+      },
+      "10492": {
+        "id": 10492,
+        "row": 4,
+        "col": 1,
+        "icon": "ability_warrior_vigilance",
+        "ranks": [50720],
+        "requires": [
+          {
+            "id": 10478,
+            "qty": 1
+          }
+        ]
+      },
+      "10484": {
+        "id": 10484,
+        "row": 4,
+        "col": 3,
+        "icon": "inv_shield_01",
+        "ranks": [86894, 86896],
+        "requires": []
+      },
+      "10490": {
+        "id": 10490,
+        "row": 5,
+        "col": 1,
+        "icon": "ability_warrior_safeguard",
+        "ranks": [46945, 46949],
+        "requires": []
+      },
+      "10496": {
+        "id": 10496,
+        "row": 5,
+        "col": 2,
+        "icon": "ability_warrior_swordandboard",
+        "ranks": [46951, 46952, 46953],
+        "requires": [
+          {
+            "id": 10486,
+            "qty": 1
+          }
+        ]
+      },
+      "10498": {
+        "id": 10498,
+        "row": 6,
+        "col": 1,
+        "icon": "ability_warrior_shockwave",
+        "ranks": [46968],
+        "requires": []
+      }
+    }
+  }
+}

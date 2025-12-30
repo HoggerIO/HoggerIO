@@ -1,0 +1,525 @@
+{
+  "talents": {
+    "Holy": {
+      "10099": {
+        "id": 10099,
+        "row": 0,
+        "col": 0,
+        "icon": "spell_holy_healingaura",
+        "ranks": [20359, 20360],
+        "requires": []
+      },
+      "12189": {
+        "id": 12189,
+        "row": 0,
+        "col": 1,
+        "icon": "ability_paladin_protectoroftheinnocent",
+        "ranks": [20138, 20139, 20140],
+        "requires": []
+      },
+      "10127": {
+        "id": 10127,
+        "row": 0,
+        "col": 2,
+        "icon": "ability_paladin_judgementofthepure",
+        "ranks": [53671, 53673, 54151],
+        "requires": []
+      },
+      "11213": {
+        "id": 11213,
+        "row": 1,
+        "col": 0,
+        "icon": "spell_paladin_clarityofpurpose",
+        "ranks": [85462, 85463, 85464],
+        "requires": []
+      },
+      "10097": {
+        "id": 10097,
+        "row": 1,
+        "col": 1,
+        "icon": "spell_holy_holyguidance",
+        "ranks": [20234, 20235],
+        "requires": []
+      },
+      "11780": {
+        "id": 11780,
+        "row": 1,
+        "col": 2,
+        "icon": "spell_holy_holybolt",
+        "ranks": [20237, 20238],
+        "requires": []
+      },
+      "10109": {
+        "id": 10109,
+        "row": 2,
+        "col": 0,
+        "icon": "spell_holy_excorcism_02",
+        "ranks": [31825, 85510],
+        "requires": []
+      },
+      "11202": {
+        "id": 11202,
+        "row": 2,
+        "col": 1,
+        "icon": "spell_holy_divineillumination",
+        "ranks": [31842],
+        "requires": []
+      },
+      "10129": {
+        "id": 10129,
+        "row": 2,
+        "col": 2,
+        "icon": "ability_paladin_infusionoflight",
+        "ranks": [53569, 53576],
+        "requires": []
+      },
+      "11771": {
+        "id": 11771,
+        "row": 2,
+        "col": 3,
+        "icon": "inv_qirajidol_sun",
+        "ranks": [88820, 88821],
+        "requires": []
+      },
+      "10113": {
+        "id": 10113,
+        "row": 3,
+        "col": 0,
+        "icon": "ability_paladin_enlightenedjudgements",
+        "ranks": [53556, 53557],
+        "requires": []
+      },
+      "10133": {
+        "id": 10133,
+        "row": 3,
+        "col": 1,
+        "icon": "ability_paladin_beaconoflight",
+        "ranks": [53563],
+        "requires": []
+      },
+      "11215": {
+        "id": 11215,
+        "row": 3,
+        "col": 2,
+        "icon": "paladin_icon_speedoflight",
+        "ranks": [85495, 85498, 85499],
+        "requires": [
+          {
+            "id": 10129,
+            "qty": 2
+          }
+        ]
+      },
+      "10121": {
+        "id": 10121,
+        "row": 3,
+        "col": 3,
+        "icon": "ability_paladin_sacredcleansing",
+        "ranks": [53551],
+        "requires": []
+      },
+      "11779": {
+        "id": 11779,
+        "row": 4,
+        "col": 0,
+        "icon": "ability_paladin_conviction",
+        "ranks": [20049, 20056, 20057],
+        "requires": []
+      },
+      "10115": {
+        "id": 10115,
+        "row": 4,
+        "col": 2,
+        "icon": "spell_holy_auramastery",
+        "ranks": [31821],
+        "requires": []
+      },
+      "12151": {
+        "id": 12151,
+        "row": 4,
+        "col": 3,
+        "icon": "spell_holy_avenginewrath",
+        "ranks": [93418, 93417],
+        "requires": []
+      },
+      "11168": {
+        "id": 11168,
+        "row": 5,
+        "col": 1,
+        "icon": "achievement_bg_winsoa",
+        "ranks": [84800, 85511, 85512],
+        "requires": [
+          {
+            "id": 10133,
+            "qty": 1
+          }
+        ]
+      },
+      "10117": {
+        "id": 10117,
+        "row": 5,
+        "col": 2,
+        "icon": "spell_holy_blessedlife",
+        "ranks": [31828, 31829],
+        "requires": []
+      },
+      "11203": {
+        "id": 11203,
+        "row": 6,
+        "col": 1,
+        "icon": "spell_paladin_lightofdawn",
+        "ranks": [85222],
+        "requires": []
+      }
+    },
+    "Protection": {
+      "12198": {
+        "id": 12198,
+        "row": 0,
+        "col": 0,
+        "icon": "spell_holy_blindingheal",
+        "ranks": [63646, 63647, 63648],
+        "requires": []
+      },
+      "10324": {
+        "id": 10324,
+        "row": 0,
+        "col": 1,
+        "icon": "inv_mace_46",
+        "ranks": [20224, 20225],
+        "requires": []
+      },
+      "12152": {
+        "id": 12152,
+        "row": 0,
+        "col": 2,
+        "icon": "inv_torch_thrown",
+        "ranks": [87163, 87164],
+        "requires": []
+      },
+      "10372": {
+        "id": 10372,
+        "row": 1,
+        "col": 0,
+        "icon": "ability_paladin_judgementsofthejust",
+        "ranks": [53695, 53696],
+        "requires": []
+      },
+      "10332": {
+        "id": 10332,
+        "row": 1,
+        "col": 1,
+        "icon": "spell_holy_devotion",
+        "ranks": [20143, 20144, 20145],
+        "requires": []
+      },
+      "10336": {
+        "id": 10336,
+        "row": 1,
+        "col": 2,
+        "icon": "spell_holy_sealofmight",
+        "ranks": [20487, 20488],
+        "requires": []
+      },
+      "10344": {
+        "id": 10344,
+        "row": 2,
+        "col": 0,
+        "icon": "spell_holy_innerfire",
+        "ranks": [84631, 84633],
+        "requires": []
+      },
+      "10346": {
+        "id": 10346,
+        "row": 2,
+        "col": 1,
+        "icon": "spell_nature_lightningshield",
+        "ranks": [20911, 84628, 84629],
+        "requires": []
+      },
+      "10374": {
+        "id": 10374,
+        "row": 2,
+        "col": 2,
+        "icon": "ability_paladin_hammeroftherighteous",
+        "ranks": [53595],
+        "requires": []
+      },
+      "11159": {
+        "id": 11159,
+        "row": 2,
+        "col": 3,
+        "icon": "inv_mace_82",
+        "ranks": [84635, 84636],
+        "requires": []
+      },
+      "11161": {
+        "id": 11161,
+        "row": 3,
+        "col": 0,
+        "icon": "spell_holy_blessingofstrength",
+        "ranks": [20177, 20179],
+        "requires": []
+      },
+      "11607": {
+        "id": 11607,
+        "row": 3,
+        "col": 1,
+        "icon": "ability_paladin_shieldofvengeance",
+        "ranks": [53600],
+        "requires": [
+          {
+            "id": 10346,
+            "qty": 3
+          }
+        ]
+      },
+      "11193": {
+        "id": 11193,
+        "row": 3,
+        "col": 2,
+        "icon": "inv_helmet_74",
+        "ranks": [75806, 85043],
+        "requires": [
+          {
+            "id": 10374,
+            "qty": 1
+          }
+        ]
+      },
+      "10680": {
+        "id": 10680,
+        "row": 4,
+        "col": 0,
+        "icon": "spell_holy_vindication",
+        "ranks": [26016],
+        "requires": []
+      },
+      "10356": {
+        "id": 10356,
+        "row": 4,
+        "col": 1,
+        "icon": "classic_spell_holy_blessingofprotection",
+        "ranks": [20925],
+        "requires": [
+          {
+            "id": 11607,
+            "qty": 1
+          }
+        ]
+      },
+      "11221": {
+        "id": 11221,
+        "row": 4,
+        "col": 2,
+        "icon": "ability_paladin_gaurdedbythelight",
+        "ranks": [85639, 85646],
+        "requires": []
+      },
+      "10334": {
+        "id": 10334,
+        "row": 4,
+        "col": 3,
+        "icon": "spell_holy_powerwordbarrier",
+        "ranks": [70940],
+        "requires": []
+      },
+      "10370": {
+        "id": 10370,
+        "row": 5,
+        "col": 1,
+        "icon": "spell_holy_divineintervention",
+        "ranks": [53709, 53710],
+        "requires": [
+          {
+            "id": 10356,
+            "qty": 1
+          }
+        ]
+      },
+      "10340": {
+        "id": 10340,
+        "row": 5,
+        "col": 2,
+        "icon": "ability_paladin_shieldofthetemplar",
+        "ranks": [31848, 31849, 84854],
+        "requires": []
+      },
+      "10350": {
+        "id": 10350,
+        "row": 6,
+        "col": 1,
+        "icon": "spell_holy_ardentdefender",
+        "ranks": [31850],
+        "requires": []
+      }
+    },
+    "Retribution": {
+      "10647": {
+        "id": 10647,
+        "row": 0,
+        "col": 0,
+        "icon": "spell_holy_eyeforaneye",
+        "ranks": [9799, 25988],
+        "requires": []
+      },
+      "10651": {
+        "id": 10651,
+        "row": 0,
+        "col": 1,
+        "icon": "spell_holy_crusade",
+        "ranks": [31866, 31867, 31868],
+        "requires": []
+      },
+      "11612": {
+        "id": 11612,
+        "row": 0,
+        "col": 2,
+        "icon": "ability_paladin_judgementblue",
+        "ranks": [87174, 87175],
+        "requires": []
+      },
+      "12153": {
+        "id": 12153,
+        "row": 1,
+        "col": 0,
+        "icon": "spell_holy_sealofprotection",
+        "ranks": [20174, 20175],
+        "requires": []
+      },
+      "11269": {
+        "id": 11269,
+        "row": 1,
+        "col": 1,
+        "icon": "inv_relics_libramofhope",
+        "ranks": [85457, 85458, 87461],
+        "requires": []
+      },
+      "11611": {
+        "id": 11611,
+        "row": 1,
+        "col": 3,
+        "icon": "spell_holy_persuitofjustice",
+        "ranks": [26022, 26023],
+        "requires": []
+      },
+      "10665": {
+        "id": 10665,
+        "row": 2,
+        "col": 0,
+        "icon": "ability_paladin_judgementofthewise",
+        "ranks": [31876],
+        "requires": []
+      },
+      "10661": {
+        "id": 10661,
+        "row": 2,
+        "col": 1,
+        "icon": "ability_paladin_artofwar",
+        "ranks": [53486, 53488, 87138],
+        "requires": []
+      },
+      "11610": {
+        "id": 11610,
+        "row": 2,
+        "col": 2,
+        "icon": "ability_paladin_judgementred",
+        "ranks": [87168, 87172],
+        "requires": [
+          {
+            "id": 11612,
+            "qty": 2
+          }
+        ]
+      },
+      "11204": {
+        "id": 11204,
+        "row": 2,
+        "col": 3,
+        "icon": "ability_paladin_divinestorm",
+        "ranks": [53385],
+        "requires": []
+      },
+      "11207": {
+        "id": 11207,
+        "row": 3,
+        "col": 0,
+        "icon": "ability_paladin_blessedmending",
+        "ranks": [85285],
+        "requires": []
+      },
+      "11372": {
+        "id": 11372,
+        "row": 3,
+        "col": 1,
+        "icon": "inv_sword_136",
+        "ranks": [25956],
+        "requires": []
+      },
+      "10643": {
+        "id": 10643,
+        "row": 3,
+        "col": 2,
+        "icon": "ability_warrior_innerrage",
+        "ranks": [85126],
+        "requires": []
+      },
+      "10669": {
+        "id": 10669,
+        "row": 3,
+        "col": 3,
+        "icon": "ability_paladin_sanctifiedwrath",
+        "ranks": [53375, 90286, 53376],
+        "requires": []
+      },
+      "11271": {
+        "id": 11271,
+        "row": 4,
+        "col": 0,
+        "icon": "spell_holy_rune",
+        "ranks": [85803, 85804],
+        "requires": []
+      },
+      "10663": {
+        "id": 10663,
+        "row": 4,
+        "col": 1,
+        "icon": "spell_holy_prayerofhealing",
+        "ranks": [20066],
+        "requires": []
+      },
+      "10633": {
+        "id": 10633,
+        "row": 4,
+        "col": 2,
+        "icon": "spell_holy_divinepurpose",
+        "ranks": [85117, 86172],
+        "requires": []
+      },
+      "10677": {
+        "id": 10677,
+        "row": 5,
+        "col": 1,
+        "icon": "ability_paladin_righteousvengeance",
+        "ranks": [53380, 53381, 53382],
+        "requires": []
+      },
+      "11211": {
+        "id": 11211,
+        "row": 5,
+        "col": 2,
+        "icon": "ability_paladin_blessedhands",
+        "ranks": [85446, 85795],
+        "requires": []
+      },
+      "11222": {
+        "id": 11222,
+        "row": 6,
+        "col": 1,
+        "icon": "spell_holy_proclaimchampion_02",
+        "ranks": [85696],
+        "requires": []
+      }
+    }
+  }
+}

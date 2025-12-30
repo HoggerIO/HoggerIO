@@ -1,0 +1,331 @@
+{
+  "glyphs": {
+    "Glyph of Circle of Healing": {
+      "id": 42396,
+      "icon": "spell_holy_circleofrenewal",
+      "type": 1
+    },
+    "Glyph of Purify": {
+      "id": 42397,
+      "icon": "spell_holy_dispelmagic",
+      "type": 1
+    },
+    "Glyph of Fade": {
+      "id": 42398,
+      "icon": "spell_magic_lesserinvisibilty",
+      "type": 1
+    },
+    "Glyph of Fear Ward": {
+      "id": 42399,
+      "icon": "spell_holy_excorcism",
+      "type": 1
+    },
+    "Glyph of Inner Sanctum": {
+      "id": 42400,
+      "icon": "priest_icon_innewill",
+      "type": 1
+    },
+    "Glyph of Holy Nova": {
+      "id": 42401,
+      "icon": "spell_holy_holynova",
+      "type": 1
+    },
+    "Glyph of Inner Fire": {
+      "id": 42402,
+      "icon": "spell_holy_innerfire",
+      "type": 1
+    },
+    "Glyph of Deep Wells": {
+      "id": 42403,
+      "icon": "spell_holy_summonlightwell",
+      "type": 1
+    },
+    "Glyph of Mass Dispel": {
+      "id": 42404,
+      "icon": "spell_arcane_massdispel",
+      "type": 1
+    },
+    "Glyph of Psychic Horror": {
+      "id": 42405,
+      "icon": "spell_shadow_psychichorrors",
+      "type": 1
+    },
+    "Glyph of Holy Fire": {
+      "id": 42406,
+      "icon": "spell_holy_searinglight",
+      "type": 1
+    },
+    "Glyph of Weakened Soul": {
+      "id": 42407,
+      "icon": "spell_holy_ashestoashes",
+      "type": 1
+    },
+    "Glyph of Power Word: Shield": {
+      "id": 42408,
+      "icon": "spell_holy_powerwordshield",
+      "type": 1
+    },
+    "Glyph of Spirit of Redemption": {
+      "id": 42409,
+      "icon": "inv_enchant_essenceeternallarge",
+      "type": 1
+    },
+    "Glyph of Psychic Scream": {
+      "id": 42410,
+      "icon": "spell_shadow_psychicscream",
+      "type": 1
+    },
+    "Glyph of Renew": {
+      "id": 42411,
+      "icon": "spell_holy_renew",
+      "type": 1
+    },
+    "Glyph of Scourge Imprisonment": {
+      "id": 42412,
+      "icon": "spell_holy_crusade",
+      "type": 1
+    },
+    "Glyph of Mind Blast": {
+      "id": 42414,
+      "icon": "spell_shadow_unholyfrenzy",
+      "type": 1
+    },
+    "Glyph of Dispel Magic": {
+      "id": 42415,
+      "icon": "spell_nature_nullifydisease",
+      "type": 1
+    },
+    "Glyph of Smite": {
+      "id": 42416,
+      "icon": "spell_holy_holysmite",
+      "type": 1
+    },
+    "Glyph of Prayer of Mending": {
+      "id": 42417,
+      "icon": "spell_holy_prayerofmendingtga",
+      "type": 1
+    },
+    "Glyph of Shadow Ravens": {
+      "id": 43342,
+      "icon": "spell_priest_shadoworbs",
+      "type": 2
+    },
+    "Glyph of Levitate": {
+      "id": 43370,
+      "icon": "spell_priest_pathofdevout",
+      "type": 1
+    },
+    "Glyph of Borrowed Time": {
+      "id": 43371,
+      "icon": "spell_holy_borrowedtime",
+      "type": 2
+    },
+    "Glyph of Shackle Undead": {
+      "id": 43373,
+      "icon": "spell_nature_slow",
+      "type": 2
+    },
+    "Glyph of Reflective Shield": {
+      "id": 43372,
+      "icon": "ability_priest_reflectiveshield",
+      "type": 1
+    },
+    "Glyph of Dark Archangel": {
+      "id": 43374,
+      "icon": "spell_shadow_summonvoidwalker",
+      "type": 2
+    },
+    "Glyph of Dispersion": {
+      "id": 45753,
+      "icon": "spell_shadow_dispersion",
+      "type": 1
+    },
+    "Glyph of Leap of Faith": {
+      "id": 45755,
+      "icon": "priest_spell_leapoffaith_a",
+      "type": 1
+    },
+    "Glyph of Penance": {
+      "id": 45756,
+      "icon": "spell_holy_penance",
+      "type": 1
+    },
+    "Glyph of Focused Mending": {
+      "id": 45757,
+      "icon": "spell_holy_healingfocus",
+      "type": 1
+    },
+    "Glyph of Mind Spike": {
+      "id": 45758,
+      "icon": "spell_priest_mindspike",
+      "type": 1
+    },
+    "Glyph of Binding Heal": {
+      "id": 45760,
+      "icon": "spell_holy_blindingheal",
+      "type": 1
+    },
+    "Glyph of Shadow": {
+      "id": 77101,
+      "icon": "spell_shadow_shadowform",
+      "type": 2
+    },
+    "Glyph of Mind Flay": {
+      "id": 79513,
+      "icon": "spell_shadow_siphonmana",
+      "type": 1
+    },
+    "Glyph of Shadow Word: Death": {
+      "id": 79514,
+      "icon": "spell_shadow_demonicfortitude",
+      "type": 1
+    },
+    "Glyph of Vampiric Embrace": {
+      "id": 79515,
+      "icon": "spell_shadow_unsummonbuilding",
+      "type": 1
+    },
+    "Glyph of the Heavens": {
+      "id": 79538,
+      "icon": "inv_elemental_primal_air",
+      "type": 2
+    },
+    "Glyph of Lightwell": {
+      "id": 87875,
+      "icon": "spell_holy_summonlightwell",
+      "type": 1
+    },
+    "Glyph of Confession": {
+      "id": 86541,
+      "icon": "spell_shadow_soothingkiss",
+      "type": 2
+    },
+    "Glyph of Holy Resurrection": {
+      "id": 87276,
+      "icon": "spell_holy_surgeoflight",
+      "type": 2
+    },
+    "Glyph of the Val'kyr": {
+      "id": 87277,
+      "icon": "achievement_boss_svalasorrowgrave",
+      "type": 2
+    },
+    "Glyph of Shadowy Friends": {
+      "id": 87392,
+      "icon": "spell_shadow_antishadow",
+      "type": 2
+    },
+    "Glyph of Angels": {
+      "id": 102153,
+      "icon": "ability_priest_archangel",
+      "type": 2
+    },
+    "Glyph of the Sha": {
+      "id": 104120,
+      "icon": "inv_hand_1h_shaclaw",
+      "type": 2
+    },
+    "Glyph of Shifted Appearances": {
+      "id": 104121,
+      "icon": "ability_priest_voidshift",
+      "type": 2
+    },
+    "Glyph of Inspired Hymns": {
+      "id": 104122,
+      "icon": "spell_holy_divinehymn",
+      "type": 2
+    }
+  },
+  "talents": [
+    {
+      "id": 108920,
+      "icon": "spell_priest_voidtendrils",
+      "name": "Void Tendrils"
+    },
+    {
+      "id": 108921,
+      "icon": "spell_priest_psyfiend",
+      "name": "Psyfiend"
+    },
+    {
+      "id": 605,
+      "icon": "spell_shadow_shadowworddominate",
+      "name": "Dominate Mind"
+    },
+    {
+      "id": 64129,
+      "icon": "spell_holy_symbolofhope",
+      "name": "Body and Soul"
+    },
+    {
+      "id": 121536,
+      "icon": "ability_priest_angelicfeather",
+      "name": "Angelic Feather"
+    },
+    {
+      "id": 108942,
+      "icon": "ability_priest_phantasm",
+      "name": "Phantasm"
+    },
+    {
+      "id": 109186,
+      "icon": "spell_holy_surgeoflight",
+      "name": "From Darkness, Comes Light"
+    },
+    {
+      "id": 123040,
+      "icon": "spell_shadow_soulleech_3",
+      "name": "Mindbender"
+    },
+    {
+      "id": 139139,
+      "icon": "ability_priest_flashoflight",
+      "name": "Solace and Insanity"
+    },
+    {
+      "id": 19236,
+      "icon": "spell_holy_testoffaith",
+      "name": "Desperate Prayer"
+    },
+    {
+      "id": 112833,
+      "icon": "spell_priest_spectralguise",
+      "name": "Spectral Guise"
+    },
+    {
+      "id": 108945,
+      "icon": "ability_priest_angelicbulwark",
+      "name": "Angelic Bulwark"
+    },
+    {
+      "id": 109142,
+      "icon": "spell_shadow_mindtwisting",
+      "name": "Twist of Fate"
+    },
+    {
+      "id": 10060,
+      "icon": "spell_holy_powerinfusion",
+      "name": "Power Infusion"
+    },
+    {
+      "id": 109175,
+      "icon": "spell_priest_burningwill",
+      "name": "Divine Insight"
+    },
+    {
+      "id": 121135,
+      "icon": "ability_priest_cascade",
+      "name": "Cascade"
+    },
+    {
+      "id": 110744,
+      "icon": "spell_priest_divinestar",
+      "name": "Divine Star"
+    },
+    {
+      "id": 120517,
+      "icon": "ability_priest_halo",
+      "name": "Halo"
+    }
+  ]
+}

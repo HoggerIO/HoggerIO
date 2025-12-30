@@ -1,0 +1,515 @@
+{
+  "talents": {
+    "Blood": {
+      "1939": {
+        "id": 1939,
+        "row": 0,
+        "col": 0,
+        "icon": "inv_axe_68",
+        "ranks": [48979, 49483],
+        "requires": []
+      },
+      "2017": {
+        "id": 2017,
+        "row": 0,
+        "col": 1,
+        "icon": "ability_upgrademoonglaive",
+        "ranks": [49182, 49500, 49501],
+        "requires": []
+      },
+      "1938": {
+        "id": 1938,
+        "row": 0,
+        "col": 2,
+        "icon": "inv_shoulder_36",
+        "ranks": [48978, 49390, 49391],
+        "requires": []
+      },
+      "12223": {
+        "id": 12223,
+        "row": 1,
+        "col": 0,
+        "icon": "spell_deathknight_bloodtap",
+        "ranks": [94553, 94555],
+        "requires": []
+      },
+      "1948": {
+        "id": 1948,
+        "row": 1,
+        "col": 1,
+        "icon": "ability_rogue_bloodyeye",
+        "ranks": [49004, 49508, 49509],
+        "requires": []
+      },
+      "7462": {
+        "id": 7462,
+        "row": 1,
+        "col": 2,
+        "icon": "ability_rogue_vendetta",
+        "ranks": [81131, 81132],
+        "requires": []
+      },
+      "11270": {
+        "id": 11270,
+        "row": 1,
+        "col": 3,
+        "icon": "ability_deathknight_desolation",
+        "ranks": [85793, 85794],
+        "requires": []
+      },
+      "7460": {
+        "id": 7460,
+        "row": 2,
+        "col": 0,
+        "icon": "ability_criticalstrike",
+        "ranks": [49219, 49627, 49628],
+        "requires": []
+      },
+      "7459": {
+        "id": 7459,
+        "row": 2,
+        "col": 1,
+        "icon": "ability_deathknight_boneshield",
+        "ranks": [49222],
+        "requires": []
+      },
+      "7458": {
+        "id": 7458,
+        "row": 2,
+        "col": 2,
+        "icon": "spell_holy_devotion",
+        "ranks": [49042, 49786, 49787],
+        "requires": []
+      },
+      "2105": {
+        "id": 2105,
+        "row": 2,
+        "col": 3,
+        "icon": "ability_warrior_intensifyrage",
+        "ranks": [53137, 53138],
+        "requires": []
+      },
+      "7461": {
+        "id": 7461,
+        "row": 3,
+        "col": 0,
+        "icon": "ability_deathknight_sanguinfortitude",
+        "ranks": [81125, 81127],
+        "requires": []
+      },
+      "1960": {
+        "id": 1960,
+        "row": 3,
+        "col": 1,
+        "icon": "spell_shadow_soulleech",
+        "ranks": [49027, 49542],
+        "requires": []
+      },
+      "1936": {
+        "id": 1936,
+        "row": 3,
+        "col": 2,
+        "icon": "spell_deathknight_bloodpresence",
+        "ranks": [50365, 50371],
+        "requires": []
+      },
+      "1959": {
+        "id": 1959,
+        "row": 4,
+        "col": 0,
+        "icon": "ability_creature_cursed_02",
+        "ranks": [52284, 81163, 81164],
+        "requires": [
+          {
+            "id": 1941,
+            "qty": 1
+          }
+        ]
+      },
+      "1941": {
+        "id": 1941,
+        "row": 4,
+        "col": 1,
+        "icon": "spell_deathknight_runetap",
+        "ranks": [48982],
+        "requires": []
+      },
+      "2019": {
+        "id": 2019,
+        "row": 4,
+        "col": 2,
+        "icon": "spell_shadow_lifedrain",
+        "ranks": [55233],
+        "requires": []
+      },
+      "2259": {
+        "id": 2259,
+        "row": 5,
+        "col": 1,
+        "icon": "spell_deathknight_butcher2",
+        "ranks": [62905, 62908, 81138],
+        "requires": []
+      },
+      "7463": {
+        "id": 7463,
+        "row": 5,
+        "col": 2,
+        "icon": "spell_deathknight_bloodboil",
+        "ranks": [81135, 81136],
+        "requires": []
+      },
+      "1961": {
+        "id": 1961,
+        "row": 6,
+        "col": 1,
+        "icon": "inv_sword_07",
+        "ranks": [49028],
+        "requires": []
+      }
+    },
+    "Frost": {
+      "2031": {
+        "id": 2031,
+        "row": 0,
+        "col": 0,
+        "icon": "spell_arcane_arcane01",
+        "ranks": [49455, 50147, 91145],
+        "requires": []
+      },
+      "2035": {
+        "id": 2035,
+        "row": 0,
+        "col": 1,
+        "icon": "spell_frost_manarecharge",
+        "ranks": [55061, 55062],
+        "requires": []
+      },
+      "2022": {
+        "id": 2022,
+        "row": 0,
+        "col": 2,
+        "icon": "ability_dualwield",
+        "ranks": [49226, 50137, 50138],
+        "requires": []
+      },
+      "2048": {
+        "id": 2048,
+        "row": 1,
+        "col": 0,
+        "icon": "inv_weapon_hand_18",
+        "ranks": [51468, 51472, 51473],
+        "requires": []
+      },
+      "2215": {
+        "id": 2215,
+        "row": 1,
+        "col": 1,
+        "icon": "spell_shadow_raisedead",
+        "ranks": [49039],
+        "requires": []
+      },
+      "11275": {
+        "id": 11275,
+        "row": 1,
+        "col": 2,
+        "icon": "ability_mount_undeadhorse",
+        "ranks": [51983, 51986],
+        "requires": []
+      },
+      "1971": {
+        "id": 1971,
+        "row": 1,
+        "col": 3,
+        "icon": "spell_shadow_twilight",
+        "ranks": [49137, 49657],
+        "requires": []
+      },
+      "1993": {
+        "id": 1993,
+        "row": 2,
+        "col": 0,
+        "icon": "inv_sword_112",
+        "ranks": [49024, 49538],
+        "requires": []
+      },
+      "1981": {
+        "id": 1981,
+        "row": 2,
+        "col": 1,
+        "icon": "spell_frost_frostshock",
+        "ranks": [49149, 50115],
+        "requires": []
+      },
+      "2044": {
+        "id": 2044,
+        "row": 2,
+        "col": 2,
+        "icon": "inv_sword_122",
+        "ranks": [51123, 51127, 51128],
+        "requires": []
+      },
+      "1992": {
+        "id": 1992,
+        "row": 3,
+        "col": 0,
+        "icon": "spell_frost_freezingbreath",
+        "ranks": [49188, 56822, 59057],
+        "requires": []
+      },
+      "1979": {
+        "id": 1979,
+        "row": 3,
+        "col": 1,
+        "icon": "ability_deathknight_pillaroffrost",
+        "ranks": [51271],
+        "requires": []
+      },
+      "2223": {
+        "id": 2223,
+        "row": 3,
+        "col": 2,
+        "icon": "spell_deathknight_icytalons",
+        "ranks": [55610],
+        "requires": []
+      },
+      "1980": {
+        "id": 1980,
+        "row": 3,
+        "col": 3,
+        "icon": "ability_deathknight_brittlebones",
+        "ranks": [81327, 81328],
+        "requires": []
+      },
+      "2260": {
+        "id": 2260,
+        "row": 4,
+        "col": 0,
+        "icon": "spell_frost_wisp",
+        "ranks": [50040, 50041],
+        "requires": []
+      },
+      "1999": {
+        "id": 1999,
+        "row": 4,
+        "col": 1,
+        "icon": "inv_staff_15",
+        "ranks": [49203],
+        "requires": []
+      },
+      "2029": {
+        "id": 2029,
+        "row": 4,
+        "col": 2,
+        "icon": "spell_deathknight_frostpresence",
+        "ranks": [50384, 50385],
+        "requires": []
+      },
+      "2284": {
+        "id": 2284,
+        "row": 5,
+        "col": 0,
+        "icon": "ability_dualwieldspecialization",
+        "ranks": [65661, 66191, 66192],
+        "requires": []
+      },
+      "7571": {
+        "id": 7571,
+        "row": 5,
+        "col": 2,
+        "icon": "inv_sword_120",
+        "ranks": [81330, 81332, 81333],
+        "requires": []
+      },
+      "1989": {
+        "id": 1989,
+        "row": 6,
+        "col": 1,
+        "icon": "spell_frost_arcticwinds",
+        "ranks": [49184],
+        "requires": [
+          {
+            "id": 1999,
+            "qty": 1
+          }
+        ]
+      }
+    },
+    "Unholy": {
+      "2025": {
+        "id": 2025,
+        "row": 0,
+        "col": 0,
+        "icon": "spell_deathknight_strangulate",
+        "ranks": [49588, 49589],
+        "requires": []
+      },
+      "1932": {
+        "id": 1932,
+        "row": 0,
+        "col": 1,
+        "icon": "spell_shadow_burningspirit",
+        "ranks": [48962, 49567, 49568],
+        "requires": []
+      },
+      "1963": {
+        "id": 1963,
+        "row": 0,
+        "col": 2,
+        "icon": "spell_shadow_shadowwordpain",
+        "ranks": [49036, 49562, 81334],
+        "requires": []
+      },
+      "2226": {
+        "id": 2226,
+        "row": 1,
+        "col": 0,
+        "icon": "spell_shadow_shadowfiend",
+        "ranks": [55666, 55667],
+        "requires": []
+      },
+      "7572": {
+        "id": 7572,
+        "row": 1,
+        "col": 1,
+        "icon": "ability_creature_disease_05",
+        "ranks": [81338, 81339],
+        "requires": []
+      },
+      "11178": {
+        "id": 11178,
+        "row": 1,
+        "col": 3,
+        "icon": "spell_shadow_deathanddecay",
+        "ranks": [48963, 49564, 49565],
+        "requires": []
+      },
+      "2047": {
+        "id": 2047,
+        "row": 2,
+        "col": 0,
+        "icon": "spell_shadow_rune",
+        "ranks": [51459, 51462],
+        "requires": []
+      },
+      "7574": {
+        "id": 7574,
+        "row": 2,
+        "col": 1,
+        "icon": "spell_shadow_unholyfrenzy",
+        "ranks": [49016],
+        "requires": []
+      },
+      "12119": {
+        "id": 12119,
+        "row": 2,
+        "col": 2,
+        "icon": "spell_shadow_plaguecloud",
+        "ranks": [91316, 91319],
+        "requires": [
+          {
+            "id": 1963,
+            "qty": 3
+          }
+        ]
+      },
+      "11179": {
+        "id": 11179,
+        "row": 2,
+        "col": 3,
+        "icon": "spell_shadow_requiem",
+        "ranks": [48965, 49571, 49572],
+        "requires": []
+      },
+      "15322": {
+        "id": 15322,
+        "row": 3,
+        "col": 0,
+        "icon": "spell_shadow_demonicempathy",
+        "ranks": [96269, 96270],
+        "requires": []
+      },
+      "2009": {
+        "id": 2009,
+        "row": 3,
+        "col": 1,
+        "icon": "spell_shadow_antimagicshell",
+        "ranks": [49224, 49610, 49611],
+        "requires": []
+      },
+      "2082": {
+        "id": 2082,
+        "row": 3,
+        "col": 2,
+        "icon": "inv_weapon_halberd14",
+        "ranks": [51745, 51746, 91323],
+        "requires": []
+      },
+      "1996": {
+        "id": 1996,
+        "row": 4,
+        "col": 0,
+        "icon": "spell_shadow_contagion",
+        "ranks": [49194],
+        "requires": []
+      },
+      "2221": {
+        "id": 2221,
+        "row": 4,
+        "col": 1,
+        "icon": "spell_deathknight_antimagiczone",
+        "ranks": [51052],
+        "requires": [
+          {
+            "id": 2009,
+            "qty": 3
+          }
+        ]
+      },
+      "2013": {
+        "id": 2013,
+        "row": 4,
+        "col": 2,
+        "icon": "spell_deathknight_unholypresence",
+        "ranks": [50391, 50392],
+        "requires": []
+      },
+      "2085": {
+        "id": 2085,
+        "row": 4,
+        "col": 3,
+        "icon": "achievement_boss_festergutrotface",
+        "ranks": [63560],
+        "requires": [
+          {
+            "id": 11179,
+            "qty": 3
+          }
+        ]
+      },
+      "2043": {
+        "id": 2043,
+        "row": 5,
+        "col": 1,
+        "icon": "ability_creature_cursed_03",
+        "ranks": [51099, 51160],
+        "requires": []
+      },
+      "7575": {
+        "id": 7575,
+        "row": 5,
+        "col": 2,
+        "icon": "spell_shadow_painspike",
+        "ranks": [49018, 49529, 49530],
+        "requires": []
+      },
+      "2000": {
+        "id": 2000,
+        "row": 6,
+        "col": 1,
+        "icon": "ability_deathknight_summongargoyle",
+        "ranks": [49206],
+        "requires": []
+      }
+    }
+  }
+}

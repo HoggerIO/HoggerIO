@@ -1,0 +1,316 @@
+{
+  "glyphs": {
+    "Glyph of Mystic Shout": {
+      "id": 43395,
+      "icon": "ability_warrior_battleshout",
+      "type": 2
+    },
+    "Glyph of Bloodcurdling Shout": {
+      "id": 43396,
+      "icon": "ability_warrior_furiousresolve",
+      "type": 2
+    },
+    "Glyph of Long Charge": {
+      "id": 43397,
+      "icon": "ability_warrior_charge",
+      "type": 1
+    },
+    "Glyph of Gushing Wound": {
+      "id": 43398,
+      "icon": "ability_backstab",
+      "type": 2
+    },
+    "Glyph of Unending Rage": {
+      "id": 43399,
+      "icon": "ability_warrior_intensifyrage",
+      "type": 1
+    },
+    "Glyph of Mighty Victory": {
+      "id": 43400,
+      "icon": "ability_warrior_devastate",
+      "type": 2
+    },
+    "Glyph of Mortal Strike": {
+      "id": 43421,
+      "icon": "ability_warrior_savageblow",
+      "type": 1
+    },
+    "Glyph of Bloody Healing": {
+      "id": 43412,
+      "icon": "ability_backstab",
+      "type": 2
+    },
+    "Glyph of Enraged Speed": {
+      "id": 43413,
+      "icon": "ability_racial_bloodrage",
+      "type": 1
+    },
+    "Glyph of Hindering Strikes": {
+      "id": 43414,
+      "icon": "ability_warrior_cleave",
+      "type": 1
+    },
+    "Glyph of Heavy Repercussions": {
+      "id": 43415,
+      "icon": "ability_defend",
+      "type": 1
+    },
+    "Glyph of Bloodthirst": {
+      "id": 43416,
+      "icon": "spell_nature_bloodlust",
+      "type": 1
+    },
+    "Glyph of Rude Interruption": {
+      "id": 43417,
+      "icon": "ability_warrior_commandingshout",
+      "type": 1
+    },
+    "Glyph of Gag Order": {
+      "id": 43418,
+      "icon": "inv_axe_66",
+      "type": 1
+    },
+    "Glyph of Blitz": {
+      "id": 43419,
+      "icon": "ability_warrior_victoryrush",
+      "type": 1
+    },
+    "Glyph of Die by the Sword": {
+      "id": 43422,
+      "icon": "ability_warrior_challange",
+      "type": 1
+    },
+    "Glyph of Hamstring": {
+      "id": 43423,
+      "icon": "ability_shockwave",
+      "type": 1
+    },
+    "Glyph of Hold the Line": {
+      "id": 43424,
+      "icon": "ability_warrior_revenge",
+      "type": 1
+    },
+    "Glyph of Shield Slam": {
+      "id": 43425,
+      "icon": "inv_shield_05",
+      "type": 1
+    },
+    "Glyph of Hoarse Voice": {
+      "id": 43427,
+      "icon": "ability_warrior_battleshout",
+      "type": 1
+    },
+    "Glyph of Sweeping Strikes": {
+      "id": 43428,
+      "icon": "ability_rogue_slicedice",
+      "type": 1
+    },
+    "Glyph of Resonating Power": {
+      "id": 43430,
+      "icon": "spell_nature_thunderclap",
+      "type": 1
+    },
+    "Glyph of Victory Rush": {
+      "id": 43431,
+      "icon": "ability_warrior_devastate",
+      "type": 1
+    },
+    "Glyph of Raging Wind": {
+      "id": 43432,
+      "icon": "ability_hunter_swiftstrike",
+      "type": 1
+    },
+    "Glyph of Whirlwind": {
+      "id": 45790,
+      "icon": "ability_whirlwind",
+      "type": 1
+    },
+    "Glyph of Death From Above": {
+      "id": 45792,
+      "icon": "ability_heroicleap",
+      "type": 1
+    },
+    "Glyph of Victorious Throw": {
+      "id": 45793,
+      "icon": "spell_warrior_wildstrike",
+      "type": 1
+    },
+    "Glyph of Intimidating Shout": {
+      "id": 45794,
+      "icon": "ability_golemthunderclap",
+      "type": 2
+    },
+    "Glyph of Spell Reflection": {
+      "id": 45795,
+      "icon": "ability_warrior_shieldreflection",
+      "type": 1
+    },
+    "Glyph of Shield Wall": {
+      "id": 45797,
+      "icon": "ability_warrior_shieldwall",
+      "type": 1
+    },
+    "Glyph of Thunder Strike": {
+      "id": 49084,
+      "icon": "ability_thunderclap",
+      "type": 2
+    },
+    "Glyph of Colossus Smash": {
+      "id": 63481,
+      "icon": "ability_warrior_colossussmash",
+      "type": 1
+    },
+    "Glyph of Bull Rush": {
+      "id": 67482,
+      "icon": "achievement_character_tauren_male",
+      "type": 1
+    },
+    "Glyph of Recklessness": {
+      "id": 67483,
+      "icon": "ability_criticalstrike",
+      "type": 1
+    },
+    "Glyph of Crow Feast": {
+      "id": 80587,
+      "icon": "inv_sword_48",
+      "type": 2
+    },
+    "Glyph of Burning Anger": {
+      "id": 80588,
+      "icon": "spell_shadow_unholyfrenzy",
+      "type": 2
+    },
+    "Glyph of Incite": {
+      "id": 83096,
+      "icon": "ability_warrior_incite",
+      "type": 1
+    },
+    "Glyph of the Blazing Trail": {
+      "id": 85221,
+      "icon": "spell_fire_burningspeed",
+      "type": 2
+    },
+    "Glyph of Impaling Throws": {
+      "id": 104055,
+      "icon": "inv_axe_05",
+      "type": 1
+    },
+    "Glyph of the Executor": {
+      "id": 104056,
+      "icon": "warrior_talent_icon_lambstotheslaughter",
+      "type": 1
+    },
+    "Glyph of the Raging Whirlwind": {
+      "id": 104135,
+      "icon": "spell_nature_unleashedrage",
+      "type": 2
+    },
+    "Glyph of the Subtle Defender": {
+      "id": 104136,
+      "icon": "ability_warrior_shieldguard",
+      "type": 2
+    },
+    "Glyph of the Watchful Eye": {
+      "id": 104137,
+      "icon": "ability_rogue_bloodyeye",
+      "type": 2
+    },
+    "Glyph of the Weaponmaster": {
+      "id": 104138,
+      "icon": "ability_warrior_weaponmastery",
+      "type": 2
+    }
+  },
+  "talents": [
+    {
+      "id": 103826,
+      "icon": "ability_warrior_bullrush",
+      "name": "Juggernaut"
+    },
+    {
+      "id": 103827,
+      "icon": "inv_misc_horn_04",
+      "name": "Double Time"
+    },
+    {
+      "id": 103828,
+      "icon": "ability_warrior_warbringer",
+      "name": "Warbringer"
+    },
+    {
+      "id": 55694,
+      "icon": "ability_warrior_focusedrage",
+      "name": "Enraged Regeneration"
+    },
+    {
+      "id": 29838,
+      "icon": "ability_hunter_harass",
+      "name": "Second Wind"
+    },
+    {
+      "id": 103840,
+      "icon": "spell_impending_victory",
+      "name": "Impending Victory"
+    },
+    {
+      "id": 107566,
+      "icon": "ability_bullrush",
+      "name": "Staggering Shout"
+    },
+    {
+      "id": 12323,
+      "icon": "spell_shadow_deathscream",
+      "name": "Piercing Howl"
+    },
+    {
+      "id": 102060,
+      "icon": "warrior_disruptingshout",
+      "name": "Disrupting Shout"
+    },
+    {
+      "id": 46924,
+      "icon": "ability_warrior_bladestorm",
+      "name": "Bladestorm"
+    },
+    {
+      "id": 46968,
+      "icon": "ability_warrior_shockwave",
+      "name": "Shockwave"
+    },
+    {
+      "id": 118000,
+      "icon": "ability_warrior_dragonroar",
+      "name": "Dragon Roar"
+    },
+    {
+      "id": 114028,
+      "icon": "ability_warrior_shieldbreak",
+      "name": "Mass Spell Reflection"
+    },
+    {
+      "id": 114029,
+      "icon": "ability_warrior_safeguard",
+      "name": "Safeguard"
+    },
+    {
+      "id": 114030,
+      "icon": "ability_warrior_vigilance",
+      "name": "Vigilance"
+    },
+    {
+      "id": 107574,
+      "icon": "warrior_talent_icon_avatar",
+      "name": "Avatar"
+    },
+    {
+      "id": 12292,
+      "icon": "ability_warrior_bloodbath",
+      "name": "Bloodbath"
+    },
+    {
+      "id": 107570,
+      "icon": "warrior_talent_icon_stormbolt",
+      "name": "Storm Bolt"
+    }
+  ]
+}

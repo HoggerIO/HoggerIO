@@ -1,0 +1,504 @@
+{
+  "talents": {
+    "Elemental": {
+      "11218": {
+        "id": 11218,
+        "row": 0,
+        "col": 0,
+        "icon": "spell_nature_astralrecalgroup",
+        "ranks": [17485, 17486, 17487],
+        "requires": []
+      },
+      "564": {
+        "id": 564,
+        "row": 0,
+        "col": 1,
+        "icon": "spell_shaman_convection",
+        "ranks": [16039, 16109],
+        "requires": []
+      },
+      "563": {
+        "id": 563,
+        "row": 0,
+        "col": 2,
+        "icon": "spell_fire_fireball",
+        "ranks": [16035, 16105, 16106],
+        "requires": []
+      },
+      "561": {
+        "id": 561,
+        "row": 1,
+        "col": 0,
+        "icon": "spell_fire_immolation",
+        "ranks": [16038, 16160],
+        "requires": []
+      },
+      "1640": {
+        "id": 1640,
+        "row": 1,
+        "col": 1,
+        "icon": "spell_nature_spiritarmor",
+        "ranks": [28996, 28997, 28998],
+        "requires": []
+      },
+      "575": {
+        "id": 575,
+        "row": 1,
+        "col": 2,
+        "icon": "spell_frost_frostward",
+        "ranks": [16040, 16113],
+        "requires": []
+      },
+      "1685": {
+        "id": 1685,
+        "row": 1,
+        "col": 3,
+        "icon": "spell_nature_elementalprecision_1",
+        "ranks": [30672, 30673, 30674],
+        "requires": []
+      },
+      "11767": {
+        "id": 11767,
+        "row": 2,
+        "col": 0,
+        "icon": "spell_nature_callstorm",
+        "ranks": [88756, 88764],
+        "requires": []
+      },
+      "574": {
+        "id": 574,
+        "row": 2,
+        "col": 1,
+        "icon": "spell_shadow_manaburn",
+        "ranks": [16164],
+        "requires": []
+      },
+      "1641": {
+        "id": 1641,
+        "row": 2,
+        "col": 2,
+        "icon": "spell_nature_stormreach",
+        "ranks": [28999, 29000],
+        "requires": []
+      },
+      "2049": {
+        "id": 2049,
+        "row": 3,
+        "col": 1,
+        "icon": "spell_shaman_elementaloath",
+        "ranks": [51466, 51470],
+        "requires": [
+          {
+            "id": 574,
+            "qty": 1
+          }
+        ]
+      },
+      "2051": {
+        "id": 2051,
+        "row": 3,
+        "col": 2,
+        "icon": "spell_shaman_lavaflow",
+        "ranks": [51480, 51481, 51482],
+        "requires": []
+      },
+      "11769": {
+        "id": 11769,
+        "row": 4,
+        "col": 0,
+        "icon": "spell_nature_unrelentingstorm",
+        "ranks": [88766],
+        "requires": [
+          {
+            "id": 11767,
+            "qty": 2
+          }
+        ]
+      },
+      "573": {
+        "id": 573,
+        "row": 4,
+        "col": 1,
+        "icon": "spell_nature_wispheal",
+        "ranks": [16166],
+        "requires": []
+      },
+      "11768": {
+        "id": 11768,
+        "row": 4,
+        "col": 2,
+        "icon": "spell_nature_stranglevines",
+        "ranks": [51483, 51485],
+        "requires": []
+      },
+      "5565": {
+        "id": 5565,
+        "row": 4,
+        "col": 3,
+        "icon": "spell_fire_totemofwrath",
+        "ranks": [77746],
+        "requires": []
+      },
+      "11368": {
+        "id": 11368,
+        "row": 5,
+        "col": 1,
+        "icon": "ability_vehicle_electrocharge",
+        "ranks": [86183, 86184, 86185],
+        "requires": [
+          {
+            "id": 573,
+            "qty": 1
+          }
+        ]
+      },
+      "5566": {
+        "id": 5566,
+        "row": 5,
+        "col": 2,
+        "icon": "spell_shaman_lavasurge",
+        "ranks": [77755, 77756],
+        "requires": []
+      },
+      "1687": {
+        "id": 1687,
+        "row": 6,
+        "col": 1,
+        "icon": "spell_shaman_earthquake",
+        "ranks": [61882],
+        "requires": []
+      }
+    },
+    "Restoration": {
+      "5568": {
+        "id": 5568,
+        "row": 0,
+        "col": 0,
+        "icon": "spell_nature_rune",
+        "ranks": [77829, 77830],
+        "requires": []
+      },
+      "593": {
+        "id": 593,
+        "row": 0,
+        "col": 1,
+        "icon": "spell_frost_manarecharge",
+        "ranks": [16179, 16214, 16215],
+        "requires": []
+      },
+      "11177": {
+        "id": 11177,
+        "row": 0,
+        "col": 2,
+        "icon": "spell_nature_wispsplodegreen",
+        "ranks": [84846, 84847, 84848],
+        "requires": []
+      },
+      "583": {
+        "id": 583,
+        "row": 1,
+        "col": 0,
+        "icon": "ability_shaman_watershield",
+        "ranks": [16180, 16196],
+        "requires": []
+      },
+      "595": {
+        "id": 595,
+        "row": 1,
+        "col": 1,
+        "icon": "spell_nature_moonglow",
+        "ranks": [16173, 16222],
+        "requires": []
+      },
+      "5567": {
+        "id": 5567,
+        "row": 1,
+        "col": 2,
+        "icon": "spell_shaman_measuredinsight",
+        "ranks": [77794, 77795, 77796],
+        "requires": []
+      },
+      "1699": {
+        "id": 1699,
+        "row": 1,
+        "col": 3,
+        "icon": "spell_nature_natureguardian",
+        "ranks": [30881, 30883, 30884],
+        "requires": []
+      },
+      "581": {
+        "id": 581,
+        "row": 2,
+        "col": 0,
+        "icon": "spell_nature_undyingstrength",
+        "ranks": [16176, 16235],
+        "requires": []
+      },
+      "591": {
+        "id": 591,
+        "row": 2,
+        "col": 1,
+        "icon": "spell_nature_ravenform",
+        "ranks": [16188],
+        "requires": []
+      },
+      "1696": {
+        "id": 1696,
+        "row": 2,
+        "col": 2,
+        "icon": "spell_nature_natureblessing",
+        "ranks": [30867, 30868, 30869],
+        "requires": []
+      },
+      "588": {
+        "id": 588,
+        "row": 3,
+        "col": 1,
+        "icon": "spell_nature_giftofthewaterspirit",
+        "ranks": [16187, 16205],
+        "requires": []
+      },
+      "2084": {
+        "id": 2084,
+        "row": 3,
+        "col": 2,
+        "icon": "ability_shaman_cleansespirit",
+        "ranks": [77130],
+        "requires": []
+      },
+      "11435": {
+        "id": 11435,
+        "row": 3,
+        "col": 3,
+        "icon": "spell_nature_regeneration_02",
+        "ranks": [86959, 86962],
+        "requires": [
+          {
+            "id": 2084,
+            "qty": 1
+          }
+        ]
+      },
+      "2061": {
+        "id": 2061,
+        "row": 4,
+        "col": 0,
+        "icon": "spell_shaman_ancestralawakening",
+        "ranks": [51556, 51557, 51558],
+        "requires": [
+          {
+            "id": 581,
+            "qty": 2
+          }
+        ]
+      },
+      "590": {
+        "id": 590,
+        "row": 4,
+        "col": 1,
+        "icon": "spell_frost_summonwaterelemental",
+        "ranks": [16190],
+        "requires": []
+      },
+      "7705": {
+        "id": 7705,
+        "row": 4,
+        "col": 2,
+        "icon": "spell_lightning_lightningbolt01",
+        "ranks": [82984, 82988],
+        "requires": []
+      },
+      "15487": {
+        "id": 15487,
+        "row": 4,
+        "col": 3,
+        "icon": "spell_shaman_spiritlink",
+        "ranks": [98008],
+        "requires": []
+      },
+      "2063": {
+        "id": 2063,
+        "row": 5,
+        "col": 1,
+        "icon": "spell_shaman_tidalwaves",
+        "ranks": [51562, 51563, 51564],
+        "requires": []
+      },
+      "2060": {
+        "id": 2060,
+        "row": 5,
+        "col": 2,
+        "icon": "spell_shaman_blessingofeternals",
+        "ranks": [51554, 51555],
+        "requires": []
+      },
+      "2064": {
+        "id": 2064,
+        "row": 6,
+        "col": 1,
+        "icon": "spell_nature_riptide",
+        "ranks": [61295],
+        "requires": []
+      }
+    },
+    "Enhancement": {
+      "611": {
+        "id": 611,
+        "row": 0,
+        "col": 0,
+        "icon": "spell_fire_flametounge",
+        "ranks": [16266, 29079],
+        "requires": []
+      },
+      "5560": {
+        "id": 5560,
+        "row": 0,
+        "col": 1,
+        "icon": "spell_shaman_focusedstrikes",
+        "ranks": [77536, 77537, 77538],
+        "requires": []
+      },
+      "607": {
+        "id": 607,
+        "row": 0,
+        "col": 2,
+        "icon": "spell_nature_lightningshield",
+        "ranks": [16261, 16290, 51881],
+        "requires": []
+      },
+      "11216": {
+        "id": 11216,
+        "row": 1,
+        "col": 0,
+        "icon": "classic_spell_fire_elementaldevastation",
+        "ranks": [30160, 29179, 29180],
+        "requires": []
+      },
+      "602": {
+        "id": 602,
+        "row": 1,
+        "col": 1,
+        "icon": "ability_ghoulfrenzy",
+        "ranks": [16256, 16281, 16282],
+        "requires": []
+      },
+      "605": {
+        "id": 605,
+        "row": 1,
+        "col": 2,
+        "icon": "spell_lifegivingspeed",
+        "ranks": [16262, 16287],
+        "requires": []
+      },
+      "11432": {
+        "id": 11432,
+        "row": 1,
+        "col": 3,
+        "icon": "spell_nature_agitatingtotem",
+        "ranks": [86935, 86936],
+        "requires": []
+      },
+      "615": {
+        "id": 615,
+        "row": 2,
+        "col": 0,
+        "icon": "spell_holy_devotion",
+        "ranks": [16252, 16306, 16307],
+        "requires": []
+      },
+      "901": {
+        "id": 901,
+        "row": 2,
+        "col": 1,
+        "icon": "ability_shaman_stormstrike",
+        "ranks": [17364],
+        "requires": []
+      },
+      "2055": {
+        "id": 2055,
+        "row": 2,
+        "col": 2,
+        "icon": "spell_shaman_staticshock",
+        "ranks": [51525, 51526, 51527],
+        "requires": []
+      },
+      "11220": {
+        "id": 11220,
+        "row": 3,
+        "col": 0,
+        "icon": "spell_fire_bluecano",
+        "ranks": [63373, 63374],
+        "requires": []
+      },
+      "11770": {
+        "id": 11770,
+        "row": 3,
+        "col": 1,
+        "icon": "spell_nature_elementalabsorption",
+        "ranks": [16086, 16544],
+        "requires": []
+      },
+      "2083": {
+        "id": 2083,
+        "row": 3,
+        "col": 2,
+        "icon": "spell_fire_searingtotem",
+        "ranks": [77655, 77656, 77657],
+        "requires": []
+      },
+      "2056": {
+        "id": 2056,
+        "row": 4,
+        "col": 0,
+        "icon": "spell_nature_earthelemental_totem",
+        "ranks": [51523, 51524],
+        "requires": []
+      },
+      "1693": {
+        "id": 1693,
+        "row": 4,
+        "col": 1,
+        "icon": "spell_nature_shamanrage",
+        "ranks": [30823],
+        "requires": []
+      },
+      "1689": {
+        "id": 1689,
+        "row": 4,
+        "col": 3,
+        "icon": "spell_nature_unleashedrage",
+        "ranks": [30802, 30808],
+        "requires": []
+      },
+      "2057": {
+        "id": 2057,
+        "row": 5,
+        "col": 1,
+        "icon": "spell_shaman_maelstromweapon",
+        "ranks": [51528, 51529, 51530],
+        "requires": []
+      },
+      "5563": {
+        "id": 5563,
+        "row": 5,
+        "col": 2,
+        "icon": "spell_shaman_improvelavalash",
+        "ranks": [77700, 77701],
+        "requires": [
+          {
+            "id": 2083,
+            "qty": 3
+          }
+        ]
+      },
+      "2058": {
+        "id": 2058,
+        "row": 6,
+        "col": 1,
+        "icon": "spell_shaman_feralspirit",
+        "ranks": [51533],
+        "requires": []
+      }
+    }
+  }
+}

@@ -1,0 +1,321 @@
+{
+  "glyphs": {
+    "Glyph of Frenzied Regeneration": {
+      "id": 40896,
+      "icon": "ability_bullrush",
+      "type": 1
+    },
+    "Glyph of Maul": {
+      "id": 40897,
+      "icon": "ability_druid_maul",
+      "type": 1
+    },
+    "Glyph of Omens": {
+      "id": 40899,
+      "icon": "ability_vehicle_sonicshockwave",
+      "type": 1
+    },
+    "Glyph of the Stag": {
+      "id": 40900,
+      "icon": "trade_archaeology_antleredcloakclasp",
+      "type": 2
+    },
+    "Glyph of Shred": {
+      "id": 40901,
+      "icon": "spell_shadow_vampiricaura",
+      "type": 1
+    },
+    "Glyph of Prowl": {
+      "id": 40902,
+      "icon": "ability_druid_prowl",
+      "type": 1
+    },
+    "Glyph of Pounce": {
+      "id": 40903,
+      "icon": "ability_druid_supriseattack",
+      "type": 1
+    },
+    "Glyph of Stampede": {
+      "id": 40906,
+      "icon": "spell_druid_stampedingroar_cat",
+      "type": 1
+    },
+    "Glyph of Innervate": {
+      "id": 40908,
+      "icon": "spell_nature_lightning",
+      "type": 1
+    },
+    "Glyph of Rebirth": {
+      "id": 40909,
+      "icon": "spell_nature_reincarnation",
+      "type": 1
+    },
+    "Glyph of Regrowth": {
+      "id": 40912,
+      "icon": "spell_nature_resistnature",
+      "type": 1
+    },
+    "Glyph of Rejuvenation": {
+      "id": 40913,
+      "icon": "spell_nature_rejuvenation",
+      "type": 1
+    },
+    "Glyph of Healing Touch": {
+      "id": 40914,
+      "icon": "spell_nature_healingtouch",
+      "type": 1
+    },
+    "Glyph of Guided Stars": {
+      "id": 40916,
+      "icon": "ability_mage_arcanebarrage",
+      "type": 1
+    },
+    "Glyph of the Orca": {
+      "id": 40919,
+      "icon": "ability_druid_aquaticform",
+      "type": 2
+    },
+    "Glyph of Hurricane": {
+      "id": 40920,
+      "icon": "spell_nature_cyclone",
+      "type": 1
+    },
+    "Glyph of Skull Bash": {
+      "id": 40921,
+      "icon": "inv_misc_bone_taurenskull_01",
+      "type": 1
+    },
+    "Glyph of Nature's Grasp": {
+      "id": 40922,
+      "icon": "spell_nature_natureswrath",
+      "type": 1
+    },
+    "Glyph of Savagery": {
+      "id": 40923,
+      "icon": "ability_druid_skinteeth",
+      "type": 1
+    },
+    "Glyph of Entangling Roots": {
+      "id": 40924,
+      "icon": "spell_nature_stranglevines",
+      "type": 1
+    },
+    "Glyph of Aquatic Form": {
+      "id": 43316,
+      "icon": "inv_enchant_essencemagiclarge",
+      "type": 2
+    },
+    "Glyph of the Chameleon": {
+      "id": 43334,
+      "icon": "ability_druid_mastershapeshifter",
+      "type": 2
+    },
+    "Glyph of Charm Woodland Creature": {
+      "id": 43335,
+      "icon": "inv_misc_rabbit",
+      "type": 2
+    },
+    "Glyph of Blooming": {
+      "id": 43331,
+      "icon": "spell_nature_protectionformnature",
+      "type": 1
+    },
+    "Glyph of Grace": {
+      "id": 43332,
+      "icon": "inv_feather_01",
+      "type": 2
+    },
+    "Glyph of Dash": {
+      "id": 43674,
+      "icon": "ability_druid_dash",
+      "type": 1
+    },
+    "Glyph of Stars": {
+      "id": 44922,
+      "icon": "achievement_boss_algalon_01",
+      "type": 2
+    },
+    "Glyph of the Master Shapeshifter": {
+      "id": 44928,
+      "icon": "ability_druid_mastershapeshifter",
+      "type": 1
+    },
+    "Glyph of Survival Instincts": {
+      "id": 45601,
+      "icon": "ability_druid_tigersroar",
+      "type": 1
+    },
+    "Glyph of Wild Growth": {
+      "id": 45602,
+      "icon": "ability_druid_flourish",
+      "type": 1
+    },
+    "Glyph of Might of Ursoc": {
+      "id": 45603,
+      "icon": "spell_druid_mightofursoc",
+      "type": 1
+    },
+    "Glyph of Stampeding Roar": {
+      "id": 45604,
+      "icon": "spell_druid_stamedingroar",
+      "type": 1
+    },
+    "Glyph of Cyclone": {
+      "id": 45622,
+      "icon": "spell_nature_earthbind",
+      "type": 1
+    },
+    "Glyph of Barkskin": {
+      "id": 45623,
+      "icon": "spell_nature_stoneclawtotem",
+      "type": 1
+    },
+    "Glyph of Ferocious Bite": {
+      "id": 48720,
+      "icon": "ability_druid_ferociousbite",
+      "type": 1
+    },
+    "Glyph of Fae Silence": {
+      "id": 67484,
+      "icon": "ability_druid_challangingroar",
+      "type": 1
+    },
+    "Glyph of Faerie Fire": {
+      "id": 67485,
+      "icon": "spell_nature_faeriefire",
+      "type": 1
+    },
+    "Glyph of the Predator": {
+      "id": 67486,
+      "icon": "ability_tracking",
+      "type": 2
+    },
+    "Glyph of Cat Form": {
+      "id": 67487,
+      "icon": "ability_druid_catform",
+      "type": 1
+    },
+    "Glyph of the Treant": {
+      "id": 68039,
+      "icon": "ability_druid_treeoflife",
+      "type": 2
+    },
+    "Glyph of the Cheetah": {
+      "id": 89868,
+      "icon": "ability_hunter_catlikereflexes",
+      "type": 2
+    },
+    "Glyph of Focus": {
+      "id": 93203,
+      "icon": "spell_arcane_arcanepotency",
+      "type": 2
+    },
+    "Glyph of Efflorescence": {
+      "id": 40915,
+      "icon": "spell_nature_healingtouch",
+      "type": 1
+    },
+    "Glyph of the Sprouting Mushroom": {
+      "id": 104102,
+      "icon": "spell_druid_wildmushroom",
+      "type": 2
+    },
+    "Glyph of One With Nature": {
+      "id": 104103,
+      "icon": "ability_druid_manatree",
+      "type": 2
+    }
+  },
+  "talents": [
+    {
+      "id": 131768,
+      "icon": "spell_druid_tirelesspursuit",
+      "name": "Feline Swiftness"
+    },
+    {
+      "id": 102280,
+      "icon": "spell_druid_displacement",
+      "name": "Displacer Beast"
+    },
+    {
+      "id": 102401,
+      "icon": "spell_druid_wildcharge",
+      "name": "Wild Charge"
+    },
+    {
+      "id": 145108,
+      "icon": "inv_misc_head_dragon_green",
+      "name": "Ysera's Gift"
+    },
+    {
+      "id": 108238,
+      "icon": "spell_nature_natureblessing",
+      "name": "Renewal"
+    },
+    {
+      "id": 102351,
+      "icon": "ability_druid_naturalperfection",
+      "name": "Cenarion Ward"
+    },
+    {
+      "id": 106707,
+      "icon": "spell_druid_swarm",
+      "name": "Faerie Swarm"
+    },
+    {
+      "id": 102359,
+      "icon": "spell_druid_massentanglement",
+      "name": "Mass Entanglement"
+    },
+    {
+      "id": 132469,
+      "icon": "ability_druid_typhoon",
+      "name": "Typhoon"
+    },
+    {
+      "id": 114107,
+      "icon": "ability_druid_manatree",
+      "name": "Soul of the Forest"
+    },
+    {
+      "id": 106731,
+      "icon": "spell_druid_incarnation",
+      "name": "Incarnation"
+    },
+    {
+      "id": 106737,
+      "icon": "ability_druid_forceofnature",
+      "name": "Force of Nature"
+    },
+    {
+      "id": 99,
+      "icon": "classic_ability_druid_demoralizingroar",
+      "name": "Disorienting Roar"
+    },
+    {
+      "id": 102793,
+      "icon": "spell_druid_ursolsvortex",
+      "name": "Ursol's Vortex"
+    },
+    {
+      "id": 5211,
+      "icon": "ability_druid_bash",
+      "name": "Mighty Bash"
+    },
+    {
+      "id": 108288,
+      "icon": "spell_holy_blessingofagility",
+      "name": "Heart of the Wild"
+    },
+    {
+      "id": 108373,
+      "icon": "ability_druid_dreamstate",
+      "name": "Dream of Cenarius"
+    },
+    {
+      "id": 124974,
+      "icon": "achievement_zone_feralas",
+      "name": "Nature's Vigil"
+    }
+  ]
+}

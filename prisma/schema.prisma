@@ -1,0 +1,63 @@
+datasource db {
+  provider = "postgresql" 
+  url      = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Character {
+  id              Int       @default(autoincrement()) @id
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+  name            String    @db.VarChar(255)
+  realm           String    @db.VarChar(255)
+  guild           String?   @db.VarChar(255)
+  gender          Int
+  class           Int
+  race            Int
+  level           Int
+
+  gameType        GameType
+  gearscore       Int?
+  itemLevel       Int?
+  achievementPoints Int?
+  honorableKills  Int?
+  profileImageUrl String?    @db.VarChar(255)
+  region          String     @db.VarChar(255)
+  metadata        CharacterMetadata?
+  @@unique([name, realm, region, gameType])
+}
+
+model CharacterMetadata {
+  id              Int       @default(autoincrement()) @id
+  characterId     Int       @unique
+  items           Json
+  talents         Json
+  achievements    Json?
+  pvp         Json?
+  parse        Json?
+  character   Character @relation(fields: [characterId], references: [id]) // Add this line
+}
+
+model Guild {
+  id              Int       @default(autoincrement()) @id
+  name            String    @db.VarChar(255)
+  displayName     String    @db.VarChar(255)
+  realm           String    @db.VarChar(255)
+  region          String    @db.VarChar(255)
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+  members         Json
+  gameType        GameType
+  @@unique([name, realm, region, gameType])
+}
+
+enum GameType {
+  NORMAL
+  ERA
+  SEASONAL
+  HARDCORE
+}

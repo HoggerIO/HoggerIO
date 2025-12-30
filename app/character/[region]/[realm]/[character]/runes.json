@@ -1,0 +1,976 @@
+{
+  "11": {
+    "building inspiration": {
+      "spellId": 408953,
+      "icon": "spell_nature_wispsplodegreen"
+    },
+    "eclipse": {
+      "spellId": 408248,
+      "icon": "ability_druid_eclipse"
+    },
+    "king of the jungle": {
+      "spellId": 417046,
+      "icon": "ability_druid_kingofthejungle"
+    },
+    "berserk": {
+      "spellId": 417141,
+      "icon": "ability_druid_berserk"
+    },
+    "nourish": {
+      "spellId": 408247,
+      "icon": "ability_druid_nourish"
+    },
+    "dreamstate": {
+      "spellId": 408258,
+      "icon": "ability_druid_dreamstate"
+    },
+    "survival instincts": {
+      "spellId": 408024,
+      "icon": "ability_druid_tigersroar"
+    },
+    "efflorescence": {
+      "spellId": 417148,
+      "icon": "inv_misc_herb_talandrasrose"
+    },
+    "improved frenzied regeneration": {
+      "spellId": 431389,
+      "icon": "ability_bullrush"
+    },
+    "elune's fires": {
+      "spellId": 414719,
+      "icon": "ability_druid_owlkinfrenzy"
+    },
+    "gale winds": {
+      "spellId": 417135,
+      "icon": "ability_druid_galewinds"
+    },
+    "gore": {
+      "spellId": 417145,
+      "icon": "spell_druid_feralchargecat"
+    },
+    "improved barkskin": {
+      "spellId": 431388,
+      "icon": "spell_nature_stoneclawtotem"
+    },
+    "living seed": {
+      "spellId": 414677,
+      "icon": "ability_druid_giftoftheearthmother"
+    },
+    "fury of stormrage": {
+      "spellId": 414799,
+      "icon": "inv_staff_90"
+    },
+    "sunfire": {
+      "spellId": 414684,
+      "icon": "ability_mage_firestarter"
+    },
+    "lifebloom": {
+      "spellId": 408124,
+      "icon": "inv_misc_herb_felblossom"
+    },
+    "mangle": {
+      "spellId": 409828,
+      "icon": "ability_druid_mangle2"
+    },
+    "wild strikes": {
+      "spellId": 407977,
+      "icon": "ability_druid_swipe"
+    },
+    "lacerate": {
+      "spellId": 414644,
+      "icon": "ability_druid_lacerate"
+    },
+    "skull bash": {
+      "spellId": 410176,
+      "icon": "inv_misc_bone_taurenskull_01"
+    },
+    "savage roar": {
+      "spellId": 407988,
+      "icon": "ability_druid_skinteeth"
+    },
+    "survival of the fittest": {
+      "spellId": 411115,
+      "icon": "ability_druid_enrage"
+    },
+    "starsurge": {
+      "spellId": 417157,
+      "icon": "spell_arcane_arcane03"
+    },
+    "wild growth": {
+      "spellId": 408120,
+      "icon": "ability_druid_flourish"
+    },
+    "teleport: moonglade": {
+      "spellId": 18960,
+      "icon": "spell_arcane_teleportmoonglade"
+    }
+  },
+  "3": {
+    "raptor fury": {
+      "spellId": 415358,
+      "icon": "ability_mount_raptor"
+    },
+    "catlike reflexes": {
+      "spellId": 415428,
+      "icon": "ability_hunter_catlikereflexes"
+    },
+    "lock and load": {
+      "spellId": 415413,
+      "icon": "ability_hunter_lockandload"
+    },
+    "rapid killing": {
+      "spellId": 415405,
+      "icon": "ability_hunter_rapidkilling"
+    },
+    "melee specialist": {
+      "spellId": 415352,
+      "icon": "inv_axe_03"
+    },
+    "trap launcher": {
+      "spellId": 409541,
+      "icon": "ability_hunter_resourcefulness"
+    },
+    "aspect of the viper": {
+      "spellId": 415423,
+      "icon": "ability_hunter_aspectoftheviper"
+    },
+    "expose weakness": {
+      "spellId": 409504,
+      "icon": "ability_rogue_findweakness"
+    },
+    "steady shot": {
+      "spellId": 437123,
+      "icon": "ability_hunter_steadyshot"
+    },
+    "invigoration": {
+      "spellId": 437997,
+      "icon": "ability_hunter_invigeration"
+    },
+    "dual wield specialization": {
+      "spellId": 409687,
+      "icon": "ability_dualwield"
+    },
+    "focus fire": {
+      "spellId": 428726,
+      "icon": "inv_weapon_crossbow_19"
+    },
+    "t.n.t.": {
+      "spellId": 428717,
+      "icon": "inv_misc_bomb_05"
+    },
+    "chimera shot": {
+      "spellId": 409433,
+      "icon": "ability_hunter_chimerashot2"
+    },
+    "explosive shot": {
+      "spellId": 409552,
+      "icon": "ability_hunter_explosiveshot"
+    },
+    "master marksman": {
+      "spellId": 409428,
+      "icon": "ability_hunter_mastermarksman"
+    },
+    "flanking strike": {
+      "spellId": 415320,
+      "icon": "ability_hunter_harass"
+    },
+    "carve": {
+      "spellId": 425711,
+      "icon": "inv_throwingknife_06"
+    },
+    "beast mastery": {
+      "spellId": 409368,
+      "icon": "ability_physical_taunt"
+    },
+    "serpent spread": {
+      "spellId": 425738,
+      "icon": "ability_hunter_serpentswiftness"
+    },
+    "lone wolf": {
+      "spellId": 415370,
+      "icon": "ability_mount_whitedirewolf"
+    },
+    "kill command": {
+      "spellId": 409379,
+      "icon": "ability_hunter_killcommand"
+    },
+    "kill shot": {
+      "spellId": 409974,
+      "icon": "ability_hunter_assassinate2"
+    },
+    "wyvern strike": {
+      "icon": "inv_spear_02",
+      "spellId": 458436
+    },
+    "sniper training": {
+      "spellId": 415399,
+      "icon": "ability_hunter_longshots"
+    },
+    "heart of the lion": {
+      "spellId": 409580,
+      "icon": "ability_hunter_pet_cat"
+    },
+    "cobra slayer": {
+      "spellId": 410115,
+      "icon": "spell_nature_guardianward"
+    },
+    "improved volley": {
+      "icon": "ability_hunter_focusedaim",
+      "spellId": 440520
+    },
+    "cobra strikes": {
+      "spellId": 425713,
+      "icon": "ability_hunter_cobrastrikes"
+    },
+    "resourcefulness": {
+      "spellId": 440529,
+      "icon": "ability_hunter_mastertactitian"
+    },
+    "hit and run": {
+      "spellId": 440533,
+      "icon": "ability_hunter_displacement"
+    }
+  },
+  "8": {
+    "missile barrage": {
+      "spellId": 400588,
+      "icon": "ability_mage_missilebarrage"
+    },
+    "chronostatic preservation": {
+      "spellId": 436516,
+      "icon": "spell_arcane_arcane02"
+    },
+    "frostfire bolt": {
+      "spellId": 401502,
+      "icon": "ability_mage_frostfirebolt"
+    },
+    "hot streak": {
+      "spellId": 400624,
+      "icon": "ability_mage_hotstreak"
+    },
+    "spellfrost bolt": {
+      "spellId": 412532,
+      "icon": "spell_fire_blueflamebolt"
+    },
+    "brain freeze": {
+      "spellId": 400731,
+      "icon": "ability_mage_brainfreeze"
+    },
+    "spell power": {
+      "spellId": 412322,
+      "icon": "spell_holy_mindvision"
+    },
+    "displacement": {
+      "spellId": 428861,
+      "icon": "ability_hunter_displacement"
+    },
+    "molten armor": {
+      "spellId": 428741,
+      "icon": "ability_mage_moltenarmor"
+    },
+    "temporal anomaly": {
+      "spellId": 428885,
+      "icon": "spell_fire_blueflamering"
+    },
+    "deep freeze": {
+      "spellId": 428739,
+      "icon": "ability_mage_deepfreeze"
+    },
+    "ice lance": {
+      "spellId": 400640,
+      "icon": "spell_frost_frostblast"
+    },
+    "living flame": {
+      "spellId": 401556,
+      "icon": "spell_fire_masterofelements"
+    },
+    "enlightenment": {
+      "spellId": 412324,
+      "icon": "spell_arcane_mindmastery"
+    },
+    "burnout": {
+      "spellId": 412286,
+      "icon": "ability_mage_burnout"
+    },
+    "fingers of frost": {
+      "spellId": 400647,
+      "icon": "ability_mage_wintersgrasp"
+    },
+    "living bomb": {
+      "spellId": 400613,
+      "icon": "ability_mage_livingbomb"
+    },
+    "regeneration": {
+      "spellId": 401417,
+      "icon": "inv_enchant_essencemysticalsmall"
+    },
+    "arcane surge": {
+      "spellId": 425124,
+      "icon": "spell_arcane_arcanetorrent"
+    },
+    "arcane blast": {
+      "spellId": 400574,
+      "icon": "spell_arcane_blast"
+    },
+    "icy veins": {
+      "spellId": 425121,
+      "icon": "spell_frost_coldhearted"
+    },
+    "rewind time": {
+      "spellId": 401462,
+      "icon": "spell_holy_borrowedtime"
+    },
+    "mass regeneration": {
+      "spellId": 412510,
+      "icon": "inv_enchant_essencemysticallarge"
+    },
+    "balefire bolt": {
+      "spellId": 428878,
+      "icon": "spell_fire_firebolt"
+    },
+    "advanced warding": {
+      "spellId": 428738,
+      "icon": "spell_arcane_arcaneresilience"
+    }
+  },
+  "4": {
+    "shuriken toss": {
+      "spellId": 399986,
+      "icon": "ability_upgrademoonglaive"
+    },
+    "master of subtlety": {
+      "spellId": 425096,
+      "icon": "ability_rogue_masterofsubtlety"
+    },
+    "poisoned knife": {
+      "spellId": 425012,
+      "icon": "inv_weapon_shortblade_59"
+    },
+    "shadowstep": {
+      "spellId": 400029,
+      "icon": "ability_rogue_shadowstep"
+    },
+    "waylay": {
+      "spellId": 408700,
+      "icon": "ability_rogue_waylay"
+    },
+    "rolling with the punches": {
+      "spellId": 400016,
+      "icon": "ability_rogue_quickrecovery"
+    },
+    "combat potency": {
+      "spellId": 432259,
+      "icon": "inv_weapon_shortblade_38"
+    },
+    "focused attacks": {
+      "spellId": 432256,
+      "icon": "ability_rogue_focusedattacks"
+    },
+    "honor among thieves": {
+      "spellId": 432264,
+      "icon": "ability_rogue_honoramongstthieves"
+    },
+    "shadowstrike": {
+      "spellId": 399985,
+      "icon": "ability_theblackarrow"
+    },
+    "quick draw": {
+      "spellId": 398196,
+      "icon": "inv_musket_02"
+    },
+    "slaughter from the shadows": {
+      "spellId": 424925,
+      "icon": "ability_rogue_slaughterfromtheshadows"
+    },
+    "mutilate": {
+      "spellId": 399960,
+      "icon": "ability_rogue_shadowstrikes"
+    },
+    "between the eyes": {
+      "spellId": 400009,
+      "icon": "inv_weapon_rifle_01"
+    },
+    "saber slash": {
+      "spellId": 424785,
+      "icon": "inv_1h_haremmatron_d_01"
+    },
+    "just a flesh wound": {
+      "spellId": 400014,
+      "icon": "ability_rogue_bloodyeye"
+    },
+    "blade dance": {
+      "spellId": 400012,
+      "icon": "ability_parry"
+    },
+    "deadly brew": {
+      "spellId": 399965,
+      "icon": "ability_rogue_deadlybrew"
+    },
+    "envenom": {
+      "spellId": 399963,
+      "icon": "ability_rogue_disembowel"
+    },
+    "cut to the chase": {
+      "icon": "ability_rogue_cuttothechase",
+      "spellId": 432271
+    },
+    "carnage": {
+      "spellId": 432276,
+      "icon": "ability_rogue_bloodsplatter"
+    },
+    "main gauche": {
+      "spellId": 424919,
+      "icon": "spell_deathknight_spelldeflection"
+    },
+    "shiv": {
+      "spellId": 424800,
+      "icon": "inv_throwingknife_04"
+    },
+    "unfair advantage": {
+      "spellId": 432300,
+      "icon": "ability_rogue_unfairadvantage"
+    }
+  },
+  "7": {
+    "overload": {
+      "spellId": 408438,
+      "icon": "spell_nature_lightningoverload"
+    },
+    "building inspiration": {
+      "spellId": 408953,
+      "icon": "spell_nature_wispsplodegreen"
+    },
+    "inspired": {
+      "spellId": 408828,
+      "icon": "spell_nature_wispsplode"
+    },
+    "maelstrom weapon": {
+      "spellId": 408498,
+      "icon": "spell_shaman_maelstromweapon"
+    },
+    "spirit of the alpha": {
+      "spellId": 408696,
+      "icon": "ability_hunter_pet_wolf"
+    },
+    "two-handed mastery": {
+      "spellId": 436364,
+      "icon": "spell_fire_enchantweapon"
+    },
+    "fire nova": {
+      "spellId": 408339,
+      "icon": "spell_fire_sealoffire"
+    },
+    "power surge": {
+      "spellId": 415100,
+      "icon": "inv_misc_orb_05"
+    },
+    "decoy totem": {
+      "spellId": 425874,
+      "icon": "inv_banner_01"
+    },
+    "ancestral awakening": {
+      "spellId": 425858,
+      "icon": "spell_shaman_ancestralawakening"
+    },
+    "lava lash": {
+      "spellId": 408507,
+      "icon": "ability_shaman_lavalash"
+    },
+    "shield mastery": {
+      "spellId": 408524,
+      "icon": "inv_shield_17"
+    },
+    "ancestral guidance": {
+      "spellId": 409324,
+      "icon": "ability_druid_lunarguidance"
+    },
+    "molten blast": {
+      "spellId": 425339,
+      "icon": "spell_shaman_lavaflow"
+    },
+    "way of earth": {
+      "spellId": 408531,
+      "icon": "spell_nature_earthquake"
+    },
+    "healing rain": {
+      "spellId": 415236,
+      "icon": "spell_nature_tranquility"
+    },
+    "water shield": {
+      "spellId": 408510,
+      "icon": "ability_shaman_watershield"
+    },
+    "dual wield specialization": {
+      "spellId": 408496,
+      "icon": "ability_dualwieldspecialization"
+    },
+    "shamanistic rage": {
+      "spellId": 425336,
+      "icon": "spell_nature_shamanrage"
+    },
+    "lava burst": {
+      "spellId": 408490,
+      "icon": "spell_shaman_lavaburst"
+    },
+    "earth shield": {
+      "spellId": 408514,
+      "icon": "spell_nature_skinofearth"
+    },
+    "burn": {
+      "spellId": 415231,
+      "icon": "spell_fire_moltenblood"
+    },
+    "rolling thunder": {
+      "spellId": 432235,
+      "icon": "spell_nature_unrelentingstorm"
+    },
+    "overcharged": {
+      "spellId": 432240,
+      "icon": "spell_fire_blueflamering"
+    },
+    "mental dexterity": {
+      "spellId": 415140,
+      "icon": "spell_nature_mentalquickness"
+    },
+    "riptide": {
+      "spellId": 409954,
+      "icon": "spell_nature_riptide"
+    },
+    "static shock": {
+      "spellId": 432237,
+      "icon": "spell_shaman_staticshock"
+    }
+  },
+  "2": {
+    "crusader strike": {
+      "spellId": 407676,
+      "icon": "spell_holy_crusaderstrike"
+    },
+    "building inspiration": {
+      "spellId": 408953,
+      "icon": "spell_nature_wispsplodegreen"
+    },
+    "inspired": {
+      "spellId": 408828,
+      "icon": "spell_nature_wispsplode"
+    },
+    "sheath of light": {
+      "spellId": 426158,
+      "icon": "ability_paladin_sheathoflight"
+    },
+    "guarded by the light": {
+      "spellId": 415059,
+      "icon": "spell_holy_aspiration"
+    },
+    "enlightened judgements": {
+      "spellId": 426173,
+      "icon": "ability_paladin_enlightenedjudgements"
+    },
+    "infusion of light": {
+      "spellId": 426065,
+      "icon": "ability_paladin_infusionoflight"
+    },
+    "sacred shield": {
+      "spellId": 412019,
+      "icon": "ability_paladin_blessedmending"
+    },
+    "the art of war": {
+      "spellId": 426157,
+      "icon": "ability_paladin_artofwar"
+    },
+    "improved hammer of wrath": {
+      "spellId": 429152,
+      "icon": "ability_paladin_sanctifiedwrath"
+    },
+    "purifying power": {
+      "spellId": 429144,
+      "icon": "spell_holy_purifyingpower"
+    },
+    "fanaticism": {
+      "spellId": 429142,
+      "icon": "spell_holy_fanaticism"
+    },
+    "improved sanctuary": {
+      "spellId": 429133,
+      "icon": "spell_holy_improvedresistanceauras"
+    },
+    "light's grace": {
+      "spellId": 428909,
+      "icon": "spell_holy_lightsgrace"
+    },
+    "wrath": {
+      "spellId": 429139,
+      "icon": "ability_paladin_righteousvengeance"
+    },
+    "inspiration exemplar": {
+      "spellId": 407880,
+      "icon": "spell_holy_power"
+    },
+    "rebuke": {
+      "spellId": 425609,
+      "icon": "inv_relics_totemofrage"
+    },
+    "aegis": {
+      "spellId": 425589,
+      "icon": "inv_shield_48"
+    },
+    "seal of martyrdom": {
+      "spellId": 407798,
+      "icon": "spell_holy_sealofblood"
+    },
+    "horn of lordaeron": {
+      "spellId": 425600,
+      "icon": "inv_misc_horn_03"
+    },
+    "hand of reckoning": {
+      "spellId": 407631,
+      "icon": "spell_holy_unyieldingfaith"
+    },
+    "beacon of light": {
+      "spellId": 407613,
+      "icon": "ability_paladin_beaconoflight"
+    },
+    "divine sacrifice": {
+      "spellId": 407804,
+      "icon": "spell_holy_powerwordbarrier"
+    },
+    "avenger's shield": {
+      "spellId": 407669,
+      "icon": "spell_holy_avengersshield"
+    },
+    "divine storm": {
+      "spellId": 407778,
+      "icon": "ability_paladin_divinestorm"
+    },
+    "exorcist": {
+      "spellId": 415076,
+      "icon": "spell_holy_retribution"
+    },
+    "hammer of the righteous": {
+      "spellId": 409922,
+      "icon": "ability_paladin_hammeroftherighteous"
+    }
+  },
+  "5": {
+    "meditation on the light": {
+      "spellId": 410935,
+      "icon": "spell_holy_mindvision"
+    },
+    "meditation on elune": {
+      "spellId": 419307,
+      "icon": "spell_nature_moonglow"
+    },
+    "meditation on undeath": {
+      "spellId": 418459,
+      "icon": "spell_shadow_skull"
+    },
+    "meditation on the loa": {
+      "spellId": 417316,
+      "icon": "spell_nature_regenerate"
+    },
+    "mind spike": {
+      "spellId": 431655,
+      "icon": "spell_shadow_painspike"
+    },
+    "pain suppression": {
+      "spellId": 402004,
+      "icon": "spell_holy_painsupression"
+    },
+    "empowered renew": {
+      "spellId": 425266,
+      "icon": "ability_paladin_infusionoflight"
+    },
+    "renewed hope": {
+      "spellId": 425280,
+      "icon": "spell_holy_holyprotection"
+    },
+    "dispersion": {
+      "spellId": 425294,
+      "icon": "spell_shadow_dispersion"
+    },
+    "spirit of the redeemer": {
+      "spellId": 425284,
+      "icon": "inv_enchant_essenceeternallarge"
+    },
+    "despair": {
+      "spellId": 431670,
+      "icon": "spell_misc_emotionsad"
+    },
+    "surge of light": {
+      "spellId": 431664,
+      "icon": "spell_holy_surgeoflight"
+    },
+    "void zone": {
+      "spellId": 431681,
+      "icon": "inv_enchant_voidsphere"
+    },
+    "divine aegis": {
+      "spellId": 431622,
+      "icon": "spell_holy_devineaegis"
+    },
+    "shadowfiend": {
+      "spellId": 401977,
+      "icon": "spell_shadow_shadowfiend"
+    },
+    "penance": {
+      "spellId": 402174,
+      "icon": "spell_holy_penance"
+    },
+    "void plague": {
+      "spellId": 425204,
+      "icon": "spell_deathknight_bloodplague"
+    },
+    "prayer of mending": {
+      "spellId": 401859,
+      "icon": "spell_holy_prayerofmendingtga"
+    },
+    "shared pain": {
+      "spellId": 401969,
+      "icon": "spell_shadow_gathershadows"
+    },
+    "homunculi": {
+      "spellId": 402799,
+      "icon": "spell_shadow_twistedfaith"
+    },
+    "twisted faith": {
+      "spellId": 425198,
+      "icon": "spell_shadow_mindtwisting"
+    },
+    "mind sear": {
+      "spellId": 413259,
+      "icon": "spell_shadow_mindshear"
+    },
+    "serendipity": {
+      "spellId": 413248,
+      "icon": "spell_holy_serendipity"
+    },
+    "shadow word: death": {
+      "spellId": 401955,
+      "icon": "spell_shadow_demonicfortitude"
+    },
+    "strength of soul": {
+      "spellId": 415739,
+      "icon": "spell_holy_greaterblessingofsanctuary"
+    },
+    "power word: barrier": {
+      "spellId": 425207,
+      "icon": "spell_holy_powerwordbarrier"
+    },
+    "circle of healing": {
+      "spellId": 401946,
+      "icon": "spell_holy_circleofrenewal"
+    },
+    "eye of the void": {
+      "spellId": 402789,
+      "icon": "inv_misc_eye_03"
+    },
+    "pain and suffering": {
+      "spellId": 413251,
+      "icon": "spell_shadow_painandsuffering"
+    }
+  },
+  "1": {
+    "blood surge": {
+      "spellId": 413380,
+      "icon": "ability_warrior_bloodsurge"
+    },
+    "rallying cry": {
+      "spellId": 426490,
+      "icon": "Ability_warrior_commandingshout"
+    },
+    "focused rage": {
+      "spellId": 29787,
+      "icon": "ability_warrior_focusedrage"
+    },
+    "precise timing": {
+      "spellId": 402922,
+      "icon": "inv_misc_pocketwatch_01"
+    },
+    "enraged regeneration": {
+      "spellId": 403359,
+      "icon": "ability_hunter_harass"
+    },
+    "intervene": {
+      "spellId": 403437,
+      "icon": "ability_warrior_victoryrush"
+    },
+    "commanding shout": {
+      "spellId": 403215,
+      "icon": "ability_warrior_rallyingcry"
+    },
+    "rampage": {
+      "spellId": 426940,
+      "icon": "ability_warrior_rampage"
+    },
+    "sword and board": {
+      "spellId": 426978,
+      "icon": "ability_warrior_swordandboard"
+    },
+    "wrecking crew": {
+      "spellId": 427065,
+      "icon": "ability_warrior_trauma"
+    },
+    "shield mastery": {
+      "spellId": 426980,
+      "icon": "ability_warrior_shieldguard"
+    },
+    "taste for blood": {
+      "spellId": 426953,
+      "icon": "ability_rogue_hungerforblood"
+    },
+    "gladiator stance": {
+      "spellId": 412513,
+      "icon": "achievement_featsofstrength_gladiator_08"
+    },
+    "vigilance": {
+      "spellId": 426972,
+      "icon": "ability_warrior_vigilance"
+    },
+    "victory rush": {
+      "spellId": 402927,
+      "icon": "ability_warrior_devastate"
+    },
+    "blood frenzy": {
+      "spellId": 412507,
+      "icon": "ability_warrior_bloodfrenzy"
+    },
+    "furious thunder": {
+      "spellId": 403219,
+      "icon": "ability_thunderclap"
+    },
+    "devastate": {
+      "spellId": 403196,
+      "icon": "inv_sword_11"
+    },
+    "frenzied assault": {
+      "spellId": 425412,
+      "icon": "ability_warrior_unrelentingassault"
+    },
+    "single-minded fury": {
+      "spellId": 413404,
+      "icon": "ability_warrior_incite"
+    },
+    "warbringer": {
+      "spellId": 425421,
+      "icon": "ability_warrior_warbringer"
+    },
+    "endless rage": {
+      "spellId": 403218,
+      "icon": "ability_warrior_endlessrage"
+    },
+    "quick strike": {
+      "spellId": 429765,
+      "icon": "inv_axe_03"
+    },
+    "flagellation": {
+      "spellId": 402877,
+      "icon": "ability_warrior_intensifyrage"
+    },
+    "raging blow": {
+      "spellId": 402911,
+      "icon": "ability_hunter_swiftstrike"
+    },
+    "consumed by rage": {
+      "spellId": 425418,
+      "icon": "spell_nature_shamanrage"
+    }
+  },
+  "9": {
+    "invocation": {
+      "spellId": 426243,
+      "icon": "spell_shadow_corpseexplode"
+    },
+    "dance of the wicked": {
+      "spellId": 412798,
+      "icon": "ability_warlock_eradication"
+    },
+    "grimoire of synergy": {
+      "spellId": 426301,
+      "icon": "inv_misc_book_06"
+    },
+    "shadow and flame": {
+      "spellId": 426316,
+      "icon": "spell_fire_playingwithfire"
+    },
+    "demonic knowledge": {
+      "spellId": 412732,
+      "icon": "spell_shadow_metamorphosis"
+    },
+    "shadowflame": {
+      "spellId": 426320,
+      "icon": "ability_warlock_shadowflame"
+    },
+    "immolation aura": {
+      "spellId": 427726,
+      "icon": "spell_fire_felimmolation"
+    },
+    "vengeance": {
+      "spellId": 426469,
+      "icon": "ability_warlock_improveddemonictactics"
+    },
+    "summon felguard": {
+      "spellId": 427733,
+      "icon": "spell_shadow_summonfelguard"
+    },
+    "unstable affliction": {
+      "spellId": 427717,
+      "icon": "spell_shadow_unstableaffliction_3"
+    },
+    "backdraft": {
+      "spellId": 427713,
+      "icon": "ability_warlock_backdraft"
+    },
+    "pandemic": {
+      "spellId": 427712,
+      "icon": "spell_shadow_unstableaffliction_2"
+    },
+    "haunt": {
+      "spellId": 403501,
+      "icon": "ability_warlock_haunt"
+    },
+    "chaos bolt": {
+      "spellId": 403629,
+      "icon": "ability_warlock_chaosbolt"
+    },
+    "demonic tactics": {
+      "spellId": 412727,
+      "icon": "spell_shadow_demonictactics"
+    },
+    "demonic grace": {
+      "spellId": 425463,
+      "icon": "ability_warlock_demonicpower"
+    },
+    "soul siphon": {
+      "spellId": 403511,
+      "icon": "spell_shadow_lifedrain02"
+    },
+    "master channeler": {
+      "spellId": 403668,
+      "icon": "spell_shadow_lifedrain"
+    },
+    "everlasting affliction": {
+      "spellId": 412689,
+      "icon": "ability_warlock_everlastingaffliction"
+    },
+    "shadow bolt volley": {
+      "spellId": 403628,
+      "icon": "spell_shadow_shadetruesight"
+    },
+    "lake of fire": {
+      "spellId": 403666,
+      "icon": "spell_fire_selfdestruct"
+    },
+    "demonic pact": {
+      "spellId": 425464,
+      "icon": "spell_shadow_demonicpact"
+    },
+    "incinerate": {
+      "spellId": 412758,
+      "icon": "spell_fire_burnout"
+    },
+    "metamorphosis": {
+      "spellId": 403789,
+      "icon": "spell_shadow_demonform"
+    }
+  }
+}

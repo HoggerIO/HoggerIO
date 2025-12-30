@@ -1,0 +1,1737 @@
+{
+    "Glyph of the Penguin": {
+        "id": "43361",
+        "icon": "inv_misc_penguinpet",
+        "glyphType": 2
+    },
+    "Glyph of Rebirth": {
+        "id": "40909",
+        "icon": "spell_nature_reincarnation",
+        "glyphType": 1
+    },
+    "Glyph of Regrowth": {
+        "id": "40912",
+        "icon": "spell_nature_resistnature",
+        "glyphType": 3
+    },
+    "Glyph of Rejuvenation": {
+        "id": "40913",
+        "icon": "spell_nature_rejuvenation",
+        "glyphType": 3
+    },
+    "Glyph of Wrath": {
+        "id": "40922",
+        "icon": "spell_nature_wrathv2",
+        "glyphType": 3
+    },
+    "Glyph of Entangling Roots": {
+        "id": "40924",
+        "icon": "spell_nature_stranglevines",
+        "glyphType": 1
+    },
+    "Glyph of Frenzied Regeneration": {
+        "id": "40896",
+        "icon": "ability_bullrush",
+        "glyphType": 1
+    },
+    "Glyph of Maul": {
+        "id": "40897",
+        "icon": "ability_druid_maul",
+        "glyphType": 1
+    },
+    "Glyph of Solar Beam": {
+        "id": "40899",
+        "icon": "ability_vehicle_sonicshockwave",
+        "glyphType": 1
+    },
+    "Glyph of Mangle": {
+        "id": "40900",
+        "icon": "ability_druid_mangle2",
+        "glyphType": 3
+    },
+    "Glyph of Bloodletting": {
+        "id": "40901",
+        "icon": "spell_shadow_vampiricaura",
+        "glyphType": 3
+    },
+    "Glyph of Rip": {
+        "id": "40902",
+        "icon": "ability_ghoulfrenzy",
+        "glyphType": 3
+    },
+    "Glyph of Pounce": {
+        "id": "40903",
+        "icon": "ability_druid_supriseattack",
+        "glyphType": 1
+    },
+    "Glyph of Swiftmend": {
+        "id": "40906",
+        "icon": "inv_relics_idolofrejuvenation",
+        "glyphType": 3
+    },
+    "Glyph of Healing Touch": {
+        "id": "40914",
+        "icon": "spell_nature_healingtouch",
+        "glyphType": 1
+    },
+    "Glyph of Lifebloom": {
+        "id": "40915",
+        "icon": "inv_misc_herb_felblossom",
+        "glyphType": 3
+    },
+    "Glyph of Starfall": {
+        "id": "40921",
+        "icon": "ability_druid_starfall",
+        "glyphType": 1
+    },
+    "Glyph of Moonfire": {
+        "id": "40923",
+        "icon": "spell_nature_starfall",
+        "glyphType": 3
+    },
+    "Glyph of Insect Swarm": {
+        "id": "40919",
+        "icon": "spell_nature_insectswarm",
+        "glyphType": 3
+    },
+    "Glyph of Hurricane": {
+        "id": "40920",
+        "icon": "spell_nature_cyclone",
+        "glyphType": 1
+    },
+    "Glyph of Innervate": {
+        "id": "40908",
+        "icon": "spell_nature_lightning",
+        "glyphType": 1
+    },
+    "Glyph of Starfire": {
+        "id": "40916",
+        "icon": "spell_arcane_starfire",
+        "glyphType": 3
+    },
+    "Glyph of Judgement": {
+        "id": "41092",
+        "icon": "spell_holy_righteousfury",
+        "glyphType": 3
+    },
+    "Glyph of Hammer of Justice": {
+        "id": "41095",
+        "icon": "spell_holy_sealofmight",
+        "glyphType": 1
+    },
+    "Glyph of Divine Protection": {
+        "id": "41096",
+        "icon": "spell_holy_divineprotection",
+        "glyphType": 1
+    },
+    "Glyph of Rebuke": {
+        "id": "41094",
+        "icon": "spell_holy_rebuke",
+        "glyphType": 1
+    },
+    "Glyph of Hammer of Wrath": {
+        "id": "41097",
+        "icon": "inv_hammer_04",
+        "glyphType": 1
+    },
+    "Glyph of Crusader Strike": {
+        "id": "41098",
+        "icon": "spell_holy_crusaderstrike",
+        "glyphType": 3
+    },
+    "Glyph of Consecration": {
+        "id": "41099",
+        "icon": "spell_holy_innerfire",
+        "glyphType": 1
+    },
+    "Glyph of Focused Shield": {
+        "id": "41101",
+        "icon": "spell_holy_avengersshield",
+        "glyphType": 1
+    },
+    "Glyph of Turn Evil": {
+        "id": "41102",
+        "icon": "spell_holy_turnundead",
+        "glyphType": 1
+    },
+    "Glyph of Exorcism": {
+        "id": "41103",
+        "icon": "spell_holy_excorcism_02",
+        "glyphType": 3
+    },
+    "Glyph of Cleansing": {
+        "id": "41104",
+        "icon": "spell_holy_purify",
+        "glyphType": 1
+    },
+    "Glyph of Word of Glory": {
+        "id": "41105",
+        "icon": "inv_helmet_96",
+        "glyphType": 3
+    },
+    "Glyph of Divine Favor": {
+        "id": "41106",
+        "icon": "spell_holy_divineillumination",
+        "glyphType": 3
+    },
+    "Glyph of the Ascetic Crusader": {
+        "id": "41107",
+        "icon": "spell_holy_crusaderstrike",
+        "glyphType": 1
+    },
+    "Glyph of Divinity": {
+        "id": "41108",
+        "icon": "spell_holy_layonhands",
+        "glyphType": 1
+    },
+    "Glyph of Light of Dawn": {
+        "id": "41109",
+        "icon": "spell_paladin_lightofdawn",
+        "glyphType": 1
+    },
+    "Glyph of Seal of Insight": {
+        "id": "41110",
+        "icon": "spell_holy_healingaura",
+        "glyphType": 3
+    },
+    "Glyph of Water Shield": {
+        "id": "41541",
+        "icon": "ability_shaman_watershield",
+        "glyphType": 3
+    },
+    "Glyph of Chain Heal": {
+        "id": "41517",
+        "icon": "spell_nature_healingwavegreater",
+        "glyphType": 1
+    },
+    "Glyph of Totemic Recall": {
+        "id": "41535",
+        "icon": "spell_shaman_totemrecall",
+        "glyphType": 1
+    },
+    "Glyph of Earthliving Weapon": {
+        "id": "41527",
+        "icon": "spell_shaman_unleashweapon_life",
+        "glyphType": 3
+    },
+    "Glyph of Healing Wave": {
+        "id": "41534",
+        "icon": "spell_nature_healingwavegreater",
+        "glyphType": 1
+    },
+    "Glyph of Grounding Totem": {
+        "id": "41538",
+        "icon": "spell_nature_groundingtotem",
+        "glyphType": 1
+    },
+    "Glyph of Shocking": {
+        "id": "41526",
+        "icon": "spell_nature_earthshock",
+        "glyphType": 3
+    },
+    "Glyph of Frost Shock": {
+        "id": "41547",
+        "icon": "spell_frost_frostshock",
+        "glyphType": 1
+    },
+    "Glyph of Lava Lash": {
+        "id": "41540",
+        "icon": "ability_shaman_lavalash",
+        "glyphType": 3
+    },
+    "Glyph of Windfury Weapon": {
+        "id": "41542",
+        "icon": "spell_shaman_unleashweapon_wind",
+        "glyphType": 3
+    },
+    "Glyph of Stormstrike": {
+        "id": "41539",
+        "icon": "ability_shaman_stormstrike",
+        "glyphType": 3
+    },
+    "Glyph of Flame Shock": {
+        "id": "41531",
+        "icon": "spell_fire_flameshock",
+        "glyphType": 3
+    },
+    "Glyph of Lightning Shield": {
+        "id": "41537",
+        "icon": "spell_nature_lightningshield",
+        "glyphType": 1
+    },
+    "Glyph of Chain Lightning": {
+        "id": "41518",
+        "icon": "spell_nature_chainlightning",
+        "glyphType": 1
+    },
+    "Glyph of Fire Nova": {
+        "id": "41530",
+        "icon": "spell_shaman_firenova",
+        "glyphType": 1
+    },
+    "Glyph of Flametongue Weapon": {
+        "id": "41532",
+        "icon": "spell_shaman_unleashweapon_flame",
+        "glyphType": 3
+    },
+    "Glyph of Elemental Mastery": {
+        "id": "41552",
+        "icon": "spell_nature_wispheal",
+        "glyphType": 1
+    },
+    "Glyph of Lightning Bolt": {
+        "id": "41536",
+        "icon": "spell_nature_lightning",
+        "glyphType": 3
+    },
+    "Glyph of Lava Burst": {
+        "id": "41524",
+        "icon": "spell_shaman_lavaburst",
+        "glyphType": 3
+    },
+    "Glyph of Fire Elemental Totem": {
+        "id": "41529",
+        "icon": "spell_fire_elemental_totem",
+        "glyphType": 3
+    },
+    "Glyph of Healing Stream Totem": {
+        "id": "41533",
+        "icon": "inv_spear_04",
+        "glyphType": 1
+    },
+    "Glyph of Power Word: Shield": {
+        "id": "42408",
+        "icon": "spell_holy_powerwordshield",
+        "glyphType": 3
+    },
+    "Glyph of Lightwell": {
+        "id": "42403",
+        "icon": "spell_holy_summonlightwell",
+        "glyphType": 3
+    },
+    "Glyph of Renew": {
+        "id": "42411",
+        "icon": "spell_holy_renew",
+        "glyphType": 3
+    },
+    "Glyph of Circle of Healing": {
+        "id": "42396",
+        "icon": "spell_holy_circleofrenewal",
+        "glyphType": 1
+    },
+    "Glyph of Psychic Scream": {
+        "id": "42410",
+        "icon": "spell_shadow_psychicscream",
+        "glyphType": 1
+    },
+    "Glyph of Dispel Magic": {
+        "id": "42397",
+        "icon": "spell_holy_dispelmagic",
+        "glyphType": 1
+    },
+    "Glyph of Fear Ward": {
+        "id": "42399",
+        "icon": "spell_holy_excorcism",
+        "glyphType": 1
+    },
+    "Glyph of Flash Heal": {
+        "id": "42400",
+        "icon": "spell_holy_flashheal",
+        "glyphType": 3
+    },
+    "Glyph of Prayer of Healing": {
+        "id": "42409",
+        "icon": "spell_holy_prayerofhealing02",
+        "glyphType": 3
+    },
+    "Glyph of Shadow Word: Pain": {
+        "id": "42406",
+        "icon": "spell_shadow_shadowwordpain",
+        "glyphType": 3
+    },
+    "Glyph of Shadow Word: Death": {
+        "id": "42414",
+        "icon": "spell_shadow_demonicfortitude",
+        "glyphType": 3
+    },
+    "Glyph of Holy Nova": {
+        "id": "42401",
+        "icon": "spell_holy_holynova",
+        "glyphType": 1
+    },
+    "Glyph of Fade": {
+        "id": "42398",
+        "icon": "spell_magic_lesserinvisibilty",
+        "glyphType": 1
+    },
+    "Glyph of Prayer of Mending": {
+        "id": "42417",
+        "icon": "spell_holy_prayerofmendingtga",
+        "glyphType": 1
+    },
+    "Glyph of Inner Fire": {
+        "id": "42402",
+        "icon": "spell_holy_innerfire",
+        "glyphType": 1
+    },
+    "Glyph of Mind Flay": {
+        "id": "42415",
+        "icon": "spell_shadow_siphonmana",
+        "glyphType": 3
+    },
+    "Glyph of Psychic Horror": {
+        "id": "42405",
+        "icon": "spell_shadow_psychichorrors",
+        "glyphType": 1
+    },
+    "Glyph of Power Word: Barrier": {
+        "id": "42407",
+        "icon": "spell_holy_powerwordbarrier",
+        "glyphType": 3
+    },
+    "Glyph of Scourge Imprisonment": {
+        "id": "42412",
+        "icon": "spell_holy_crusade",
+        "glyphType": 1
+    },
+    "Glyph of Mass Dispel": {
+        "id": "42404",
+        "icon": "spell_arcane_massdispel",
+        "glyphType": 1
+    },
+    "Glyph of Smite": {
+        "id": "42416",
+        "icon": "spell_holy_holysmite",
+        "glyphType": 1
+    },
+    "Glyph of Howl of Terror": {
+        "id": "42463",
+        "icon": "spell_shadow_deathscream",
+        "glyphType": 1
+    },
+    "Glyph of Corruption": {
+        "id": "42455",
+        "icon": "spell_shadow_abominationexplosion",
+        "glyphType": 3
+    },
+    "Glyph of Healthstone": {
+        "id": "42462",
+        "icon": "inv_stone_04",
+        "glyphType": 1
+    },
+    "Glyph of Soul Swap": {
+        "id": "42466",
+        "icon": "ability_warlock_soulswap",
+        "glyphType": 1
+    },
+    "Glyph of Immolate": {
+        "id": "42464",
+        "icon": "spell_fire_immolation",
+        "glyphType": 3
+    },
+    "Glyph of Shadowburn": {
+        "id": "42468",
+        "icon": "spell_shadow_scourgebuild",
+        "glyphType": 3
+    },
+    "Glyph of Soulstone": {
+        "id": "42470",
+        "icon": "inv_misc_orb_04",
+        "glyphType": 1
+    },
+    "Glyph of Death Coil": {
+        "id": "45804",
+        "icon": "spell_shadow_deathcoil",
+        "glyphType": 3
+    },
+    "Glyph of Unstable Affliction": {
+        "id": "42472",
+        "icon": "spell_shadow_unstableaffliction_3",
+        "glyphType": 3
+    },
+    "Glyph of Conflagrate": {
+        "id": "42454",
+        "icon": "spell_fire_fireball",
+        "glyphType": 3
+    },
+    "Glyph of Health Funnel": {
+        "id": "42461",
+        "icon": "spell_shadow_lifedrain",
+        "glyphType": 2
+    },
+    "Glyph of Shadow Bolt": {
+        "id": "42467",
+        "icon": "spell_shadow_shadowbolt",
+        "glyphType": 1
+    },
+    "Glyph of Bane of Agony": {
+        "id": "42456",
+        "icon": "spell_shadow_curseofsargeras",
+        "glyphType": 3
+    },
+    "Glyph of Incinerate": {
+        "id": "42453",
+        "icon": "spell_fire_burnout",
+        "glyphType": 3
+    },
+    "Glyph of Fear": {
+        "id": "42458",
+        "icon": "spell_shadow_possession",
+        "glyphType": 1
+    },
+    "Glyph of Felguard": {
+        "id": "42459",
+        "icon": "spell_shadow_summonfelguard",
+        "glyphType": 3
+    },
+    "Glyph of Voidwalker": {
+        "id": "42473",
+        "icon": "spell_shadow_summonvoidwalker",
+        "glyphType": 1
+    },
+    "Glyph of Imp": {
+        "id": "42465",
+        "icon": "spell_shadow_summonimp",
+        "glyphType": 3
+    },
+    "Glyph of Felhunter": {
+        "id": "42460",
+        "icon": "spell_shadow_summonfelhunter",
+        "glyphType": 1
+    },
+    "Glyph of Seduction": {
+        "id": "42471",
+        "icon": "spell_shadow_mindsteal",
+        "glyphType": 1
+    },
+    "Glyph of Arcane Missiles": {
+        "id": "42735",
+        "icon": "spell_nature_starfall",
+        "glyphType": 3
+    },
+    "Glyph of Cone of Cold": {
+        "id": "42753",
+        "icon": "spell_frost_glacier",
+        "glyphType": 3
+    },
+    "Glyph of Blink": {
+        "id": "42737",
+        "icon": "spell_arcane_blink",
+        "glyphType": 1
+    },
+    "Glyph of Invisibility": {
+        "id": "42748",
+        "icon": "ability_mage_invisibility",
+        "glyphType": 1
+    },
+    "Glyph of Fireball": {
+        "id": "42739",
+        "icon": "spell_fire_flamebolt",
+        "glyphType": 3
+    },
+    "Glyph of Frostbolt": {
+        "id": "42742",
+        "icon": "spell_frost_frostbolt02",
+        "glyphType": 3
+    },
+    "Glyph of Ice Block": {
+        "id": "42744",
+        "icon": "spell_frost_frost",
+        "glyphType": 1
+    },
+    "Glyph of Dragon's Breath": {
+        "id": "42754",
+        "icon": "inv_misc_head_dragon_01",
+        "glyphType": 1
+    },
+    "Glyph of Icy Veins": {
+        "id": "42746",
+        "icon": "spell_frost_coldhearted",
+        "glyphType": 1
+    },
+    "Glyph of Polymorph": {
+        "id": "42752",
+        "icon": "spell_nature_polymorph",
+        "glyphType": 1
+    },
+    "Glyph of Frost Nova": {
+        "id": "42741",
+        "icon": "spell_frost_frostnova",
+        "glyphType": 1
+    },
+    "Glyph of Ice Lance": {
+        "id": "42745",
+        "icon": "spell_frost_frostblast",
+        "glyphType": 3
+    },
+    "Glyph of Evocation": {
+        "id": "42738",
+        "icon": "spell_nature_purge",
+        "glyphType": 1
+    },
+    "Glyph of Arcane Power": {
+        "id": "42736",
+        "icon": "spell_nature_lightning",
+        "glyphType": 1
+    },
+    "Glyph of Molten Armor": {
+        "id": "42751",
+        "icon": "ability_mage_moltenarmor",
+        "glyphType": 3
+    },
+    "Glyph of Mage Armor": {
+        "id": "42749",
+        "icon": "spell_magearmor",
+        "glyphType": 3
+    },
+    "Glyph of Pyroblast": {
+        "id": "42743",
+        "icon": "spell_fire_fireball02",
+        "glyphType": 3
+    },
+    "Glyph of Dazing Shield": {
+        "id": "43868",
+        "icon": "spell_holy_avengersshield",
+        "glyphType": 1
+    },
+    "Glyph of Seal of Truth": {
+        "id": "43869",
+        "icon": "spell_holy_sealofvengeance",
+        "glyphType": 3
+    },
+    "Glyph of Holy Wrath": {
+        "id": "43867",
+        "icon": "spell_holy_purifyingpower",
+        "glyphType": 1
+    },
+    "Glyph of Sap": {
+        "id": "42970",
+        "icon": "ability_sap",
+        "glyphType": 1
+    },
+    "Glyph of Evasion": {
+        "id": "42960",
+        "icon": "spell_shadow_shadowward",
+        "glyphType": 1
+    },
+    "Glyph of Backstab": {
+        "id": "42956",
+        "icon": "ability_backstab",
+        "glyphType": 3
+    },
+    "Glyph of Rupture": {
+        "id": "42969",
+        "icon": "ability_rogue_rupture",
+        "glyphType": 3
+    },
+    "Glyph of Eviscerate": {
+        "id": "42961",
+        "icon": "ability_rogue_eviscerate",
+        "glyphType": 3
+    },
+    "Glyph of Expose Armor": {
+        "id": "42962",
+        "icon": "ability_warrior_riposte",
+        "glyphType": 1
+    },
+    "Glyph of Feint": {
+        "id": "42963",
+        "icon": "ability_rogue_feint",
+        "glyphType": 1
+    },
+    "Glyph of Kick": {
+        "id": "42971",
+        "icon": "ability_kick",
+        "glyphType": 1
+    },
+    "Glyph of Deadly Throw": {
+        "id": "42959",
+        "icon": "inv_throwingknife_06",
+        "glyphType": 1
+    },
+    "Glyph of Hemorrhage": {
+        "id": "42967",
+        "icon": "spell_shadow_lifedrain",
+        "glyphType": 3
+    },
+    "Glyph of Adrenaline Rush": {
+        "id": "42954",
+        "icon": "spell_shadow_shadowworddominate",
+        "glyphType": 3
+    },
+    "Glyph of Gouge": {
+        "id": "42966",
+        "icon": "ability_gouge",
+        "glyphType": 1
+    },
+    "Glyph of Slice and Dice": {
+        "id": "42973",
+        "icon": "ability_rogue_slicedice",
+        "glyphType": 3
+    },
+    "Glyph of Sprint": {
+        "id": "42974",
+        "icon": "ability_rogue_sprint",
+        "glyphType": 1
+    },
+    "Glyph of Garrote": {
+        "id": "42964",
+        "icon": "ability_rogue_garrote",
+        "glyphType": 1
+    },
+    "Glyph of Ambush": {
+        "id": "42955",
+        "icon": "ability_rogue_ambush",
+        "glyphType": 1
+    },
+    "Glyph of Revealing Strike": {
+        "id": "42965",
+        "icon": "inv_sword_97",
+        "glyphType": 3
+    },
+    "Glyph of Blade Flurry": {
+        "id": "42957",
+        "icon": "ability_warrior_punishingblow",
+        "glyphType": 1
+    },
+    "Glyph of Preparation": {
+        "id": "42968",
+        "icon": "ability_rogue_preparation",
+        "glyphType": 1
+    },
+    "Glyph of Crippling Poison": {
+        "id": "42958",
+        "icon": "ability_poisonsting",
+        "glyphType": 1
+    },
+    "Glyph of Sinister Strike": {
+        "id": "42972",
+        "icon": "spell_shadow_ritualofsacrifice",
+        "glyphType": 3
+    },
+    "Glyph of Aimed Shot": {
+        "id": "42897",
+        "icon": "inv_spear_07",
+        "glyphType": 3
+    },
+    "Glyph of Steady Shot": {
+        "id": "42914",
+        "icon": "ability_hunter_steadyshot",
+        "glyphType": 3
+    },
+    "Glyph of Rapid Fire": {
+        "id": "42911",
+        "icon": "ability_hunter_runningshot",
+        "glyphType": 3
+    },
+    "Glyph of Misdirection": {
+        "id": "42907",
+        "icon": "ability_hunter_misdirection",
+        "glyphType": 1
+    },
+    "Glyph of Bestial Wrath": {
+        "id": "42902",
+        "icon": "ability_druid_ferociousbite",
+        "glyphType": 1
+    },
+    "Glyph of Serpent Sting": {
+        "id": "42912",
+        "icon": "ability_hunter_quickshot",
+        "glyphType": 3
+    },
+    "Glyph of Mending": {
+        "id": "42900",
+        "icon": "ability_hunter_mendpet",
+        "glyphType": 1
+    },
+    "Glyph of Silencing Shot": {
+        "id": "42910",
+        "icon": "ability_theblackarrow",
+        "glyphType": 1
+    },
+    "Glyph of Arcane Shot": {
+        "id": "42898",
+        "icon": "ability_impalingbolt",
+        "glyphType": 3
+    },
+    "Glyph of Kill Command": {
+        "id": "42915",
+        "icon": "ability_hunter_killcommand",
+        "glyphType": 3
+    },
+    "Glyph of Disengage": {
+        "id": "42904",
+        "icon": "ability_rogue_feint",
+        "glyphType": 1
+    },
+    "Glyph of Freezing Trap": {
+        "id": "42905",
+        "icon": "spell_frost_chainsofice",
+        "glyphType": 1
+    },
+    "Glyph of Immolation Trap": {
+        "id": "42908",
+        "icon": "spell_fire_flameshock",
+        "glyphType": 1
+    },
+    "Glyph of Ice Trap": {
+        "id": "42906",
+        "icon": "spell_frost_frostnova",
+        "glyphType": 1
+    },
+    "Glyph of Wyvern Sting": {
+        "id": "42917",
+        "icon": "inv_spear_02",
+        "glyphType": 1
+    },
+    "Glyph of Snake Trap": {
+        "id": "42913",
+        "icon": "ability_hunter_snaketrap",
+        "glyphType": 1
+    },
+    "Glyph of Deterrence": {
+        "id": "42903",
+        "icon": "ability_whirlwind",
+        "glyphType": 1
+    },
+    "Glyph of Concussive Shot": {
+        "id": "42901",
+        "icon": "spell_frost_stun",
+        "glyphType": 1
+    },
+    "Glyph of Dazzled Prey": {
+        "id": "42909",
+        "icon": "ability_rogue_cheatdeath",
+        "glyphType": 3
+    },
+    "Glyph of Trap Launcher": {
+        "id": "42899",
+        "icon": "ability_hunter_traplauncher",
+        "glyphType": 1
+    },
+    "Glyph of Mark of the Wild": {
+        "id": "43335",
+        "icon": "spell_nature_giftofthewild",
+        "glyphType": 2
+    },
+    "Glyph of Aquatic Form": {
+        "id": "43316",
+        "icon": "ability_druid_aquaticform",
+        "glyphType": 2
+    },
+    "Glyph of Unburdened Rebirth": {
+        "id": "43331",
+        "icon": "spell_nature_wispsplodegreen",
+        "glyphType": 2
+    },
+    "Glyph of Challenging Roar": {
+        "id": "43334",
+        "icon": "ability_druid_challangingroar",
+        "glyphType": 2
+    },
+    "Glyph of Thorns": {
+        "id": "43332",
+        "icon": "spell_nature_thorns",
+        "glyphType": 1
+    },
+    "Glyph of Revive Pet": {
+        "id": "43338",
+        "icon": "ability_hunter_beastsoothe",
+        "glyphType": 2
+    },
+    "Glyph of Lesser Proportion": {
+        "id": "43350",
+        "icon": "ability_hunter_bestialdiscipline",
+        "glyphType": 2
+    },
+    "Glyph of Scare Beast": {
+        "id": "43356",
+        "icon": "ability_druid_cower",
+        "glyphType": 2
+    },
+    "Glyph of Feign Death": {
+        "id": "43351",
+        "icon": "ability_rogue_feigndeath",
+        "glyphType": 2
+    },
+    "Glyph of Aspect of the Pack": {
+        "id": "43355",
+        "icon": "ability_mount_whitetiger",
+        "glyphType": 2
+    },
+    "Glyph of Arcane Brilliance": {
+        "id": "43339",
+        "icon": "spell_holy_magicalsentry",
+        "glyphType": 2
+    },
+    "Glyph of Slow Fall": {
+        "id": "43364",
+        "icon": "spell_magic_featherfall",
+        "glyphType": 2
+    },
+    "Glyph of the Monkey": {
+        "id": "43360",
+        "icon": "ability_hunter_aspectofthemonkey",
+        "glyphType": 2
+    },
+    "Glyph of Conjuring": {
+        "id": "43359",
+        "icon": "ability_mage_conjurefoodrank9",
+        "glyphType": 2
+    },
+    "Glyph of Blessing of Kings": {
+        "id": "43365",
+        "icon": "spell_magic_magearmor",
+        "glyphType": 2
+    },
+    "Glyph of Truth": {
+        "id": "43368",
+        "icon": "spell_holy_sealofvengeance",
+        "glyphType": 2
+    },
+    "Glyph of Justice": {
+        "id": "43369",
+        "icon": "spell_holy_sealofwrath",
+        "glyphType": 2
+    },
+    "Glyph of Lay on Hands": {
+        "id": "43367",
+        "icon": "spell_holy_layonhands",
+        "glyphType": 1
+    },
+    "Glyph of Blessing of Might": {
+        "id": "43340",
+        "icon": "spell_holy_greaterblessingofkings",
+        "glyphType": 2
+    },
+    "Glyph of Insight": {
+        "id": "43366",
+        "icon": "spell_holy_healingaura",
+        "glyphType": 2
+    },
+    "Glyph of Fading": {
+        "id": "43342",
+        "icon": "ability_mage_invisibility",
+        "glyphType": 2
+    },
+    "Glyph of Shackle Undead": {
+        "id": "43373",
+        "icon": "spell_nature_slow",
+        "glyphType": 2
+    },
+    "Glyph of Levitate": {
+        "id": "43370",
+        "icon": "spell_holy_layonhands",
+        "glyphType": 2
+    },
+    "Glyph of Fortitude": {
+        "id": "43371",
+        "icon": "spell_holy_wordfortitude",
+        "glyphType": 2
+    },
+    "Glyph of Shadow Protection": {
+        "id": "43372",
+        "icon": "spell_holy_prayerofshadowprotection",
+        "glyphType": 2
+    },
+    "Glyph of Pick Pocket": {
+        "id": "43343",
+        "icon": "inv_misc_bag_11",
+        "glyphType": 2
+    },
+    "Glyph of Pick Lock": {
+        "id": "43377",
+        "icon": "spell_nature_moonkey",
+        "glyphType": 2
+    },
+    "Glyph of Distract": {
+        "id": "43376",
+        "icon": "ability_rogue_distract",
+        "glyphType": 2
+    },
+    "Glyph of Safe Fall": {
+        "id": "43378",
+        "icon": "inv_feather_01",
+        "glyphType": 2
+    },
+    "Glyph of Poisons": {
+        "id": "43380",
+        "icon": "trade_brewpoison",
+        "glyphType": 2
+    },
+    "Glyph of Blurred Speed": {
+        "id": "43379",
+        "icon": "ability_rogue_sprint",
+        "glyphType": 2
+    },
+    "Glyph of Water Walking": {
+        "id": "43388",
+        "icon": "spell_frost_windwalkon",
+        "glyphType": 2
+    },
+    "Glyph of Astral Recall": {
+        "id": "43381",
+        "icon": "spell_nature_astralrecal",
+        "glyphType": 2
+    },
+    "Glyph of Renewed Life": {
+        "id": "43385",
+        "icon": "spell_shaman_improvedreincarnation",
+        "glyphType": 2
+    },
+    "Glyph of Drain Soul": {
+        "id": "43390",
+        "icon": "spell_shadow_haunting",
+        "glyphType": 2
+    },
+    "Glyph of Unending Breath": {
+        "id": "43389",
+        "icon": "spell_shadow_demonbreath",
+        "glyphType": 2
+    },
+    "Glyph of Curse of Exhaustion": {
+        "id": "43392",
+        "icon": "spell_shadow_grimward",
+        "glyphType": 2
+    },
+    "Glyph of Eye of Kilrogg": {
+        "id": "43391",
+        "icon": "spell_shadow_evileye",
+        "glyphType": 2
+    },
+    "Glyph of Ritual of Souls": {
+        "id": "43394",
+        "icon": "spell_shadow_shadesofdarkness",
+        "glyphType": 2
+    },
+    "Glyph of Battle": {
+        "id": "43395",
+        "icon": "ability_warrior_battleshout",
+        "glyphType": 2
+    },
+    "Glyph of Berserker Rage": {
+        "id": "43396",
+        "icon": "spell_nature_ancestralguardian",
+        "glyphType": 2
+    },
+    "Glyph of Long Charge": {
+        "id": "43397",
+        "icon": "ability_warrior_charge",
+        "glyphType": 1
+    },
+    "Glyph of Thunder Clap": {
+        "id": "43399",
+        "icon": "spell_nature_thunderclap",
+        "glyphType": 1
+    },
+    "Glyph of Demoralizing Shout": {
+        "id": "43398",
+        "icon": "ability_warrior_warcry",
+        "glyphType": 2
+    },
+    "Glyph of Enduring Victory": {
+        "id": "43400",
+        "icon": "ability_warrior_devastate",
+        "glyphType": 2
+    },
+    "Glyph of Subjugate Demon": {
+        "id": "43393",
+        "icon": "spell_shadow_enslavedemon",
+        "glyphType": 2
+    },
+    "Glyph of the Arctic Wolf": {
+        "id": "43386",
+        "icon": "ability_mount_whitedirewolf",
+        "glyphType": 2
+    },
+    "Glyph of Shadowfiend": {
+        "id": "43374",
+        "icon": "spell_shadow_shadowfiend",
+        "glyphType": 2
+    },
+    "Glyph of Rapid Charge": {
+        "id": "43413",
+        "icon": "ability_warrior_charge",
+        "glyphType": 1
+    },
+    "Glyph of Resonating Power": {
+        "id": "43430",
+        "icon": "spell_nature_thunderclap",
+        "glyphType": 1
+    },
+    "Glyph of Heroic Throw": {
+        "id": "43418",
+        "icon": "inv_axe_66",
+        "glyphType": 1
+    },
+    "Glyph of Revenge": {
+        "id": "43424",
+        "icon": "ability_warrior_revenge",
+        "glyphType": 3
+    },
+    "Glyph of Cleaving": {
+        "id": "43414",
+        "icon": "ability_warrior_cleave",
+        "glyphType": 1
+    },
+    "Glyph of Bloodthirst": {
+        "id": "43416",
+        "icon": "spell_nature_bloodlust",
+        "glyphType": 3
+    },
+    "Glyph of Mortal Strike": {
+        "id": "43421",
+        "icon": "ability_warrior_savageblow",
+        "glyphType": 3
+    },
+    "Glyph of Bloody Healing": {
+        "id": "43412",
+        "icon": "spell_nature_bloodlust",
+        "glyphType": 2
+    },
+    "Glyph of Raging Blow": {
+        "id": "43432",
+        "icon": "ability_hunter_swiftstrike",
+        "glyphType": 3
+    },
+    "Glyph of Piercing Howl": {
+        "id": "43417",
+        "icon": "spell_shadow_deathscream",
+        "glyphType": 1
+    },
+    "Glyph of Shield Slam": {
+        "id": "43425",
+        "icon": "inv_shield_05",
+        "glyphType": 3
+    },
+    "Glyph of Intervene": {
+        "id": "43419",
+        "icon": "ability_warrior_victoryrush",
+        "glyphType": 1
+    },
+    "Glyph of Victory Rush": {
+        "id": "43431",
+        "icon": "ability_warrior_devastate",
+        "glyphType": 1
+    },
+    "Glyph of Sweeping Strikes": {
+        "id": "43428",
+        "icon": "ability_rogue_slicedice",
+        "glyphType": 1
+    },
+    "Glyph of Slam": {
+        "id": "43423",
+        "icon": "ability_warrior_decisivestrike",
+        "glyphType": 3
+    },
+    "Glyph of Overpower": {
+        "id": "43422",
+        "icon": "ability_meleedamage",
+        "glyphType": 3
+    },
+    "Glyph of Sunder Armor": {
+        "id": "43427",
+        "icon": "ability_warrior_sunder",
+        "glyphType": 1
+    },
+    "Glyph of Devastate": {
+        "id": "43415",
+        "icon": "inv_sword_11",
+        "glyphType": 3
+    },
+    "Glyph of Heart Strike": {
+        "id": "43534",
+        "icon": "inv_weapon_shortblade_40",
+        "glyphType": 3
+    },
+    "Glyph of Strangulate": {
+        "id": "43552",
+        "icon": "spell_shadow_soulleech_3",
+        "glyphType": 1
+    },
+    "Glyph of Chains of Ice": {
+        "id": "43537",
+        "icon": "spell_frost_chainsofice",
+        "glyphType": 1
+    },
+    "Glyph of Anti-Magic Shell": {
+        "id": "43533",
+        "icon": "spell_shadow_antimagicshell",
+        "glyphType": 1
+    },
+    "Glyph of Death and Decay": {
+        "id": "43542",
+        "icon": "spell_shadow_deathanddecay",
+        "glyphType": 3
+    },
+    "Glyph of Icy Touch": {
+        "id": "43546",
+        "icon": "spell_deathknight_icetouch",
+        "glyphType": 3
+    },
+    "Glyph of Pillar of Frost": {
+        "id": "43553",
+        "icon": "ability_deathknight_pillaroffrost",
+        "glyphType": 1
+    },
+    "Glyph of Blood Tap": {
+        "id": "43535",
+        "icon": "spell_deathknight_bloodtap",
+        "glyphType": 2
+    },
+    "Glyph of Scourge Strike": {
+        "id": "43551",
+        "icon": "spell_deathknight_scourgestrike",
+        "glyphType": 3
+    },
+    "Glyph of Frost Strike": {
+        "id": "43543",
+        "icon": "spell_deathknight_empowerruneblade2",
+        "glyphType": 3
+    },
+    "Glyph of Pestilence": {
+        "id": "43548",
+        "icon": "spell_shadow_plaguecloud",
+        "glyphType": 1
+    },
+    "Glyph of Rune Strike": {
+        "id": "43550",
+        "icon": "spell_deathknight_darkconviction",
+        "glyphType": 3
+    },
+    "Glyph of Obliterate": {
+        "id": "43547",
+        "icon": "spell_deathknight_classicon",
+        "glyphType": 3
+    },
+    "Glyph of Bone Shield": {
+        "id": "43536",
+        "icon": "ability_deathknight_boneshield",
+        "glyphType": 1
+    },
+    "Glyph of Vampiric Blood": {
+        "id": "43554",
+        "icon": "spell_shadow_lifedrain",
+        "glyphType": 1
+    },
+    "Glyph of Death's Embrace": {
+        "id": "43539",
+        "icon": "spell_shadow_deathcoil",
+        "glyphType": 2
+    },
+    "Glyph of Horn of Winter": {
+        "id": "43544",
+        "icon": "inv_misc_horn_02",
+        "glyphType": 2
+    },
+    "Glyph of Raise Dead": {
+        "id": "43549",
+        "icon": "spell_shadow_animatedead",
+        "glyphType": 3
+    },
+    "Glyph of Dash": {
+        "id": "43674",
+        "icon": "ability_druid_dash",
+        "glyphType": 2
+    },
+    "Glyph of Ghost Wolf": {
+        "id": "43725",
+        "icon": "spell_nature_spiritwolf",
+        "glyphType": 1
+    },
+    "Glyph of Path of Frost": {
+        "id": "43671",
+        "icon": "spell_deathknight_pathoffrost",
+        "glyphType": 2
+    },
+    "Glyph of Resilient Grip": {
+        "id": "43672",
+        "icon": "spell_deathknight_strangulate",
+        "glyphType": 2
+    },
+    "Glyph of Rune Tap": {
+        "id": "43825",
+        "icon": "spell_deathknight_runetap",
+        "glyphType": 1
+    },
+    "Glyph of Blood Boil": {
+        "id": "43826",
+        "icon": "spell_deathknight_bloodboil",
+        "glyphType": 1
+    },
+    "Glyph of Death Strike": {
+        "id": "43827",
+        "icon": "spell_deathknight_butcher2",
+        "glyphType": 3
+    },
+    "Glyph of Death Gate": {
+        "id": "43673",
+        "icon": "spell_arcane_teleportundercity",
+        "glyphType": 2
+    },
+    "Glyph of Frostfire": {
+        "id": "44684",
+        "icon": "ability_mage_frostfirebolt",
+        "glyphType": 3
+    },
+    "Glyph of Focus": {
+        "id": "44928",
+        "icon": "spell_arcane_arcanepotency",
+        "glyphType": 1
+    },
+    "Glyph of Blast Wave": {
+        "id": "44920",
+        "icon": "spell_holy_excorcism_02",
+        "glyphType": 1
+    },
+    "Glyph of Thunderstorm": {
+        "id": "44923",
+        "icon": "spell_shaman_thunderstorm",
+        "glyphType": 2
+    },
+    "Glyph of Typhoon": {
+        "id": "44922",
+        "icon": "ability_druid_typhoon",
+        "glyphType": 2
+    },
+    "Glyph of Arcane Blast": {
+        "id": "44955",
+        "icon": "spell_arcane_blast",
+        "glyphType": 3
+    },
+    "Glyph of Death Grip": {
+        "id": "43541",
+        "icon": "spell_deathknight_strangulate",
+        "glyphType": 1
+    },
+    "Glyph of Berserk": {
+        "id": "45601",
+        "icon": "ability_druid_berserk",
+        "glyphType": 3
+    },
+    "Glyph of Wild Growth": {
+        "id": "45602",
+        "icon": "ability_druid_flourish",
+        "glyphType": 1
+    },
+    "Glyph of Starsurge": {
+        "id": "45603",
+        "icon": "spell_arcane_arcane03",
+        "glyphType": 3
+    },
+    "Glyph of Savage Roar": {
+        "id": "45604",
+        "icon": "ability_druid_skinteeth",
+        "glyphType": 3
+    },
+    "Glyph of Monsoon": {
+        "id": "45622",
+        "icon": "spell_nature_riptide",
+        "glyphType": 1
+    },
+    "Glyph of Barkskin": {
+        "id": "45623",
+        "icon": "spell_nature_stoneclawtotem",
+        "glyphType": 1
+    },
+    "Glyph of Chimera Shot": {
+        "id": "45625",
+        "icon": "ability_hunter_chimerashot2",
+        "glyphType": 3
+    },
+    "Glyph of Explosive Shot": {
+        "id": "45731",
+        "icon": "ability_hunter_explosiveshot",
+        "glyphType": 3
+    },
+    "Glyph of Kill Shot": {
+        "id": "45732",
+        "icon": "ability_hunter_assassinate2",
+        "glyphType": 3
+    },
+    "Glyph of Master's Call": {
+        "id": "45733",
+        "icon": "ability_hunter_masterscall",
+        "glyphType": 1
+    },
+    "Glyph of Scatter Shot": {
+        "id": "45734",
+        "icon": "ability_golemstormbolt",
+        "glyphType": 1
+    },
+    "Glyph of Raptor Strike": {
+        "id": "45735",
+        "icon": "ability_meleedamage",
+        "glyphType": 1
+    },
+    "Glyph of Deep Freeze": {
+        "id": "45736",
+        "icon": "ability_mage_deepfreeze",
+        "glyphType": 3
+    },
+    "Glyph of Slow": {
+        "id": "45737",
+        "icon": "spell_nature_slow",
+        "glyphType": 1
+    },
+    "Glyph of Arcane Barrage": {
+        "id": "45738",
+        "icon": "ability_mage_arcanebarrage",
+        "glyphType": 3
+    },
+    "Glyph of Mirror Image": {
+        "id": "45739",
+        "icon": "spell_magic_lesserinvisibilty",
+        "glyphType": 2
+    },
+    "Glyph of Ice Barrier": {
+        "id": "45740",
+        "icon": "spell_ice_lament",
+        "glyphType": 1
+    },
+    "Glyph of Beacon of Light": {
+        "id": "45741",
+        "icon": "ability_paladin_beaconoflight",
+        "glyphType": 1
+    },
+    "Glyph of Hammer of the Righteous": {
+        "id": "45742",
+        "icon": "ability_paladin_hammeroftherighteous",
+        "glyphType": 3
+    },
+    "Glyph of Templar's Verdict": {
+        "id": "45743",
+        "icon": "spell_paladin_templarsverdict",
+        "glyphType": 3
+    },
+    "Glyph of Shield of the Righteous": {
+        "id": "45744",
+        "icon": "ability_paladin_shieldofvengeance",
+        "glyphType": 3
+    },
+    "Glyph of Divine Plea": {
+        "id": "45745",
+        "icon": "spell_holy_aspiration",
+        "glyphType": 1
+    },
+    "Glyph of Holy Shock": {
+        "id": "45746",
+        "icon": "spell_holy_searinglight",
+        "glyphType": 3
+    },
+    "Glyph of Salvation": {
+        "id": "45747",
+        "icon": "spell_holy_sealofsalvation",
+        "glyphType": 1
+    },
+    "Glyph of Dispersion": {
+        "id": "45753",
+        "icon": "spell_shadow_dispersion",
+        "glyphType": 3
+    },
+    "Glyph of Guardian Spirit": {
+        "id": "45755",
+        "icon": "spell_holy_guardianspirit",
+        "glyphType": 3
+    },
+    "Glyph of Penance": {
+        "id": "45756",
+        "icon": "spell_holy_penance",
+        "glyphType": 3
+    },
+    "Glyph of Spirit Tap": {
+        "id": "45757",
+        "icon": "spell_shadow_requiem",
+        "glyphType": 1
+    },
+    "Glyph of Divine Accuracy": {
+        "id": "45758",
+        "icon": "spell_holy_holyprotection",
+        "glyphType": 1
+    },
+    "Glyph of Desperation": {
+        "id": "45760",
+        "icon": "spell_holy_painsupression",
+        "glyphType": 1
+    },
+    "Glyph of Vendetta": {
+        "id": "45761",
+        "icon": "ability_rogue_deadliness",
+        "glyphType": 3
+    },
+    "Glyph of Killing Spree": {
+        "id": "45762",
+        "icon": "ability_rogue_murderspree",
+        "glyphType": 3
+    },
+    "Glyph of Shadow Dance": {
+        "id": "45764",
+        "icon": "ability_rogue_shadowdance",
+        "glyphType": 3
+    },
+    "Glyph of Fan of Knives": {
+        "id": "45766",
+        "icon": "ability_rogue_fanofknives",
+        "glyphType": 1
+    },
+    "Glyph of Tricks of the Trade": {
+        "id": "45767",
+        "icon": "ability_rogue_tricksofthetrade",
+        "glyphType": 1
+    },
+    "Glyph of Mutilate": {
+        "id": "45768",
+        "icon": "ability_rogue_shadowstrikes",
+        "glyphType": 3
+    },
+    "Glyph of Cloak of Shadows": {
+        "id": "45769",
+        "icon": "spell_shadow_nethercloak",
+        "glyphType": 1
+    },
+    "Glyph of Thunder": {
+        "id": "45770",
+        "icon": "spell_shaman_thunderstorm",
+        "glyphType": 1
+    },
+    "Glyph of Feral Spirit": {
+        "id": "45771",
+        "icon": "spell_shaman_feralspirit",
+        "glyphType": 3
+    },
+    "Glyph of Riptide": {
+        "id": "45772",
+        "icon": "spell_nature_riptide",
+        "glyphType": 3
+    },
+    "Glyph of Earth Shield": {
+        "id": "45775",
+        "icon": "spell_nature_skinofearth",
+        "glyphType": 3
+    },
+    "Glyph of Shamanistic Rage": {
+        "id": "45776",
+        "icon": "spell_nature_shamanrage",
+        "glyphType": 1
+    },
+    "Glyph of Hex": {
+        "id": "45777",
+        "icon": "spell_shaman_hex",
+        "glyphType": 1
+    },
+    "Glyph of Stoneclaw Totem": {
+        "id": "45778",
+        "icon": "spell_nature_stoneclawtotem",
+        "glyphType": 1
+    },
+    "Glyph of Haunt": {
+        "id": "45779",
+        "icon": "ability_warlock_haunt",
+        "glyphType": 3
+    },
+    "Glyph of Metamorphosis": {
+        "id": "45780",
+        "icon": "spell_shadow_demonform",
+        "glyphType": 3
+    },
+    "Glyph of Chaos Bolt": {
+        "id": "45781",
+        "icon": "ability_warlock_chaosbolt",
+        "glyphType": 3
+    },
+    "Glyph of Demonic Circle": {
+        "id": "45782",
+        "icon": "spell_shadow_demoniccircleteleport",
+        "glyphType": 1
+    },
+    "Glyph of Shadowflame": {
+        "id": "45783",
+        "icon": "ability_warlock_shadowflame",
+        "glyphType": 1
+    },
+    "Glyph of Soul Link": {
+        "id": "45789",
+        "icon": "spell_shadow_gathershadows",
+        "glyphType": 1
+    },
+    "Glyph of Life Tap": {
+        "id": "45785",
+        "icon": "spell_shadow_burningspirit",
+        "glyphType": 1
+    },
+    "Glyph of Bladestorm": {
+        "id": "45790",
+        "icon": "ability_warrior_bladestorm",
+        "glyphType": 3
+    },
+    "Glyph of Shockwave": {
+        "id": "45792",
+        "icon": "ability_warrior_shockwave",
+        "glyphType": 1
+    },
+    "Glyph of Furious Sundering": {
+        "id": "45793",
+        "icon": "ability_warrior_sunder",
+        "glyphType": 2
+    },
+    "Glyph of Intimidating Shout": {
+        "id": "45794",
+        "icon": "ability_golemthunderclap",
+        "glyphType": 2
+    },
+    "Glyph of Spell Reflection": {
+        "id": "45795",
+        "icon": "ability_warrior_shieldreflection",
+        "glyphType": 1
+    },
+    "Glyph of Shield Wall": {
+        "id": "45797",
+        "icon": "ability_warrior_shieldwall",
+        "glyphType": 1
+    },
+    "Glyph of Dancing Rune Weapon": {
+        "id": "45799",
+        "icon": "inv_sword_07",
+        "glyphType": 1
+    },
+    "Glyph of Hungering Cold": {
+        "id": "45800",
+        "icon": "inv_staff_15",
+        "glyphType": 1
+    },
+    "Glyph of Howling Blast": {
+        "id": "45806",
+        "icon": "spell_frost_arcticwinds",
+        "glyphType": 3
+    },
+    "Glyph of Ferocious Bite": {
+        "id": "48720",
+        "icon": "ability_druid_ferociousbite",
+        "glyphType": 1
+    },
+    "Glyph of Command": {
+        "id": "49084",
+        "icon": "ability_warrior_rallyingcry",
+        "glyphType": 2
+    },
+    "Glyph of Mana Shield": {
+        "id": "50045",
+        "icon": "spell_shadow_detectlesserinvisibility",
+        "glyphType": 1
+    },
+    "Glyph of Lash of Pain": {
+        "id": "50077",
+        "icon": "spell_shadow_curse",
+        "glyphType": 3
+    },
+    "Glyph of Colossus Smash": {
+        "id": "63481",
+        "icon": "ability_warrior_colossussmash",
+        "glyphType": 1
+    },
+    "Glyph of Righteousness": {
+        "id": "41100",
+        "icon": "spell_holy_righteousnessaura",
+        "glyphType": 2
+    },
+    "Glyph of Water Breathing": {
+        "id": "43344",
+        "icon": "spell_shadow_demonbreath",
+        "glyphType": 2
+    },
+    "Glyph of Armors": {
+        "id": "63416",
+        "icon": "spell_frost_chillingarmor",
+        "glyphType": 2
+    },
+    "Glyph of Vanish": {
+        "id": "63420",
+        "icon": "ability_vanish",
+        "glyphType": 1
+    },
+    "Glyph of Living Bomb": {
+        "id": "63539",
+        "icon": "ability_mage_livingbomb",
+        "glyphType": 3
+    },
+    "Glyph of Blind": {
+        "id": "64493",
+        "icon": "spell_shadow_mindsteal",
+        "glyphType": 1
+    },
+    "Glyph of the Long Word": {
+        "id": "66918",
+        "icon": "inv_helmet_96",
+        "glyphType": 1
+    },
+    "Glyph of Intercept": {
+        "id": "67482",
+        "icon": "ability_rogue_sprint",
+        "glyphType": 1
+    },
+    "Glyph of Death Wish": {
+        "id": "67483",
+        "icon": "spell_shadow_deathpact",
+        "glyphType": 1
+    },
+    "Glyph of Lacerate": {
+        "id": "67484",
+        "icon": "ability_druid_lacerate",
+        "glyphType": 3
+    },
+    "Glyph of Faerie Fire": {
+        "id": "67485",
+        "icon": "spell_nature_faeriefire",
+        "glyphType": 1
+    },
+    "Glyph of Feral Charge": {
+        "id": "67486",
+        "icon": "ability_hunter_pet_bear",
+        "glyphType": 1
+    },
+    "Glyph of Tiger's Fury": {
+        "id": "67487",
+        "icon": "ability_mount_jungletiger",
+        "glyphType": 3
+    },
+    "Glyph of the Treant": {
+        "id": "68039",
+        "icon": "ability_druid_treeoflife",
+        "glyphType": 2
+    },
+    "Glyph of Dark Succor": {
+        "id": "68793",
+        "icon": "spell_deathknight_butcher2",
+        "glyphType": 1
+    },
+    "Glyph of Frost Armor": {
+        "id": "69773",
+        "icon": "spell_frost_frostarmor02",
+        "glyphType": 1
+    },
+    "Glyph of Unleashed Lightning": {
+        "id": "71155",
+        "icon": "spell_nature_lightning",
+        "glyphType": 3
+    },
+    "Glyph of Shadow": {
+        "id": "77101",
+        "icon": "inv_misc_questionmark",
+        "glyphType": 2
+    },
+    "Glyph of Reckoning": {
+        "id": "204385",
+        "icon": "inv_misc_questionmark",
+        "glyphType": 1
+    },
+    "Glyph of Omen of Clarity": {
+        "id": "206580",
+        "icon": "inv_misc_questionmark",
+        "glyphType": 1
+    },
+    "Glyph of Shattering Throw": {
+        "id": "206953",
+        "icon": "inv_misc_questionmark",
+        "glyphType": 2
+    }
+}
