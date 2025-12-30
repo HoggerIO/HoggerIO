@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Question or Discussion
+    url: https://github.com/hogger-io/HoggerIO/discussions
+    about: Ask questions or discuss ideas with the community
+  - name: Live Site
+    url: https://hogger.io
+    about: Visit the live application
