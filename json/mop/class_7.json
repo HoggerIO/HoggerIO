@@ -1,0 +1,326 @@
+{
+  "glyphs": {
+    "Glyph of Water Shield": {
+      "id": 41541,
+      "icon": "ability_shaman_watershield",
+      "type": 1
+    },
+    "Glyph of Unstable Earth": {
+      "id": 41517,
+      "icon": "spell_shaman_earthquake",
+      "type": 1
+    },
+    "Glyph of Chain Lightning": {
+      "id": 41518,
+      "icon": "spell_nature_chainlightning",
+      "type": 1
+    },
+    "Glyph of Spirit Walk": {
+      "id": 41524,
+      "icon": "ability_tracking",
+      "type": 1
+    },
+    "Glyph of Capacitor Totem": {
+      "id": 41526,
+      "icon": "spell_nature_brilliance",
+      "type": 1
+    },
+    "Glyph of Purge": {
+      "id": 41527,
+      "icon": "spell_nature_purge",
+      "type": 1
+    },
+    "Glyph of Fire Elemental Totem": {
+      "id": 41529,
+      "icon": "spell_fire_elemental_totem",
+      "type": 1
+    },
+    "Glyph of Fire Nova": {
+      "id": 41530,
+      "icon": "spell_shaman_firenova",
+      "type": 1
+    },
+    "Glyph of Flame Shock": {
+      "id": 41531,
+      "icon": "spell_fire_flameshock",
+      "type": 1
+    },
+    "Glyph of Wind Shear": {
+      "id": 41532,
+      "icon": "spell_nature_cyclone",
+      "type": 1
+    },
+    "Glyph of Frost Shock": {
+      "id": 41547,
+      "icon": "spell_frost_frostshock",
+      "type": 1
+    },
+    "Glyph of Healing Stream Totem": {
+      "id": 41533,
+      "icon": "inv_spear_04",
+      "type": 1
+    },
+    "Glyph of Healing Wave": {
+      "id": 41534,
+      "icon": "spell_nature_healingwavegreater",
+      "type": 1
+    },
+    "Glyph of Totemic Recall": {
+      "id": 41535,
+      "icon": "spell_shaman_totemrecall",
+      "type": 1
+    },
+    "Glyph of the Lakestrider": {
+      "id": 41537,
+      "icon": "spell_frost_windwalkon",
+      "type": 2
+    },
+    "Glyph of Telluric Currents": {
+      "id": 41536,
+      "icon": "spell_lightning_lightningbolt01",
+      "type": 1
+    },
+    "Glyph of Grounding Totem": {
+      "id": 41538,
+      "icon": "spell_nature_groundingtotem",
+      "type": 1
+    },
+    "Glyph of Spiritwalker's Grace": {
+      "id": 41539,
+      "icon": "spell_shaman_spiritwalkersgrace",
+      "type": 1
+    },
+    "Glyph of Lava Lash": {
+      "id": 41540,
+      "icon": "ability_shaman_lavalash",
+      "type": 2
+    },
+    "Glyph of Chaining": {
+      "id": 41552,
+      "icon": "ability_druid_empoweredtouch",
+      "type": 1
+    },
+    "Glyph of Cleansing Waters": {
+      "id": 41542,
+      "icon": "spell_nature_regeneration_02",
+      "type": 1
+    },
+    "Glyph of Astral Recall": {
+      "id": 43381,
+      "icon": "spell_nature_astralrecal",
+      "type": 2
+    },
+    "Glyph of the Spectral Wolf": {
+      "id": 43386,
+      "icon": "ability_mount_whitedirewolf",
+      "type": 2
+    },
+    "Glyph of Far Sight": {
+      "id": 43385,
+      "icon": "spell_nature_farsight",
+      "type": 2
+    },
+    "Glyph of Healing Storm": {
+      "id": 43344,
+      "icon": "spell_shaman_maelstromweapon",
+      "type": 1
+    },
+    "Glyph of Totemic Encirclement": {
+      "id": 43388,
+      "icon": "ability_shaman_totemrelocation",
+      "type": 2
+    },
+    "Glyph of Ghost Wolf": {
+      "id": 43725,
+      "icon": "spell_nature_spiritwolf",
+      "type": 1
+    },
+    "Glyph of Thunderstorm": {
+      "id": 44923,
+      "icon": "spell_shaman_thunderstorm",
+      "type": 2
+    },
+    "Glyph of Thunder": {
+      "id": 45770,
+      "icon": "spell_shaman_thunderstorm",
+      "type": 1
+    },
+    "Glyph of Feral Spirit": {
+      "id": 45771,
+      "icon": "spell_shaman_feralspirit",
+      "type": 1
+    },
+    "Glyph of Riptide": {
+      "id": 45772,
+      "icon": "spell_nature_riptide",
+      "type": 1
+    },
+    "Glyph of Deluge": {
+      "id": 45775,
+      "icon": "spell_nature_healingwavegreater",
+      "type": 2
+    },
+    "Glyph of Shamanistic Rage": {
+      "id": 45776,
+      "icon": "spell_nature_shamanrage",
+      "type": 1
+    },
+    "Glyph of Hex": {
+      "id": 45777,
+      "icon": "spell_shaman_hex",
+      "type": 1
+    },
+    "Glyph of Totemic Vigor": {
+      "id": 45778,
+      "icon": "inv_relics_totemofrebirth",
+      "type": 1
+    },
+    "Glyph of Lightning Shield": {
+      "id": 71155,
+      "icon": "spell_nature_lightningshield",
+      "type": 1
+    },
+    "Glyph of Rain of Frogs": {
+      "id": 104134,
+      "icon": "inv_pet_toad_blue",
+      "type": 2
+    },
+    "Glyph of Purging": {
+      "id": 104052,
+      "icon": "spell_shaman_improvedreincarnation",
+      "type": 1
+    },
+    "Glyph of Eternal Earth": {
+      "id": 104053,
+      "icon": "spell_shaman_improvedearthshield",
+      "type": 1
+    },
+    "Glyph of Spirit Raptors": {
+      "id": 104126,
+      "icon": "trade_archaeology_dinosaurskeleton",
+      "type": 2
+    },
+    "Glyph of Lingering Ancestors": {
+      "id": 104127,
+      "icon": "spell_shaman_ancestralawakening",
+      "type": 2
+    },
+    "Glyph of Spirit Wolf": {
+      "id": 104128,
+      "icon": "spell_nature_spiritwolf",
+      "type": 2
+    },
+    "Glyph of Flaming Serpents": {
+      "id": 104129,
+      "icon": "spell_nature_guardianward",
+      "type": 2
+    },
+    "Glyph of the Compy": {
+      "id": 104130,
+      "icon": "ability_hunter_pet_raptor",
+      "type": 2
+    },
+    "Glyph of Elemental Familiars": {
+      "id": 104131,
+      "icon": "inv_pet_pandarenelemental",
+      "type": 2
+    },
+    "Glyph of Astral Fixation": {
+      "id": 104133,
+      "icon": "spell_nature_astralrecalgroup",
+      "type": 2
+    }
+  },
+  "talents": [
+    {
+      "id": 30884,
+      "icon": "spell_nature_natureguardian",
+      "name": "Nature's Guardian"
+    },
+    {
+      "id": 108270,
+      "icon": "ability_shaman_stonebulwark",
+      "name": "Stone Bulwark Totem"
+    },
+    {
+      "id": 108271,
+      "icon": "ability_shaman_astralshift",
+      "name": "Astral Shift"
+    },
+    {
+      "id": 63374,
+      "icon": "spell_fire_bluecano",
+      "name": "Frozen Power"
+    },
+    {
+      "id": 51485,
+      "icon": "spell_nature_stranglevines",
+      "name": "Earthgrab Totem"
+    },
+    {
+      "id": 108273,
+      "icon": "ability_shaman_windwalktotem",
+      "name": "Windwalk Totem"
+    },
+    {
+      "id": 108285,
+      "icon": "ability_shaman_multitotemactivation",
+      "name": "Call of the Elements"
+    },
+    {
+      "id": 108284,
+      "icon": "ability_shaman_totemcooldownrefund",
+      "name": "Totemic Persistence"
+    },
+    {
+      "id": 108287,
+      "icon": "ability_shaman_totemrelocation",
+      "name": "Totemic Projection"
+    },
+    {
+      "id": 16166,
+      "icon": "spell_nature_wispheal",
+      "name": "Elemental Mastery"
+    },
+    {
+      "id": 16188,
+      "icon": "spell_shaman_elementaloath",
+      "name": "Ancestral Swiftness"
+    },
+    {
+      "id": 108283,
+      "icon": "ability_shaman_echooftheelements",
+      "name": "Echo of the Elements"
+    },
+    {
+      "id": 147074,
+      "icon": "inv_spear_04",
+      "name": "Rushing Streams"
+    },
+    {
+      "id": 108281,
+      "icon": "ability_shaman_ancestralguidance",
+      "name": "Ancestral Guidance"
+    },
+    {
+      "id": 108282,
+      "icon": "ability_shaman_fortifyingwaters",
+      "name": "Conductivity"
+    },
+    {
+      "id": 117012,
+      "icon": "shaman_talent_unleashedfury",
+      "name": "Unleashed Fury"
+    },
+    {
+      "id": 117013,
+      "icon": "shaman_talent_primalelementalist",
+      "name": "Primal Elementalist"
+    },
+    {
+      "id": 117014,
+      "icon": "shaman_talent_elementalblast",
+      "name": "Elemental Blast"
+    }
+  ]
+}

@@ -1,0 +1,564 @@
+{
+  "talents": {
+    "Arcane": {
+      "9154": {
+        "id": 9154,
+        "row": 0,
+        "col": 0,
+        "icon": "spell_shadow_manaburn",
+        "ranks": [11213, 12574, 12575],
+        "requires": []
+      },
+      "9166": {
+        "id": 9166,
+        "row": 0,
+        "col": 1,
+        "icon": "spell_frost_iceshock",
+        "ranks": [11255, 12598],
+        "requires": []
+      },
+      "9200": {
+        "id": 9200,
+        "row": 0,
+        "col": 2,
+        "icon": "ability_mage_netherwindpresence",
+        "ranks": [44400, 44402, 44403],
+        "requires": []
+      },
+      "9170": {
+        "id": 9170,
+        "row": 1,
+        "col": 0,
+        "icon": "spell_arcane_focusedpower",
+        "ranks": [29447, 55339, 55340],
+        "requires": []
+      },
+      "10864": {
+        "id": 10864,
+        "row": 1,
+        "col": 1,
+        "icon": "spell_arcane_invocation",
+        "ranks": [84722, 84723],
+        "requires": []
+      },
+      "10737": {
+        "id": 10737,
+        "row": 1,
+        "col": 2,
+        "icon": "spell_nature_starfall",
+        "ranks": [83513, 83515],
+        "requires": []
+      },
+      "9172": {
+        "id": 9172,
+        "row": 1,
+        "col": 3,
+        "icon": "spell_arcane_blink",
+        "ranks": [31569, 31570],
+        "requires": []
+      },
+      "9192": {
+        "id": 9192,
+        "row": 2,
+        "col": 0,
+        "icon": "ability_mage_potentspirit",
+        "ranks": [44378, 44379],
+        "requires": [
+          {
+            "id": 9174,
+            "qty": 1
+          }
+        ]
+      },
+      "9174": {
+        "id": 9174,
+        "row": 2,
+        "col": 1,
+        "icon": "spell_nature_enchantarmor",
+        "ranks": [12043],
+        "requires": []
+      },
+      "9198": {
+        "id": 9198,
+        "row": 2,
+        "col": 2,
+        "icon": "ability_mage_missilebarrage",
+        "ranks": [44404, 54486],
+        "requires": [
+          {
+            "id": 10737,
+            "qty": 2
+          }
+        ]
+      },
+      "9178": {
+        "id": 9178,
+        "row": 2,
+        "col": 3,
+        "icon": "spell_arcane_prismaticcloak",
+        "ranks": [31574, 31575, 54354],
+        "requires": []
+      },
+      "9142": {
+        "id": 9142,
+        "row": 3,
+        "col": 0,
+        "icon": "spell_nature_polymorph",
+        "ranks": [11210, 12592],
+        "requires": []
+      },
+      "10733": {
+        "id": 10733,
+        "row": 3,
+        "col": 1,
+        "icon": "spell_arcane_arcanetactics",
+        "ranks": [82930],
+        "requires": [
+          {
+            "id": 9174,
+            "qty": 1
+          }
+        ]
+      },
+      "9188": {
+        "id": 9188,
+        "row": 3,
+        "col": 2,
+        "icon": "ability_mage_incantersabsorbtion",
+        "ranks": [44394, 44395],
+        "requires": []
+      },
+      "12469": {
+        "id": 12469,
+        "row": 3,
+        "col": 3,
+        "icon": "spell_nature_wispsplode",
+        "ranks": [90724, 90731],
+        "requires": []
+      },
+      "11825": {
+        "id": 11825,
+        "row": 3,
+        "col": 3,
+        "icon": "spell_nature_wispsplode",
+        "ranks": [90787, 90788],
+        "requires": []
+      },
+      "9180": {
+        "id": 9180,
+        "row": 4,
+        "col": 0,
+        "icon": "spell_arcane_arcanepotency",
+        "ranks": [31571, 31572],
+        "requires": []
+      },
+      "9196": {
+        "id": 9196,
+        "row": 4,
+        "col": 1,
+        "icon": "spell_nature_slow",
+        "ranks": [31589],
+        "requires": []
+      },
+      "11367": {
+        "id": 11367,
+        "row": 4,
+        "col": 2,
+        "icon": "spell_arcane_blast",
+        "ranks": [86181, 86209],
+        "requires": [
+          {
+            "id": 9196,
+            "qty": 1
+          }
+        ]
+      },
+      "10578": {
+        "id": 10578,
+        "row": 5,
+        "col": 0,
+        "icon": "spell_arcane_studentofmagic",
+        "ranks": [54646],
+        "requires": []
+      },
+      "9194": {
+        "id": 9194,
+        "row": 5,
+        "col": 2,
+        "icon": "inv_misc_gem_emerald_01",
+        "ranks": [31584, 31585],
+        "requires": []
+      },
+      "9186": {
+        "id": 9186,
+        "row": 6,
+        "col": 1,
+        "icon": "spell_nature_lightning",
+        "ranks": [12042],
+        "requires": [
+          {
+            "id": 9196,
+            "qty": 1
+          }
+        ],
+        "spellModifiers": [99064]
+      }
+    },
+    "Frost": {
+      "9862": {
+        "id": 9862,
+        "row": 0,
+        "col": 0,
+        "icon": "spell_frost_chillingbolt",
+        "ranks": [83049, 83050],
+        "requires": []
+      },
+      "11157": {
+        "id": 11157,
+        "row": 0,
+        "col": 1,
+        "icon": "spell_frost_frostbolt",
+        "ranks": [11151, 12952, 12953],
+        "requires": []
+      },
+      "11158": {
+        "id": 11158,
+        "row": 0,
+        "col": 2,
+        "icon": "spell_frost_frostshock",
+        "ranks": [11170, 12982],
+        "requires": []
+      },
+      "9846": {
+        "id": 9846,
+        "row": 1,
+        "col": 0,
+        "icon": "spell_frost_icefloes",
+        "ranks": [31670, 31672, 55094],
+        "requires": []
+      },
+      "11325": {
+        "id": 11325,
+        "row": 1,
+        "col": 1,
+        "icon": "spell_frost_glacier",
+        "ranks": [11190, 12489],
+        "requires": []
+      },
+      "11156": {
+        "id": 11156,
+        "row": 1,
+        "col": 2,
+        "icon": "spell_frost_piercing-chill",
+        "ranks": [83156, 83157],
+        "requires": []
+      },
+      "9854": {
+        "id": 9854,
+        "row": 1,
+        "col": 3,
+        "icon": "spell_frost_wisp",
+        "ranks": [11175, 12569, 12571],
+        "requires": []
+      },
+      "9860": {
+        "id": 9860,
+        "row": 2,
+        "col": 0,
+        "icon": "spell_frost_ice-shards",
+        "ranks": [11185, 12487],
+        "requires": []
+      },
+      "9858": {
+        "id": 9858,
+        "row": 2,
+        "col": 1,
+        "icon": "spell_frost_coldhearted",
+        "ranks": [12472],
+        "requires": []
+      },
+      "9876": {
+        "id": 9876,
+        "row": 2,
+        "col": 2,
+        "icon": "ability_mage_wintersgrasp",
+        "ranks": [44543, 44545, 83074],
+        "requires": []
+      },
+      "11371": {
+        "id": 11371,
+        "row": 2,
+        "col": 3,
+        "icon": "spell_frost_summonwaterelemental",
+        "ranks": [86259, 86260, 86314],
+        "requires": [
+          {
+            "id": 9876,
+            "qty": 3
+          }
+        ]
+      },
+      "9894": {
+        "id": 9894,
+        "row": 3,
+        "col": 0,
+        "icon": "spell_frost_arcticwinds",
+        "ranks": [44561, 86500, 86508],
+        "requires": []
+      },
+      "9870": {
+        "id": 9870,
+        "row": 3,
+        "col": 1,
+        "icon": "spell_frost_wizardmark",
+        "ranks": [11958],
+        "requires": []
+      },
+      "9890": {
+        "id": 9890,
+        "row": 3,
+        "col": 2,
+        "icon": "ability_mage_brainfreeze",
+        "ranks": [44546, 44548, 44549],
+        "requires": []
+      },
+      "9880": {
+        "id": 9880,
+        "row": 4,
+        "col": 0,
+        "icon": "ability_mage_coldasice",
+        "ranks": [44745, 54787],
+        "requires": [
+          {
+            "id": 9882,
+            "qty": 1
+          }
+        ]
+      },
+      "9882": {
+        "id": 9882,
+        "row": 4,
+        "col": 1,
+        "icon": "spell_ice_lament",
+        "ranks": [11426],
+        "requires": [],
+        "spellModifiers": [63095]
+      },
+      "11373": {
+        "id": 11373,
+        "row": 4,
+        "col": 2,
+        "icon": "spell_frost_manarecharge",
+        "ranks": [86303, 86304],
+        "requires": [
+          {
+            "id": 9882,
+            "qty": 1
+          }
+        ]
+      },
+      "11169": {
+        "id": 11169,
+        "row": 5,
+        "col": 2,
+        "icon": "spell_firefrost-orb",
+        "ranks": [84726, 84727],
+        "requires": []
+      },
+      "9898": {
+        "id": 9898,
+        "row": 6,
+        "col": 1,
+        "icon": "ability_mage_deepfreeze",
+        "ranks": [44572],
+        "requires": [
+          {
+            "id": 9882,
+            "qty": 1
+          }
+        ],
+        "spellModifiers": [11151, 12952, 12953, 31674, 31675, 31676]
+      }
+    },
+    "Fire": {
+      "10545": {
+        "id": 10545,
+        "row": 0,
+        "col": 0,
+        "icon": "spell_fire_masterofelements",
+        "ranks": [29074, 29075],
+        "requires": []
+      },
+      "10531": {
+        "id": 10531,
+        "row": 0,
+        "col": 1,
+        "icon": "spell_burningsoul",
+        "ranks": [11083, 84253, 84254],
+        "requires": []
+      },
+      "10523": {
+        "id": 10523,
+        "row": 0,
+        "col": 2,
+        "icon": "spell_fire_fireball",
+        "ranks": [11078, 11080],
+        "requires": []
+      },
+      "10529": {
+        "id": 10529,
+        "row": 1,
+        "col": 0,
+        "icon": "spell_fire_incinerate",
+        "ranks": [11119, 11120, 12846],
+        "requires": []
+      },
+      "11434": {
+        "id": 11434,
+        "row": 1,
+        "col": 1,
+        "icon": "spell_fire_immolation",
+        "ranks": [18459, 18460, 54734],
+        "requires": []
+      },
+      "10555": {
+        "id": 10555,
+        "row": 1,
+        "col": 2,
+        "icon": "spell_fire_burningspeed",
+        "ranks": [31641, 31642],
+        "requires": []
+      },
+      "10537": {
+        "id": 10537,
+        "row": 1,
+        "col": 3,
+        "icon": "spell_fire_meteorstorm",
+        "ranks": [11103, 12357],
+        "requires": []
+      },
+      "11433": {
+        "id": 11433,
+        "row": 2,
+        "col": 0,
+        "icon": "spell_fire_rune",
+        "ranks": [86948, 86949],
+        "requires": []
+      },
+      "10551": {
+        "id": 10551,
+        "row": 2,
+        "col": 1,
+        "icon": "spell_holy_excorcism_02",
+        "ranks": [11113],
+        "requires": []
+      },
+      "10573": {
+        "id": 10573,
+        "row": 2,
+        "col": 2,
+        "icon": "ability_mage_hotstreak",
+        "ranks": [44445],
+        "requires": []
+      },
+      "10547": {
+        "id": 10547,
+        "row": 2,
+        "col": 3,
+        "icon": "spell_fire_soulburn",
+        "ranks": [11115, 11367],
+        "requires": []
+      },
+      "10543": {
+        "id": 10543,
+        "row": 3,
+        "col": 0,
+        "icon": "spell_fire_firearmor",
+        "ranks": [11094],
+        "requires": []
+      },
+      "10561": {
+        "id": 10561,
+        "row": 3,
+        "col": 1,
+        "icon": "spell_fire_sealoffire",
+        "ranks": [11129],
+        "requires": []
+      },
+      "12121": {
+        "id": 12121,
+        "row": 3,
+        "col": 2,
+        "icon": "ability_mage_hotstreak",
+        "ranks": [44446, 44448],
+        "requires": [
+          {
+            "id": 10573,
+            "qty": 1
+          }
+        ]
+      },
+      "11431": {
+        "id": 11431,
+        "row": 3,
+        "col": 3,
+        "icon": "ability_mage_firestarter",
+        "ranks": [86914],
+        "requires": []
+      },
+      "10734": {
+        "id": 10734,
+        "row": 4,
+        "col": 0,
+        "icon": "spell_fire_selfdestruct",
+        "ranks": [84673, 84674],
+        "requires": []
+      },
+      "10571": {
+        "id": 10571,
+        "row": 4,
+        "col": 1,
+        "icon": "inv_misc_head_dragon_01",
+        "ranks": [31661],
+        "requires": []
+      },
+      "10563": {
+        "id": 10563,
+        "row": 4,
+        "col": 2,
+        "icon": "spell_fire_moltenblood",
+        "ranks": [31679, 31680, 86880],
+        "requires": []
+      },
+      "10559": {
+        "id": 10559,
+        "row": 5,
+        "col": 0,
+        "icon": "spell_fire_burnout",
+        "ranks": [34293, 34295],
+        "requires": []
+      },
+      "10541": {
+        "id": 10541,
+        "row": 5,
+        "col": 2,
+        "icon": "spell_nature_wispheal",
+        "ranks": [11095, 12872, 12873],
+        "requires": []
+      },
+      "10577": {
+        "id": 10577,
+        "row": 6,
+        "col": 1,
+        "icon": "ability_mage_livingbomb",
+        "ranks": [44457],
+        "requires": [
+          {
+            "id": 10571,
+            "qty": 1
+          }
+        ]
+      }
+    }
+  }
+}

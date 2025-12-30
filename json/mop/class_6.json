@@ -1,0 +1,276 @@
+{
+  "glyphs": {
+    "Glyph of Anti-Magic Shell": {
+      "id": 43533,
+      "icon": "spell_shadow_antimagicshell",
+      "type": 1
+    },
+    "Glyph of Unholy Frenzy": {
+      "id": 43534,
+      "icon": "spell_shadow_unholyfrenzy",
+      "type": 1
+    },
+    "Glyph of the Geist": {
+      "id": 43535,
+      "icon": "spell_shadow_animatedead",
+      "type": 2
+    },
+    "Glyph of Icebound Fortitude": {
+      "id": 43536,
+      "icon": "spell_deathknight_iceboundfortitude",
+      "type": 1
+    },
+    "Glyph of Chains of Ice": {
+      "id": 43537,
+      "icon": "spell_frost_chainsofice",
+      "type": 1
+    },
+    "Glyph of Death's Embrace": {
+      "id": 43539,
+      "icon": "spell_shadow_deathcoil",
+      "type": 2
+    },
+    "Glyph of Death Grip": {
+      "id": 43541,
+      "icon": "spell_deathknight_strangulate",
+      "type": 1
+    },
+    "Glyph of Death and Decay": {
+      "id": 43542,
+      "icon": "spell_shadow_deathanddecay",
+      "type": 1
+    },
+    "Glyph of Shifting Presences": {
+      "id": 43543,
+      "icon": "spell_deathknight_bloodpresence",
+      "type": 1
+    },
+    "Glyph of Horn of Winter": {
+      "id": 43544,
+      "icon": "inv_misc_horn_02",
+      "type": 2
+    },
+    "Glyph of Icy Touch": {
+      "id": 43546,
+      "icon": "spell_deathknight_icetouch",
+      "type": 1
+    },
+    "Glyph of Enduring Infection": {
+      "id": 43547,
+      "icon": "ability_creature_disease_05",
+      "type": 1
+    },
+    "Glyph of Pestilence": {
+      "id": 43548,
+      "icon": "spell_shadow_plaguecloud",
+      "type": 1
+    },
+    "Glyph of Mind Freeze": {
+      "id": 43549,
+      "icon": "spell_deathknight_mindfreeze",
+      "type": 1
+    },
+    "Glyph of Army of the Dead": {
+      "id": 43550,
+      "icon": "spell_deathknight_armyofthedead",
+      "type": 2
+    },
+    "Glyph of Foul Menagerie": {
+      "id": 43551,
+      "icon": "spell_deathknight_armyofthedead",
+      "type": 2
+    },
+    "Glyph of Strangulate": {
+      "id": 43552,
+      "icon": "spell_shadow_soulleech_3",
+      "type": 1
+    },
+    "Glyph of Pillar of Frost": {
+      "id": 43553,
+      "icon": "ability_deathknight_pillaroffrost",
+      "type": 1
+    },
+    "Glyph of Vampiric Blood": {
+      "id": 43554,
+      "icon": "spell_shadow_lifedrain",
+      "type": 1
+    },
+    "Glyph of Resilient Grip": {
+      "id": 43672,
+      "icon": "warlock_curse_shadow",
+      "type": 2
+    },
+    "Glyph of Path of Frost": {
+      "id": 43671,
+      "icon": "spell_deathknight_pathoffrost",
+      "type": 2
+    },
+    "Glyph of Death Gate": {
+      "id": 43673,
+      "icon": "spell_arcane_teleportundercity",
+      "type": 2
+    },
+    "Glyph of Unholy Command": {
+      "id": 43825,
+      "icon": "spell_shadow_skull",
+      "type": 1
+    },
+    "Glyph of Outbreak": {
+      "id": 43826,
+      "icon": "spell_deathvortex",
+      "type": 1
+    },
+    "Glyph of Corpse Explosion": {
+      "id": 43827,
+      "icon": "spell_shadow_corpseexplode",
+      "type": 2
+    },
+    "Glyph of Dancing Rune Weapon": {
+      "id": 45799,
+      "icon": "inv_sword_07",
+      "type": 1
+    },
+    "Glyph of Dark Simulacrum": {
+      "id": 45800,
+      "icon": "spell_holy_consumemagic",
+      "type": 1
+    },
+    "Glyph of Death Coil": {
+      "id": 45804,
+      "icon": "spell_shadow_deathcoil",
+      "type": 1
+    },
+    "Glyph of Tranquil Grip": {
+      "id": 45806,
+      "icon": "ability_rogue_envelopingshadows",
+      "type": 2
+    },
+    "Glyph of Dark Succor": {
+      "id": 68793,
+      "icon": "spell_deathknight_butcher2",
+      "type": 1
+    },
+    "Glyph of Swift Death": {
+      "id": 104046,
+      "icon": "ability_deathknight_soulreaper",
+      "type": 1
+    },
+    "Glyph of the Loud Horn": {
+      "id": 104047,
+      "icon": "inv_misc_horn_04",
+      "type": 1
+    },
+    "Glyph of Regenerative Magic": {
+      "id": 104048,
+      "icon": "spell_shadow_antimagicshell",
+      "type": 1
+    },
+    "Glyph of Festering Blood": {
+      "id": 104049,
+      "icon": "spell_yorsahj_bloodboil_green",
+      "type": 1
+    },
+    "Glyph of the Skeleton": {
+      "id": 104099,
+      "icon": "inv_misc_bone_humanskull_01",
+      "type": 2
+    },
+    "Glyph of the Long Winter": {
+      "id": 104101,
+      "icon": "ability_deathknight_remorselesswinters",
+      "type": 2
+    }
+  },
+  "talents": [
+    {
+      "id": 108170,
+      "icon": "ability_deathknight_roilingblood",
+      "name": "Roiling Blood"
+    },
+    {
+      "id": 123693,
+      "icon": "ability_creature_disease_02",
+      "name": "Plague Leech"
+    },
+    {
+      "id": 115989,
+      "icon": "spell_shadow_contagion",
+      "name": "Unholy Blight"
+    },
+    {
+      "id": 49039,
+      "icon": "spell_shadow_raisedead",
+      "name": "Lichborne"
+    },
+    {
+      "id": 51052,
+      "icon": "spell_deathknight_antimagiczone",
+      "name": "Anti-Magic Zone"
+    },
+    {
+      "id": 114556,
+      "icon": "inv_misc_shadowegg",
+      "name": "Purgatory"
+    },
+    {
+      "id": 96268,
+      "icon": "spell_shadow_demonicempathy",
+      "name": "Death's Advance"
+    },
+    {
+      "id": 50041,
+      "icon": "spell_frost_wisp",
+      "name": "Chilblains"
+    },
+    {
+      "id": 108194,
+      "icon": "ability_deathknight_asphixiate",
+      "name": "Asphyxiate"
+    },
+    {
+      "id": 48743,
+      "icon": "spell_shadow_deathpact",
+      "name": "Death Pact"
+    },
+    {
+      "id": 108196,
+      "icon": "ability_deathknight_deathsiphon",
+      "name": "Death Siphon"
+    },
+    {
+      "id": 119975,
+      "icon": "ability_deathknight_deathsiphon2",
+      "name": "Conversion"
+    },
+    {
+      "id": 45529,
+      "icon": "spell_deathknight_bloodtap",
+      "name": "Blood Tap"
+    },
+    {
+      "id": 81229,
+      "icon": "inv_misc_rune_10",
+      "name": "Runic Empowerment"
+    },
+    {
+      "id": 51462,
+      "icon": "spell_shadow_rune",
+      "name": "Runic Corruption"
+    },
+    {
+      "id": 108199,
+      "icon": "ability_deathknight_aoedeathgrip",
+      "name": "Gorefiend's Grasp"
+    },
+    {
+      "id": 108200,
+      "icon": "ability_deathknight_remorselesswinters2",
+      "name": "Remorseless Winter"
+    },
+    {
+      "id": 108201,
+      "icon": "ability_deathknight_desecratedground",
+      "name": "Desecrated Ground"
+    }
+  ]
+}

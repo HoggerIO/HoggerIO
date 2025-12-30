@@ -1,0 +1,296 @@
+{
+  "glyphs": {
+    "Glyph of Aspects": {
+      "id": 42897,
+      "icon": "ability_hunter_aspectmastery",
+      "type": 2
+    },
+    "Glyph of Camouflage": {
+      "id": 42898,
+      "icon": "ability_hunter_displacement",
+      "type": 1
+    },
+    "Glyph of Liberation": {
+      "id": 42899,
+      "icon": "achievement_bg_returnxflags_def_wsg",
+      "type": 1
+    },
+    "Glyph of Mending": {
+      "id": 42900,
+      "icon": "inv_misc_bandage_15",
+      "type": 1
+    },
+    "Glyph of Distracting Shot": {
+      "id": 42901,
+      "icon": "spell_arcane_blink",
+      "type": 1
+    },
+    "Glyph of Endless Wrath": {
+      "id": 42902,
+      "icon": "ability_druid_ferociousbite",
+      "type": 1
+    },
+    "Glyph of Deterrence": {
+      "id": 42903,
+      "icon": "ability_whirlwind",
+      "type": 1
+    },
+    "Glyph of Disengage": {
+      "id": 42904,
+      "icon": "ability_rogue_feint",
+      "type": 1
+    },
+    "Glyph of Freezing Trap": {
+      "id": 42905,
+      "icon": "spell_frost_chainsofice",
+      "type": 1
+    },
+    "Glyph of Ice Trap": {
+      "id": 42906,
+      "icon": "spell_hunter_icetrap",
+      "type": 1
+    },
+    "Glyph of Misdirection": {
+      "id": 42907,
+      "icon": "ability_hunter_misdirection",
+      "type": 1
+    },
+    "Glyph of Explosive Trap": {
+      "id": 42908,
+      "icon": "spell_fire_selfdestruct",
+      "type": 1
+    },
+    "Glyph of Animal Bond": {
+      "id": 42909,
+      "icon": "classic_ability_druid_demoralizingroar",
+      "type": 1
+    },
+    "Glyph of No Escape": {
+      "id": 42910,
+      "icon": "ability_hunter_pointofnoescape",
+      "type": 1
+    },
+    "Glyph of Pathfinding": {
+      "id": 42911,
+      "icon": "ability_hunter_pathfinding2",
+      "type": 1
+    },
+    "Glyph of Tame Beast": {
+      "id": 42912,
+      "icon": "ability_hunter_beasttaming",
+      "type": 2
+    },
+    "Glyph of Snake Trap": {
+      "id": 42913,
+      "icon": "ability_hunter_snaketrap",
+      "type": 1
+    },
+    "Glyph of Aimed Shot": {
+      "id": 42914,
+      "icon": "inv_spear_07",
+      "type": 1
+    },
+    "Glyph of Mend Pet": {
+      "id": 42915,
+      "icon": "ability_hunter_mendpet",
+      "type": 1
+    },
+    "Glyph of Solace": {
+      "id": 42917,
+      "icon": "spell_frost_frostshock",
+      "type": 1
+    },
+    "Glyph of Revive Pet": {
+      "id": 43338,
+      "icon": "ability_hunter_beastsoothe",
+      "type": 2
+    },
+    "Glyph of Lesser Proportion": {
+      "id": 43350,
+      "icon": "ability_hunter_bestialdiscipline",
+      "type": 2
+    },
+    "Glyph of Fireworks": {
+      "id": 43351,
+      "icon": "inv_misc_missilelargecluster_red",
+      "type": 2
+    },
+    "Glyph of Stampede": {
+      "id": 43356,
+      "icon": "ability_hunter_bestialdiscipline",
+      "type": 2
+    },
+    "Glyph of Aspect of the Pack": {
+      "id": 43355,
+      "icon": "ability_mount_whitetiger",
+      "type": 2
+    },
+    "Glyph of Chimera Shot": {
+      "id": 45625,
+      "icon": "ability_hunter_chimerashot2",
+      "type": 1
+    },
+    "Glyph of Tranquilizing Shot": {
+      "id": 45731,
+      "icon": "spell_nature_drowsy",
+      "type": 1
+    },
+    "Glyph of Aspect of the Cheetah": {
+      "id": 45732,
+      "icon": "ability_mount_jungletiger",
+      "type": 2
+    },
+    "Glyph of Master's Call": {
+      "id": 45733,
+      "icon": "ability_hunter_masterscall",
+      "type": 1
+    },
+    "Glyph of Scatter Shot": {
+      "id": 45734,
+      "icon": "ability_golemstormbolt",
+      "type": 1
+    },
+    "Glyph of Mirrored Blades": {
+      "id": 45735,
+      "icon": "inv_weapon_shortblade_99",
+      "type": 1
+    },
+    "Glyph of Aspect of the Beast": {
+      "id": 85683,
+      "icon": "ability_mount_pinktiger",
+      "type": 2
+    },
+    "Glyph of Black Ice": {
+      "id": 85684,
+      "icon": "spell_hunter_blackicetrap",
+      "type": 1
+    },
+    "Glyph of Direction": {
+      "id": 87278,
+      "icon": "ability_hunter_markedfordeath",
+      "type": 2
+    },
+    "Glyph of Marking": {
+      "id": 87279,
+      "icon": "ability_hunter_mastermarksman",
+      "type": 2
+    },
+    "Glyph of Fetch": {
+      "id": 87393,
+      "icon": "inv_misc_bone_01",
+      "type": 2
+    },
+    "Glyph of the Lean Pack": {
+      "id": 104270,
+      "icon": "ability_hunter_aspectmastery",
+      "type": 1
+    },
+    "Glyph of Focused Fire (NYI)": {
+      "id": 104274,
+      "icon": "ability_hunter_aspectmastery",
+      "type": 2
+    },
+    "Glyph of Enduring Deceit": {
+      "id": 104276,
+      "icon": "ability_hunter_camouflage",
+      "type": 1
+    },
+    "Glyph of Chameleon (NYI)": {
+      "id": 104278,
+      "icon": "ability_hunter_aspectmastery",
+      "type": 2
+    }
+  },
+  "talents": [
+    {
+      "id": 109215,
+      "icon": "ability_hunter_posthaste",
+      "name": "Posthaste"
+    },
+    {
+      "id": 109298,
+      "icon": "inv_misc_web_01",
+      "name": "Narrow Escape"
+    },
+    {
+      "id": 118675,
+      "icon": "ability_hunter_pet_chimera",
+      "name": "Crouching Tiger, Hidden Chimera"
+    },
+    {
+      "id": 109248,
+      "icon": "spell_shaman_bindelemental",
+      "name": "Binding Shot"
+    },
+    {
+      "id": 19386,
+      "icon": "inv_spear_02",
+      "name": "Wyvern Sting"
+    },
+    {
+      "id": 19577,
+      "icon": "ability_devour",
+      "name": "Intimidation"
+    },
+    {
+      "id": 109304,
+      "icon": "ability_hunter_onewithnature",
+      "name": "Exhilaration"
+    },
+    {
+      "id": 109260,
+      "icon": "spell_hunter_aspectoftheironhawk",
+      "name": "Aspect of the Iron Hawk"
+    },
+    {
+      "id": 109212,
+      "icon": "classic_ability_druid_demoralizingroar",
+      "name": "Spirit Bond"
+    },
+    {
+      "id": 82726,
+      "icon": "ability_hunter_aspectoftheviper",
+      "name": "Fervor"
+    },
+    {
+      "id": 120679,
+      "icon": "ability_hunter_sickem",
+      "name": "Dire Beast"
+    },
+    {
+      "id": 109306,
+      "icon": "ability_hunter_thrillofthehunt",
+      "name": "Thrill of the Hunt"
+    },
+    {
+      "id": 131894,
+      "icon": "ability_hunter_murderofcrows",
+      "name": "A Murder of Crows"
+    },
+    {
+      "id": 130392,
+      "icon": "spell_arcane_arcane04",
+      "name": "Blink Strikes"
+    },
+    {
+      "id": 120697,
+      "icon": "ability_hunter_catlikereflexes",
+      "name": "Lynx Rush"
+    },
+    {
+      "id": 117050,
+      "icon": "ability_glaivetoss",
+      "name": "Glaive Toss"
+    },
+    {
+      "id": 109259,
+      "icon": "ability_hunter_resistanceisfutile",
+      "name": "Powershot"
+    },
+    {
+      "id": 120360,
+      "icon": "ability_hunter_rapidregeneration",
+      "name": "Barrage"
+    }
+  ]
+}

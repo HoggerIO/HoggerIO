@@ -1,0 +1,498 @@
+{
+  "talents": {
+    "Destruction": {
+      "10938": {
+        "id": 10938,
+        "row": 0,
+        "col": 0,
+        "icon": "spell_shadow_deathpact",
+        "ranks": [17788, 17789, 17790],
+        "requires": []
+      },
+      "10936": {
+        "id": 10936,
+        "row": 0,
+        "col": 1,
+        "icon": "spell_shadow_shadowandflame",
+        "ranks": [17793, 17796, 17801],
+        "requires": []
+      },
+      "10960": {
+        "id": 10960,
+        "row": 0,
+        "col": 2,
+        "icon": "spell_fire_immolation",
+        "ranks": [17815, 17833],
+        "requires": []
+      },
+      "11197": {
+        "id": 11197,
+        "row": 1,
+        "col": 0,
+        "icon": "spell_fire_fire",
+        "ranks": [85113, 85114],
+        "requires": []
+      },
+      "11181": {
+        "id": 11181,
+        "row": 1,
+        "col": 1,
+        "icon": "spell_fire_selfdestruct",
+        "ranks": [17954, 17955],
+        "requires": []
+      },
+      "11196": {
+        "id": 11196,
+        "row": 1,
+        "col": 2,
+        "icon": "spell_fire_soulburn",
+        "ranks": [17927, 17929],
+        "requires": []
+      },
+      "10940": {
+        "id": 10940,
+        "row": 2,
+        "col": 0,
+        "icon": "spell_fire_fireball02",
+        "ranks": [18119, 18120],
+        "requires": []
+      },
+      "10978": {
+        "id": 10978,
+        "row": 2,
+        "col": 1,
+        "icon": "ability_warlock_backdraft",
+        "ranks": [47258, 47259, 47260],
+        "requires": []
+      },
+      "10948": {
+        "id": 10948,
+        "row": 2,
+        "col": 2,
+        "icon": "spell_shadow_scourgebuild",
+        "ranks": [17877],
+        "requires": []
+      },
+      "11182": {
+        "id": 11182,
+        "row": 3,
+        "col": 0,
+        "icon": "ability_warlock_burningembers",
+        "ranks": [91986, 85112],
+        "requires": []
+      },
+      "10970": {
+        "id": 10970,
+        "row": 3,
+        "col": 1,
+        "icon": "spell_shadow_soulleech_3",
+        "ranks": [30293, 30295],
+        "requires": []
+      },
+      "10958": {
+        "id": 10958,
+        "row": 3,
+        "col": 2,
+        "icon": "spell_fire_playingwithfire",
+        "ranks": [34935, 34938, 34939],
+        "requires": []
+      },
+      "12120": {
+        "id": 12120,
+        "row": 3,
+        "col": 3,
+        "icon": "spell_fire_felfireward",
+        "ranks": [91713],
+        "requires": []
+      },
+      "10984": {
+        "id": 10984,
+        "row": 4,
+        "col": 1,
+        "icon": "ability_warlock_fireandbrimstone",
+        "ranks": [47266, 47267, 47268],
+        "requires": []
+      },
+      "10980": {
+        "id": 10980,
+        "row": 4,
+        "col": 2,
+        "icon": "spell_shadow_shadowfury",
+        "ranks": [30283],
+        "requires": []
+      },
+      "10964": {
+        "id": 10964,
+        "row": 4,
+        "col": 3,
+        "icon": "spell_shadow_netherprotection",
+        "ranks": [30299, 30301],
+        "requires": [
+          {
+            "id": 12120,
+            "qty": 1
+          }
+        ]
+      },
+      "10982": {
+        "id": 10982,
+        "row": 5,
+        "col": 0,
+        "icon": "ability_warlock_empoweredimp",
+        "ranks": [47220, 47221],
+        "requires": [
+          {
+            "id": 11182,
+            "qty": 2
+          }
+        ]
+      },
+      "10962": {
+        "id": 10962,
+        "row": 5,
+        "col": 2,
+        "icon": "ability_warlock_baneofhavoc",
+        "ranks": [80240],
+        "requires": []
+      },
+      "10986": {
+        "id": 10986,
+        "row": 6,
+        "col": 1,
+        "icon": "ability_warlock_chaosbolt",
+        "ranks": [50796],
+        "requires": [
+          {
+            "id": 10984,
+            "qty": 3
+          }
+        ]
+      }
+    },
+    "Demonology": {
+      "10994": {
+        "id": 10994,
+        "row": 0,
+        "col": 0,
+        "icon": "spell_shadow_metamorphosis",
+        "ranks": [18697, 18698, 18699],
+        "requires": []
+      },
+      "10992": {
+        "id": 10992,
+        "row": 0,
+        "col": 1,
+        "icon": "ability_warlock_darkarts",
+        "ranks": [18694, 85283, 85284],
+        "requires": []
+      },
+      "11206": {
+        "id": 11206,
+        "row": 0,
+        "col": 2,
+        "icon": "spell_shadow_felmending",
+        "ranks": [47230, 47231],
+        "requires": []
+      },
+      "11713": {
+        "id": 11713,
+        "row": 1,
+        "col": 0,
+        "icon": "spell_shadow_demonictactics",
+        "ranks": [88446, 88447],
+        "requires": []
+      },
+      "11020": {
+        "id": 11020,
+        "row": 1,
+        "col": 1,
+        "icon": "spell_shadow_manafeed",
+        "ranks": [30326, 85175],
+        "requires": []
+      },
+      "11190": {
+        "id": 11190,
+        "row": 1,
+        "col": 2,
+        "icon": "spell_shadow_ragingscream",
+        "ranks": [30143, 30144],
+        "requires": []
+      },
+      "11014": {
+        "id": 11014,
+        "row": 1,
+        "col": 3,
+        "icon": "spell_shadow_impphaseshift",
+        "ranks": [18709, 18710],
+        "requires": []
+      },
+      "11198": {
+        "id": 11198,
+        "row": 2,
+        "col": 0,
+        "icon": "spell_nature_removecurse",
+        "ranks": [85106, 85107, 85108],
+        "requires": []
+      },
+      "11160": {
+        "id": 11160,
+        "row": 2,
+        "col": 1,
+        "icon": "ability_warlock_demonicempowerment",
+        "ranks": [47193],
+        "requires": []
+      },
+      "10998": {
+        "id": 10998,
+        "row": 2,
+        "col": 2,
+        "icon": "spell_shadow_lifedrain",
+        "ranks": [18703, 18704],
+        "requires": []
+      },
+      "11024": {
+        "id": 11024,
+        "row": 3,
+        "col": 0,
+        "icon": "ability_warlock_moltencore",
+        "ranks": [47245, 47246, 47247],
+        "requires": []
+      },
+      "11201": {
+        "id": 11201,
+        "row": 3,
+        "col": 1,
+        "icon": "inv_summerfest_firespirit",
+        "ranks": [71521],
+        "requires": []
+      },
+      "11814": {
+        "id": 11814,
+        "row": 3,
+        "col": 2,
+        "icon": "spell_shadow_sealofkings",
+        "ranks": [89604, 89605],
+        "requires": [
+          {
+            "id": 11201,
+            "qty": 1
+          }
+        ]
+      },
+      "11188": {
+        "id": 11188,
+        "row": 4,
+        "col": 0,
+        "icon": "ability_warlock_ancientgrimoire",
+        "ranks": [85109, 85110],
+        "requires": []
+      },
+      "11189": {
+        "id": 11189,
+        "row": 4,
+        "col": 1,
+        "icon": "ability_warlock_inferno",
+        "ranks": [85105],
+        "requires": [
+          {
+            "id": 11201,
+            "qty": 1
+          }
+        ]
+      },
+      "11034": {
+        "id": 11034,
+        "row": 4,
+        "col": 2,
+        "icon": "spell_fire_fireball02",
+        "ranks": [63156, 63158],
+        "requires": []
+      },
+      "11199": {
+        "id": 11199,
+        "row": 5,
+        "col": 1,
+        "icon": "ability_warlock_cremation",
+        "ranks": [85103, 85104],
+        "requires": [
+          {
+            "id": 11189,
+            "qty": 1
+          }
+        ]
+      },
+      "11042": {
+        "id": 11042,
+        "row": 5,
+        "col": 2,
+        "icon": "spell_shadow_demonicpact",
+        "ranks": [47236],
+        "requires": []
+      },
+      "11044": {
+        "id": 11044,
+        "row": 6,
+        "col": 1,
+        "icon": "spell_shadow_demonform",
+        "ranks": [59672],
+        "requires": []
+      }
+    },
+    "Affliction": {
+      "11100": {
+        "id": 11100,
+        "row": 0,
+        "col": 0,
+        "icon": "spell_shadow_curseofsargeras",
+        "ranks": [18827, 18829],
+        "requires": []
+      },
+      "11110": {
+        "id": 11110,
+        "row": 0,
+        "col": 1,
+        "icon": "spell_shadow_burningspirit",
+        "ranks": [18182, 18183],
+        "requires": []
+      },
+      "11104": {
+        "id": 11104,
+        "row": 0,
+        "col": 2,
+        "icon": "spell_shadow_abominationexplosion",
+        "ranks": [17810, 17811, 17812],
+        "requires": []
+      },
+      "11214": {
+        "id": 11214,
+        "row": 1,
+        "col": 0,
+        "icon": "ability_warlock_jinx",
+        "ranks": [18179, 85479],
+        "requires": []
+      },
+      "11112": {
+        "id": 11112,
+        "row": 1,
+        "col": 1,
+        "icon": "ability_warlock_soulsiphon",
+        "ranks": [17804, 17805],
+        "requires": []
+      },
+      "11420": {
+        "id": 11420,
+        "row": 1,
+        "col": 2,
+        "icon": "spell_shadow_requiem",
+        "ranks": [63108, 86667],
+        "requires": [
+          {
+            "id": 11112,
+            "qty": 2
+          }
+        ]
+      },
+      "11128": {
+        "id": 11128,
+        "row": 2,
+        "col": 0,
+        "icon": "spell_shadow_grimward",
+        "ranks": [18223],
+        "requires": []
+      },
+      "11114": {
+        "id": 11114,
+        "row": 2,
+        "col": 2,
+        "icon": "spell_shadow_possession",
+        "ranks": [53754, 53759],
+        "requires": []
+      },
+      "11134": {
+        "id": 11134,
+        "row": 2,
+        "col": 3,
+        "icon": "ability_warlock_eradication",
+        "ranks": [47195, 47196, 47197],
+        "requires": []
+      },
+      "11140": {
+        "id": 11140,
+        "row": 3,
+        "col": 0,
+        "icon": "spell_shadow_deathscream",
+        "ranks": [30054, 30057],
+        "requires": []
+      },
+      "11366": {
+        "id": 11366,
+        "row": 3,
+        "col": 1,
+        "icon": "ability_warlock_soulswap",
+        "ranks": [86121],
+        "requires": [
+          {
+            "id": 11112,
+            "qty": 2
+          }
+        ]
+      },
+      "11124": {
+        "id": 11124,
+        "row": 3,
+        "col": 2,
+        "icon": "spell_shadow_shadowembrace",
+        "ranks": [32385, 32387, 32392],
+        "requires": []
+      },
+      "11142": {
+        "id": 11142,
+        "row": 4,
+        "col": 0,
+        "icon": "spell_shadow_deathsembrace",
+        "ranks": [47198, 47199, 47200],
+        "requires": []
+      },
+      "11122": {
+        "id": 11122,
+        "row": 4,
+        "col": 1,
+        "icon": "spell_shadow_twilight",
+        "ranks": [18094, 18095],
+        "requires": []
+      },
+      "11419": {
+        "id": 11419,
+        "row": 4,
+        "col": 2,
+        "icon": "spell_shadow_seedofdestruction",
+        "ranks": [86664],
+        "requires": []
+      },
+      "11150": {
+        "id": 11150,
+        "row": 5,
+        "col": 1,
+        "icon": "ability_warlock_everlastingaffliction",
+        "ranks": [47201, 47202, 47203],
+        "requires": []
+      },
+      "11200": {
+        "id": 11200,
+        "row": 5,
+        "col": 2,
+        "icon": "spell_shadow_lastingaffliction",
+        "ranks": [85099, 85100],
+        "requires": []
+      },
+      "11152": {
+        "id": 11152,
+        "row": 6,
+        "col": 1,
+        "icon": "ability_warlock_haunt",
+        "ranks": [48181],
+        "requires": []
+      }
+    }
+  }
+}

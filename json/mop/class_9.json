@@ -1,0 +1,271 @@
+{
+  "glyphs": {
+    "Glyph of Hand of Gul'dan": {
+      "id": 42453,
+      "icon": "ability_warlock_handofguldan",
+      "type": 2
+    },
+    "Glyph of Conflagrate": {
+      "id": 42454,
+      "icon": "spell_fire_fireball",
+      "type": 1
+    },
+    "Glyph of Siphon Life": {
+      "id": 42455,
+      "icon": "spell_shadow_requiem",
+      "type": 1
+    },
+    "Glyph of Verdant Spheres": {
+      "id": 42456,
+      "icon": "inv_misc_enchantedpearlb",
+      "type": 2
+    },
+    "Glyph of Nightmares": {
+      "id": 42457,
+      "icon": "ability_mount_nightmarehorse",
+      "type": 2
+    },
+    "Glyph of Fear": {
+      "id": 42458,
+      "icon": "spell_shadow_possession",
+      "type": 1
+    },
+    "Glyph of Felguard": {
+      "id": 42459,
+      "icon": "spell_shadow_summonfelguard",
+      "type": 2
+    },
+    "Glyph of Demon Training": {
+      "id": 42460,
+      "icon": "spell_shadow_summonfelhunter",
+      "type": 1
+    },
+    "Glyph of Health Funnel": {
+      "id": 42461,
+      "icon": "spell_shadow_lifedrain",
+      "type": 2
+    },
+    "Glyph of Healthstone": {
+      "id": 42462,
+      "icon": "inv_stone_04",
+      "type": 1
+    },
+    "Glyph of Subtlety": {
+      "id": 42463,
+      "icon": "ability_rogue_masterofsubtlety",
+      "type": 2
+    },
+    "Glyph of Curse of the Elements": {
+      "id": 42464,
+      "icon": "warlock_curse_shadow",
+      "type": 1
+    },
+    "Glyph of Imp Swarm": {
+      "id": 42465,
+      "icon": "ability_warlock_impoweredimp",
+      "type": 1
+    },
+    "Glyph of Shadow Bolt": {
+      "id": 42467,
+      "icon": "spell_shadow_shadowbolt",
+      "type": 2
+    },
+    "Glyph of Soulstone": {
+      "id": 42470,
+      "icon": "inv_misc_orb_04",
+      "type": 1
+    },
+    "Glyph of Carrion Swarm": {
+      "id": 42471,
+      "icon": "ability_warlock_demonicpower",
+      "type": 2
+    },
+    "Glyph of Unstable Affliction": {
+      "id": 42472,
+      "icon": "spell_shadow_unstableaffliction_3",
+      "type": 1
+    },
+    "Glyph of Falling Meteor": {
+      "id": 42473,
+      "icon": "spell_fire_meteorstorm",
+      "type": 2
+    },
+    "Glyph of Unending Breath": {
+      "id": 43389,
+      "icon": "spell_shadow_demonbreath",
+      "type": 2
+    },
+    "Glyph of Soul Consumption": {
+      "id": 43390,
+      "icon": "ability_warlock_soulsiphon",
+      "type": 1
+    },
+    "Glyph of Eye of Kilrogg": {
+      "id": 43391,
+      "icon": "spell_shadow_evileye",
+      "type": 2
+    },
+    "Glyph of Curse of Exhaustion": {
+      "id": 43392,
+      "icon": "spell_shadow_grimward",
+      "type": 1
+    },
+    "Glyph of Subjugate Demon": {
+      "id": 43393,
+      "icon": "spell_shadow_enslavedemon",
+      "type": 2
+    },
+    "Glyph of Soulwell": {
+      "id": 43394,
+      "icon": "spell_shadow_shadesofdarkness",
+      "type": 2
+    },
+    "Glyph of Drain Life": {
+      "id": 45779,
+      "icon": "spell_shadow_lifedrain02",
+      "type": 1
+    },
+    "Glyph of Demon Hunting": {
+      "id": 45780,
+      "icon": "spell_shadow_metamorphosis",
+      "type": 1
+    },
+    "Glyph of Ember Tap": {
+      "id": 45781,
+      "icon": "inv_ember",
+      "type": 1
+    },
+    "Glyph of Demonic Circle": {
+      "id": 45782,
+      "icon": "spell_shadow_demoniccircleteleport",
+      "type": 1
+    },
+    "Glyph of Unending Resolve": {
+      "id": 45783,
+      "icon": "spell_shadow_demonictactics",
+      "type": 1
+    },
+    "Glyph of Life Tap": {
+      "id": 45785,
+      "icon": "spell_shadow_burningspirit",
+      "type": 1
+    },
+    "Glyph of Crimson Banish": {
+      "id": 45789,
+      "icon": "spell_shadow_cripple",
+      "type": 2
+    },
+    "Glyph of Eternal Resolve": {
+      "id": 50077,
+      "icon": "spell_shadow_demonictactics",
+      "type": 1
+    },
+    "Glyph of Supernova": {
+      "id": 93197,
+      "icon": "spell_fire_ragnaros_supernova",
+      "type": 1
+    },
+    "Glyph of Gateway Attunement": {
+      "id": 93202,
+      "icon": "spell_warlock_demonicportal_green",
+      "type": 2
+    },
+    "Glyph of Havoc": {
+      "id": 42466,
+      "icon": "ability_warlock_baneofhavoc",
+      "type": 1
+    }
+  },
+  "talents": [
+    {
+      "id": 108359,
+      "icon": "spell_warlock_darkregeneration",
+      "name": "Dark Regeneration"
+    },
+    {
+      "id": 108370,
+      "icon": "warlock_siphonlife",
+      "name": "Soul Leech"
+    },
+    {
+      "id": 108371,
+      "icon": "spell_warlock_harvestoflife",
+      "name": "Harvest Life"
+    },
+    {
+      "id": 47897,
+      "icon": "ability_warlock_shadowflame",
+      "name": "Demonic Breath"
+    },
+    {
+      "id": 6789,
+      "icon": "ability_warlock_mortalcoil",
+      "name": "Mortal Coil"
+    },
+    {
+      "id": 30283,
+      "icon": "ability_warlock_shadowfurytga",
+      "name": "Shadowfury"
+    },
+    {
+      "id": 108415,
+      "icon": "ability_warlock_soullink",
+      "name": "Soul Link"
+    },
+    {
+      "id": 108416,
+      "icon": "warlock_sacrificial_pact",
+      "name": "Sacrificial Pact"
+    },
+    {
+      "id": 110913,
+      "icon": "ability_deathwing_bloodcorruption_death",
+      "name": "Dark Bargain"
+    },
+    {
+      "id": 111397,
+      "icon": "ability_deathwing_bloodcorruption_earth",
+      "name": "Blood Horror"
+    },
+    {
+      "id": 111400,
+      "icon": "ability_deathwing_sealarmorbreachtga",
+      "name": "Burning Rush"
+    },
+    {
+      "id": 108482,
+      "icon": "warlock_spelldrain",
+      "name": "Unbound Will"
+    },
+    {
+      "id": 108499,
+      "icon": "warlock_grimoireofcommand",
+      "name": "Grimoire of Supremacy"
+    },
+    {
+      "id": 108501,
+      "icon": "warlock_grimoireofservice",
+      "name": "Grimoire of Service"
+    },
+    {
+      "id": 108503,
+      "icon": "warlock_grimoireofsacrifice",
+      "name": "Grimoire of Sacrifice"
+    },
+    {
+      "id": 108505,
+      "icon": "achievement_boss_archimonde-",
+      "name": "Archimonde's Darkness"
+    },
+    {
+      "id": 137587,
+      "icon": "achievement_boss_kiljaedan",
+      "name": "Kil'jaeden's Cunning"
+    },
+    {
+      "id": 108508,
+      "icon": "achievement_boss_magtheridon",
+      "name": "Mannoroth's Fury"
+    }
+  ]
+}

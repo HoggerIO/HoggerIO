@@ -1,0 +1,321 @@
+{
+  "glyphs": {
+    "Glyph of Double Jeopardy": {
+      "id": 41092,
+      "icon": "spell_holy_righteousfury",
+      "type": 1
+    },
+    "Glyph of Devotion Aura": {
+      "id": 41094,
+      "icon": "spell_holy_auramastery",
+      "type": 1
+    },
+    "Glyph of Holy Wrath": {
+      "id": 41095,
+      "icon": "spell_holy_weaponmastery",
+      "type": 1
+    },
+    "Glyph of Divine Protection": {
+      "id": 41096,
+      "icon": "spell_holy_divineprotection",
+      "type": 1
+    },
+    "Glyph of Templar's Verdict": {
+      "id": 41097,
+      "icon": "spell_paladin_templarsverdict",
+      "type": 1
+    },
+    "Glyph of Avenging Wrath": {
+      "id": 41098,
+      "icon": "spell_holy_avenginewrath",
+      "type": 1
+    },
+    "Glyph of Consecration": {
+      "id": 41099,
+      "icon": "spell_holy_innerfire",
+      "type": 1
+    },
+    "Glyph of the Luminous Charger": {
+      "id": 41100,
+      "icon": "spell_holy_crusaderaura",
+      "type": 2
+    },
+    "Glyph of Focused Shield": {
+      "id": 41101,
+      "icon": "spell_holy_avengersshield",
+      "type": 1
+    },
+    "Glyph of Burden of Guilt": {
+      "id": 41102,
+      "icon": "achievement_bg_topdps",
+      "type": 1
+    },
+    "Glyph of Blinding Light": {
+      "id": 41103,
+      "icon": "ability_paladin_blindinglight",
+      "type": 1
+    },
+    "Glyph of Final Wrath": {
+      "id": 41104,
+      "icon": "spell_holy_blessedresillience",
+      "type": 1
+    },
+    "Glyph of Word of Glory": {
+      "id": 41105,
+      "icon": "inv_helmet_96",
+      "type": 1
+    },
+    "Glyph of Illumination": {
+      "id": 41106,
+      "icon": "spell_holy_pureofheart",
+      "type": 1
+    },
+    "Glyph of Harsh Words": {
+      "id": 41107,
+      "icon": "inv_helmet_96",
+      "type": 1
+    },
+    "Glyph of Divinity": {
+      "id": 41108,
+      "icon": "spell_holy_layonhands",
+      "type": 1
+    },
+    "Glyph of Light of Dawn": {
+      "id": 41109,
+      "icon": "spell_paladin_lightofdawn",
+      "type": 1
+    },
+    "Glyph of Blessed Life": {
+      "id": 41110,
+      "icon": "spell_holy_healingaura",
+      "type": 1
+    },
+    "Glyph of Contemplation": {
+      "id": 43365,
+      "icon": "inv_relics_libramofhope",
+      "type": 2
+    },
+    "Glyph of the Mounted King": {
+      "id": 43340,
+      "icon": "spell_magic_greaterblessingofkings",
+      "type": 2
+    },
+    "Glyph of Winged Vengeance": {
+      "id": 43366,
+      "icon": "spell_holy_revivechampion",
+      "type": 2
+    },
+    "Glyph of Flash of Light": {
+      "id": 43367,
+      "icon": "spell_holy_flashheal",
+      "type": 1
+    },
+    "Glyph of Seal of Blood": {
+      "id": 43368,
+      "icon": "spell_holy_sealofvengeance",
+      "type": 2
+    },
+    "Glyph of Fire From the Heavens": {
+      "id": 43369,
+      "icon": "ability_mage_firestarter",
+      "type": 2
+    },
+    "Glyph of Denounce": {
+      "id": 43867,
+      "icon": "spell_holy_purifyingpower",
+      "type": 1
+    },
+    "Glyph of Dazing Shield": {
+      "id": 43868,
+      "icon": "spell_holy_avengersshield",
+      "type": 1
+    },
+    "Glyph of Immediate Truth": {
+      "id": 43869,
+      "icon": "spell_holy_sealofvengeance",
+      "type": 1
+    },
+    "Glyph of Beacon of Light": {
+      "id": 45741,
+      "icon": "ability_paladin_beaconoflight",
+      "type": 1
+    },
+    "Glyph of Hammer of the Righteous": {
+      "id": 45742,
+      "icon": "ability_paladin_hammeroftherighteous",
+      "type": 1
+    },
+    "Glyph of Divine Storm": {
+      "id": 45743,
+      "icon": "ability_paladin_divinestorm",
+      "type": 1
+    },
+    "Glyph of the Alabaster Shield": {
+      "id": 45744,
+      "icon": "trade_archaeology_stoneshield",
+      "type": 1
+    },
+    "Glyph of Divine Plea": {
+      "id": 45745,
+      "icon": "spell_holy_aspiration",
+      "type": 1
+    },
+    "Glyph of Holy Shock": {
+      "id": 45746,
+      "icon": "spell_holy_searinglight",
+      "type": 1
+    },
+    "Glyph of Inquisition": {
+      "id": 45747,
+      "icon": "spell_paladin_inquisition",
+      "type": 1
+    },
+    "Glyph of Protector of the Innocent": {
+      "id": 66918,
+      "icon": "ability_paladin_protectoroftheinnocent",
+      "type": 1
+    },
+    "Glyph of Focused Wrath": {
+      "id": 80581,
+      "icon": "spell_holy_weaponmastery",
+      "type": 2
+    },
+    "Glyph of the Falling Avenger": {
+      "id": 80584,
+      "icon": "spell_magic_featherfall",
+      "type": 2
+    },
+    "Glyph of Righteous Retreat": {
+      "id": 80585,
+      "icon": "achievement_guildperk_hastyhearth",
+      "type": 2
+    },
+    "Glyph of Bladed Judgment": {
+      "id": 80586,
+      "icon": "inv_axe_1h_cataclysm_c_01",
+      "type": 2
+    },
+    "Glyph of the Battle Healer": {
+      "id": 81956,
+      "icon": "spell_holy_vindication",
+      "type": 1
+    },
+    "Glyph of Mass Exorcism": {
+      "id": 83107,
+      "icon": "spell_holy_excorcism_02",
+      "type": 1
+    },
+    "Glyph of Divine Shield": {
+      "id": 104050,
+      "icon": "spell_holy_divineshield",
+      "type": 1
+    },
+    "Glyph of Hand of Sacrifice": {
+      "id": 104051,
+      "icon": "spell_holy_sealofsacrifice",
+      "type": 1
+    },
+    "Glyph of the Exorcist": {
+      "id": 104107,
+      "icon": "spell_holy_excorcism",
+      "type": 2
+    },
+    "Glyph of Pillar of Light": {
+      "id": 104108,
+      "icon": "spell_holy_surgeoflight",
+      "type": 2
+    }
+  },
+  "talents": [
+    {
+      "id": 85499,
+      "icon": "ability_paladin_speedoflight",
+      "name": "Speed of Light"
+    },
+    {
+      "id": 87172,
+      "icon": "ability_paladin_longarmofthelaw",
+      "name": "Long Arm of the Law"
+    },
+    {
+      "id": 26023,
+      "icon": "ability_paladin_veneration",
+      "name": "Pursuit of Justice"
+    },
+    {
+      "id": 105593,
+      "icon": "spell_holy_fistofjustice",
+      "name": "Fist of Justice"
+    },
+    {
+      "id": 20066,
+      "icon": "spell_holy_prayerofhealing",
+      "name": "Repentance"
+    },
+    {
+      "id": 110301,
+      "icon": "ability_paladin_turnevil",
+      "name": "Evil is a Point of View"
+    },
+    {
+      "id": 85804,
+      "icon": "ability_paladin_gaurdedbythelight",
+      "name": "Selfless Healer"
+    },
+    {
+      "id": 114163,
+      "icon": "inv_torch_thrown",
+      "name": "Eternal Flame"
+    },
+    {
+      "id": 20925,
+      "icon": "ability_paladin_blessedmending",
+      "name": "Sacred Shield"
+    },
+    {
+      "id": 114039,
+      "icon": "spell_holy_sealofwisdom",
+      "name": "Hand of Purity"
+    },
+    {
+      "id": 114154,
+      "icon": "spell_holy_unyieldingfaith",
+      "name": "Unbreakable Spirit"
+    },
+    {
+      "id": 105622,
+      "icon": "ability_paladin_clemency",
+      "name": "Clemency"
+    },
+    {
+      "id": 105809,
+      "icon": "ability_paladin_holyavenger",
+      "name": "Holy Avenger"
+    },
+    {
+      "id": 53376,
+      "icon": "ability_paladin_sanctifiedwrath",
+      "name": "Sanctified Wrath"
+    },
+    {
+      "id": 86172,
+      "icon": "spell_holy_divinepurpose",
+      "name": "Divine Purpose"
+    },
+    {
+      "id": 114165,
+      "icon": "spell_paladin_holyprism",
+      "name": "Holy Prism"
+    },
+    {
+      "id": 114158,
+      "icon": "spell_paladin_lightshammer",
+      "name": "Light's Hammer"
+    },
+    {
+      "id": 114157,
+      "icon": "spell_paladin_executionsentence",
+      "name": "Execution Sentence"
+    }
+  ]
+}

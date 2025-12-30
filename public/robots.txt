@@ -1,0 +1,5 @@
+# Block all crawlers
+User-agent: *
+Disallow: /guild/
+Disallow: /guild
+Disallow: /character/

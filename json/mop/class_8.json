@@ -1,0 +1,281 @@
+{
+  "glyphs": {
+    "Glyph of Loose Mana": {
+      "id": 42735,
+      "icon": "inv_misc_gem_sapphire_02",
+      "type": 2
+    },
+    "Glyph of Arcane Explosion": {
+      "id": 42736,
+      "icon": "spell_nature_wispsplode",
+      "type": 1
+    },
+    "Glyph of Blink": {
+      "id": 42737,
+      "icon": "spell_arcane_blink",
+      "type": 1
+    },
+    "Glyph of Evocation": {
+      "id": 42738,
+      "icon": "spell_nature_purge",
+      "type": 1
+    },
+    "Glyph of Combustion": {
+      "id": 42739,
+      "icon": "spell_fire_sealoffire",
+      "type": 1
+    },
+    "Glyph of Frost Nova": {
+      "id": 42741,
+      "icon": "spell_frost_frostnova",
+      "type": 1
+    },
+    "Glyph of Momentum": {
+      "id": 42743,
+      "icon": "spell_arcane_blink",
+      "type": 2
+    },
+    "Glyph of Ice Block": {
+      "id": 42744,
+      "icon": "spell_frost_frost",
+      "type": 1
+    },
+    "Glyph of Splitting Ice": {
+      "id": 42745,
+      "icon": "spell_frost_frostblast",
+      "type": 1
+    },
+    "Glyph of Cone of Cold": {
+      "id": 42746,
+      "icon": "spell_frost_glacier",
+      "type": 1
+    },
+    "Glyph of Rapid Displacement": {
+      "id": 42748,
+      "icon": "spell_arcane_blink",
+      "type": 1
+    },
+    "Glyph of Mana Gem": {
+      "id": 42749,
+      "icon": "inv_jewelcrafting_gem_05",
+      "type": 1
+    },
+    "Glyph of Crittermorph": {
+      "id": 42751,
+      "icon": "spell_nature_doublepolymorph2",
+      "type": 2
+    },
+    "Glyph of Polymorph": {
+      "id": 42752,
+      "icon": "spell_nature_polymorph",
+      "type": 1
+    },
+    "Glyph of Icy Veins": {
+      "id": 42753,
+      "icon": "spell_frost_coldhearted",
+      "type": 1
+    },
+    "Glyph of Spellsteal": {
+      "id": 42754,
+      "icon": "spell_arcane_arcane02",
+      "type": 1
+    },
+    "Glyph of the Porcupine": {
+      "id": 43339,
+      "icon": "spell_magic_polymorphpig",
+      "type": 2
+    },
+    "Glyph of the Monkey": {
+      "id": 43360,
+      "icon": "ability_hunter_aspectofthemonkey",
+      "type": 2
+    },
+    "Glyph of Conjure Familiar": {
+      "id": 43359,
+      "icon": "spell_nature_elementalabsorption",
+      "type": 2
+    },
+    "Glyph of the Penguin": {
+      "id": 43361,
+      "icon": "inv_misc_penguinpet",
+      "type": 2
+    },
+    "Glyph of Arcane Language": {
+      "id": 43364,
+      "icon": "inv_misc_fish_68",
+      "type": 2
+    },
+    "Glyph of Frostfire Bolt": {
+      "id": 44684,
+      "icon": "ability_mage_frostfirebolt",
+      "type": 1
+    },
+    "Glyph of Remove Curse": {
+      "id": 44920,
+      "icon": "spell_nature_removecurse",
+      "type": 1
+    },
+    "Glyph of Arcane Power": {
+      "id": 44955,
+      "icon": "spell_nature_lightning",
+      "type": 1
+    },
+    "Glyph of Water Elemental": {
+      "id": 45736,
+      "icon": "spell_frost_summonwaterelemental_2",
+      "type": 1
+    },
+    "Glyph of Slow": {
+      "id": 45737,
+      "icon": "spell_nature_slow",
+      "type": 1
+    },
+    "Glyph of Illusion": {
+      "id": 45738,
+      "icon": "inv_mask_01",
+      "type": 2
+    },
+    "Glyph of Mirror Image": {
+      "id": 45739,
+      "icon": "spell_magic_lesserinvisibilty",
+      "type": 2
+    },
+    "Glyph of Deep Freeze": {
+      "id": 45740,
+      "icon": "ability_mage_deepfreeze",
+      "type": 1
+    },
+    "Glyph of Counterspell": {
+      "id": 50045,
+      "icon": "spell_frost_iceshock",
+      "type": 1
+    },
+    "Glyph of Rapid Teleportation": {
+      "id": 63416,
+      "icon": "spell_arcane_portaldalaran",
+      "type": 2
+    },
+    "Glyph of Inferno Blast": {
+      "id": 63539,
+      "icon": "spell_mage_infernoblast",
+      "type": 1
+    },
+    "Glyph of Armors": {
+      "id": 69773,
+      "icon": "spell_frost_frostarmor02",
+      "type": 1
+    },
+    "Glyph of Discreet Magic": {
+      "id": 92727,
+      "icon": "inv_enchant_essencemagicsmall",
+      "type": 2
+    },
+    "Glyph of the Unbound Elemental": {
+      "id": 104104,
+      "icon": "spell_frost_summonwaterelemental",
+      "type": 2
+    },
+    "Glyph of Evaporation": {
+      "id": 104105,
+      "icon": "inv_elemental_mote_water01",
+      "type": 2
+    },
+    "Glyph of Condensation": {
+      "id": 104106,
+      "icon": "inv_misc_volatilewater",
+      "type": 2
+    }
+  },
+  "talents": [
+    {
+      "id": 12043,
+      "icon": "spell_nature_enchantarmor",
+      "name": "Presence of Mind"
+    },
+    {
+      "id": 108843,
+      "icon": "spell_fire_burningspeed",
+      "name": "Blazing Speed"
+    },
+    {
+      "id": 108839,
+      "icon": "spell_mage_iceflows",
+      "name": "Ice Floes"
+    },
+    {
+      "id": 115610,
+      "icon": "spell_mage_temporalshield",
+      "name": "Temporal Shield"
+    },
+    {
+      "id": 140468,
+      "icon": "inv_elemental_primal_fire",
+      "name": "Flameglow"
+    },
+    {
+      "id": 11426,
+      "icon": "spell_ice_lament",
+      "name": "Ice Barrier"
+    },
+    {
+      "id": 113724,
+      "icon": "spell_frost_ring-of-frost",
+      "name": "Ring of Frost"
+    },
+    {
+      "id": 111264,
+      "icon": "spell_frost_frostward",
+      "name": "Ice Ward"
+    },
+    {
+      "id": 102051,
+      "icon": "ability_mage_frostjaw",
+      "name": "Frostjaw"
+    },
+    {
+      "id": 110959,
+      "icon": "ability_mage_greaterinvisibility",
+      "name": "Greater Invisibility"
+    },
+    {
+      "id": 86949,
+      "icon": "spell_fire_rune",
+      "name": "Cauterize"
+    },
+    {
+      "id": 11958,
+      "icon": "spell_frost_wizardmark",
+      "name": "Cold Snap"
+    },
+    {
+      "id": 114923,
+      "icon": "spell_mage_nethertempest",
+      "name": "Nether Tempest"
+    },
+    {
+      "id": 44457,
+      "icon": "ability_mage_livingbomb",
+      "name": "Living Bomb"
+    },
+    {
+      "id": 112948,
+      "icon": "spell_mage_frostbomb",
+      "name": "Frost Bomb"
+    },
+    {
+      "id": 114003,
+      "icon": "spell_arcane_arcane03",
+      "name": "Invocation"
+    },
+    {
+      "id": 116011,
+      "icon": "spell_mage_runeofpower",
+      "name": "Rune of Power"
+    },
+    {
+      "id": 1463,
+      "icon": "spell_shadow_detectlesserinvisibility",
+      "name": "Incanter's Ward"
+    }
+  ]
+}

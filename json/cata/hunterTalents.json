@@ -1,0 +1,524 @@
+{
+  "talents": {
+    "Beast Mastery": {
+      "9494": {
+        "id": 9494,
+        "row": 0,
+        "col": 0,
+        "icon": "ability_hunter_silenthunter",
+        "ranks": [35029, 35030],
+        "requires": []
+      },
+      "9490": {
+        "id": 9490,
+        "row": 0,
+        "col": 1,
+        "icon": "ability_hunter_onewithnature",
+        "ranks": [82682, 82683, 82684],
+        "requires": []
+      },
+      "9492": {
+        "id": 9492,
+        "row": 0,
+        "col": 2,
+        "icon": "ability_hunter_bestialdiscipline",
+        "ranks": [19590, 19592, 82687],
+        "requires": []
+      },
+      "9502": {
+        "id": 9502,
+        "row": 1,
+        "col": 0,
+        "icon": "ability_hunter_pathfinding2",
+        "ranks": [19559, 19560],
+        "requires": []
+      },
+      "9514": {
+        "id": 9514,
+        "row": 1,
+        "col": 1,
+        "icon": "classic_ability_druid_demoralizingroar",
+        "ranks": [19578, 20895],
+        "requires": []
+      },
+      "9512": {
+        "id": 9512,
+        "row": 1,
+        "col": 2,
+        "icon": "inv_misc_monsterclaw_03",
+        "ranks": [19621, 19622, 19623],
+        "requires": []
+      },
+      "9510": {
+        "id": 9510,
+        "row": 1,
+        "col": 3,
+        "icon": "ability_hunter_mendpet",
+        "ranks": [19572, 19573],
+        "requires": []
+      },
+      "9530": {
+        "id": 9530,
+        "row": 2,
+        "col": 0,
+        "icon": "ability_hunter_cobrastrikes",
+        "ranks": [53256, 53259, 53260],
+        "requires": []
+      },
+      "9504": {
+        "id": 9504,
+        "row": 2,
+        "col": 1,
+        "icon": "ability_hunter_aspectoftheviper",
+        "ranks": [82726],
+        "requires": []
+      },
+      "9520": {
+        "id": 9520,
+        "row": 2,
+        "col": 2,
+        "icon": "ability_hunter_focusfire",
+        "ranks": [82692],
+        "requires": [
+          {
+            "id": 9512,
+            "qty": 3
+          }
+        ]
+      },
+      "9534": {
+        "id": 9534,
+        "row": 3,
+        "col": 0,
+        "icon": "ability_hunter_longevity",
+        "ranks": [53262, 53263, 53264],
+        "requires": []
+      },
+      "9528": {
+        "id": 9528,
+        "row": 3,
+        "col": 2,
+        "icon": "achievement_bg_kill_carrier_opposing_flagroom",
+        "ranks": [82748, 82749],
+        "requires": []
+      },
+      "11714": {
+        "id": 11714,
+        "row": 4,
+        "col": 0,
+        "icon": "ability_hunter_pet_chimera",
+        "ranks": [82898, 82899],
+        "requires": []
+      },
+      "9524": {
+        "id": 9524,
+        "row": 4,
+        "col": 1,
+        "icon": "ability_druid_ferociousbite",
+        "ranks": [19574],
+        "requires": [
+          {
+            "id": 9504,
+            "qty": 1
+          }
+        ]
+      },
+      "9518": {
+        "id": 9518,
+        "row": 4,
+        "col": 2,
+        "icon": "ability_hunter_ferociousinspiration",
+        "ranks": [34460],
+        "requires": []
+      },
+      "9538": {
+        "id": 9538,
+        "row": 5,
+        "col": 0,
+        "icon": "ability_hunter_separationanxiety",
+        "ranks": [56314, 56315],
+        "requires": []
+      },
+      "9536": {
+        "id": 9536,
+        "row": 5,
+        "col": 1,
+        "icon": "ability_hunter_beastwithin",
+        "ranks": [34692],
+        "requires": [
+          {
+            "id": 9524,
+            "qty": 1
+          }
+        ]
+      },
+      "9522": {
+        "id": 9522,
+        "row": 5,
+        "col": 2,
+        "icon": "ability_hunter_invigeration",
+        "ranks": [53252, 53253],
+        "requires": [
+          {
+            "id": 9518,
+            "qty": 1
+          }
+        ]
+      },
+      "9542": {
+        "id": 9542,
+        "row": 6,
+        "col": 1,
+        "icon": "ability_hunter_beastmastery",
+        "ranks": [53270],
+        "requires": []
+      }
+    },
+    "Marksmanship": {
+      "9390": {
+        "id": 9390,
+        "row": 0,
+        "col": 0,
+        "icon": "ability_hunter_goforthethroat",
+        "ranks": [34950, 34954],
+        "requires": []
+      },
+      "9380": {
+        "id": 9380,
+        "row": 0,
+        "col": 1,
+        "icon": "ability_hunter_focusedaim",
+        "ranks": [19416, 19417, 19418],
+        "requires": []
+      },
+      "9378": {
+        "id": 9378,
+        "row": 0,
+        "col": 2,
+        "icon": "ability_hunter_rapidkilling",
+        "ranks": [34948, 34949],
+        "requires": []
+      },
+      "9396": {
+        "id": 9396,
+        "row": 1,
+        "col": 0,
+        "icon": "ability_hunter_sickem",
+        "ranks": [83340, 83356],
+        "requires": [
+          {
+            "id": 9390,
+            "qty": 2
+          }
+        ]
+      },
+      "9402": {
+        "id": 9402,
+        "row": 1,
+        "col": 1,
+        "icon": "ability_hunter_improvedsteadyshot",
+        "ranks": [53221, 53222, 53224],
+        "requires": []
+      },
+      "9398": {
+        "id": 9398,
+        "row": 1,
+        "col": 2,
+        "icon": "ability_hunter_zenarchery",
+        "ranks": [34482, 34483],
+        "requires": []
+      },
+      "9424": {
+        "id": 9424,
+        "row": 2,
+        "col": 0,
+        "icon": "ability_theblackarrow",
+        "ranks": [34490],
+        "requires": []
+      },
+      "9406": {
+        "id": 9406,
+        "row": 2,
+        "col": 1,
+        "icon": "ability_hunter_efficiency",
+        "ranks": [35100, 35102],
+        "requires": []
+      },
+      "11225": {
+        "id": 11225,
+        "row": 2,
+        "col": 2,
+        "icon": "ability_hunter_piercingshots",
+        "ranks": [53234, 53237, 53238],
+        "requires": []
+      },
+      "9408": {
+        "id": 9408,
+        "row": 3,
+        "col": 0,
+        "icon": "ability_marksmanship",
+        "ranks": [35104, 35110],
+        "requires": []
+      },
+      "9412": {
+        "id": 9412,
+        "row": 3,
+        "col": 1,
+        "icon": "ability_trueshot",
+        "ranks": [19506],
+        "requires": []
+      },
+      "9416": {
+        "id": 9416,
+        "row": 3,
+        "col": 2,
+        "icon": "ability_warrior_focusedrage",
+        "ranks": [83489, 83490],
+        "requires": []
+      },
+      "9420": {
+        "id": 9420,
+        "row": 3,
+        "col": 3,
+        "icon": "ability_hunter_resistanceisfutile",
+        "ranks": [82893, 82894],
+        "requires": []
+      },
+      "9422": {
+        "id": 9422,
+        "row": 4,
+        "col": 0,
+        "icon": "ability_hunter_rapidregeneration",
+        "ranks": [53228, 53232],
+        "requires": []
+      },
+      "9418": {
+        "id": 9418,
+        "row": 4,
+        "col": 1,
+        "icon": "ability_hunter_mastermarksman",
+        "ranks": [34485, 34486, 34487],
+        "requires": []
+      },
+      "9404": {
+        "id": 9404,
+        "row": 4,
+        "col": 3,
+        "icon": "ability_hunter_readiness",
+        "ranks": [23989],
+        "requires": []
+      },
+      "9426": {
+        "id": 9426,
+        "row": 5,
+        "col": 0,
+        "icon": "ability_hunter_posthaste",
+        "ranks": [83558, 83560],
+        "requires": []
+      },
+      "9428": {
+        "id": 9428,
+        "row": 5,
+        "col": 2,
+        "icon": "ability_hunter_assassinate",
+        "ranks": [53241, 53243],
+        "requires": [
+          {
+            "id": 9418,
+            "qty": 3
+          }
+        ]
+      },
+      "9430": {
+        "id": 9430,
+        "row": 6,
+        "col": 1,
+        "icon": "ability_hunter_chimerashot2",
+        "ranks": [53209],
+        "requires": [
+          {
+            "id": 9418,
+            "qty": 3
+          }
+        ]
+      }
+    },
+    "Survival": {
+      "9442": {
+        "id": 9442,
+        "row": 0,
+        "col": 0,
+        "icon": "ability_hunter_huntervswild",
+        "ranks": [56339, 56340, 56341],
+        "requires": []
+      },
+      "9432": {
+        "id": 9432,
+        "row": 0,
+        "col": 1,
+        "icon": "ability_hunter_improvedtracking",
+        "ranks": [52783, 52785, 52786],
+        "requires": []
+      },
+      "9450": {
+        "id": 9450,
+        "row": 0,
+        "col": 2,
+        "icon": "ability_hunter_quickshot",
+        "ranks": [19464, 82834],
+        "requires": []
+      },
+      "9444": {
+        "id": 9444,
+        "row": 1,
+        "col": 0,
+        "icon": "ability_rogue_feigndeath",
+        "ranks": [19286, 19287],
+        "requires": []
+      },
+      "10753": {
+        "id": 10753,
+        "row": 1,
+        "col": 1,
+        "icon": "ability_ensnare",
+        "ranks": [19376, 63457, 63458],
+        "requires": []
+      },
+      "9440": {
+        "id": 9440,
+        "row": 1,
+        "col": 2,
+        "icon": "spell_nature_stranglevines",
+        "ranks": [19184, 19387],
+        "requires": []
+      },
+      "9472": {
+        "id": 9472,
+        "row": 1,
+        "col": 3,
+        "icon": "ability_hunter_pointofnoescape",
+        "ranks": [53298, 53299],
+        "requires": []
+      },
+      "9484": {
+        "id": 9484,
+        "row": 2,
+        "col": 0,
+        "icon": "ability_hunter_thrillofthehunt",
+        "ranks": [34497, 34498, 34499],
+        "requires": []
+      },
+      "9448": {
+        "id": 9448,
+        "row": 2,
+        "col": 1,
+        "icon": "ability_warrior_challange",
+        "ranks": [19306],
+        "requires": []
+      },
+      "9452": {
+        "id": 9452,
+        "row": 2,
+        "col": 2,
+        "icon": "ability_hunter_lockandload",
+        "ranks": [56342, 56343],
+        "requires": []
+      },
+      "9460": {
+        "id": 9460,
+        "row": 3,
+        "col": 0,
+        "icon": "ability_hunter_resourcefulness",
+        "ranks": [34491, 34492, 34493],
+        "requires": []
+      },
+      "9482": {
+        "id": 9482,
+        "row": 3,
+        "col": 1,
+        "icon": "inv_weapon_shortblade_99",
+        "ranks": [83494, 83495],
+        "requires": []
+      },
+      "9462": {
+        "id": 9462,
+        "row": 3,
+        "col": 2,
+        "icon": "inv_misc_bomb_05",
+        "ranks": [56333, 56336],
+        "requires": [
+          {
+            "id": 9452,
+            "qty": 2
+          }
+        ]
+      },
+      "9464": {
+        "id": 9464,
+        "row": 4,
+        "col": 0,
+        "icon": "inv_alchemy_enchantedvial",
+        "ranks": [82832, 82833],
+        "requires": []
+      },
+      "9468": {
+        "id": 9468,
+        "row": 4,
+        "col": 1,
+        "icon": "inv_spear_02",
+        "ranks": [19386],
+        "requires": []
+      },
+      "9474": {
+        "id": 9474,
+        "row": 4,
+        "col": 2,
+        "icon": "ability_hunter_potentvenom",
+        "ranks": [53295, 53296],
+        "requires": [
+          {
+            "id": 9468,
+            "qty": 1
+          }
+        ]
+      },
+      "9476": {
+        "id": 9476,
+        "row": 4,
+        "col": 3,
+        "icon": "ability_hunter_huntingparty",
+        "ranks": [53290],
+        "requires": []
+      },
+      "9478": {
+        "id": 9478,
+        "row": 5,
+        "col": 0,
+        "icon": "ability_hunter_longshots",
+        "ranks": [53302, 53303, 53304],
+        "requires": []
+      },
+      "11698": {
+        "id": 11698,
+        "row": 5,
+        "col": 2,
+        "icon": "ability_hunter_serpentswiftness",
+        "ranks": [87934, 87935],
+        "requires": []
+      },
+      "9480": {
+        "id": 9480,
+        "row": 6,
+        "col": 1,
+        "icon": "spell_shadow_painspike",
+        "ranks": [3674],
+        "requires": [
+          {
+            "id": 9468,
+            "qty": 1
+          }
+        ]
+      }
+    }
+  }
+}

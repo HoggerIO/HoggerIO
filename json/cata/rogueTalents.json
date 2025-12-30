@@ -1,0 +1,491 @@
+{
+  "talents": {
+    "Combat": {
+      "6395": {
+        "id": 6395,
+        "row": 0,
+        "col": 0,
+        "icon": "ability_rogue_improvedrecuperate",
+        "ranks": [79007, 79008],
+        "requires": []
+      },
+      "201": {
+        "id": 201,
+        "row": 0,
+        "col": 1,
+        "icon": "spell_shadow_ritualofsacrifice",
+        "ranks": [13732, 13863, 79004],
+        "requires": []
+      },
+      "181": {
+        "id": 181,
+        "row": 0,
+        "col": 2,
+        "icon": "ability_marksmanship",
+        "ranks": [13705, 13832, 13843],
+        "requires": []
+      },
+      "1827": {
+        "id": 1827,
+        "row": 1,
+        "col": 0,
+        "icon": "ability_rogue_slicedice",
+        "ranks": [14165, 14166],
+        "requires": []
+      },
+      "222": {
+        "id": 222,
+        "row": 1,
+        "col": 1,
+        "icon": "ability_rogue_sprint",
+        "ranks": [13743, 13875],
+        "requires": []
+      },
+      "1122": {
+        "id": 1122,
+        "row": 1,
+        "col": 2,
+        "icon": "ability_racial_avatar",
+        "ranks": [18427, 18428, 18429],
+        "requires": []
+      },
+      "206": {
+        "id": 206,
+        "row": 1,
+        "col": 3,
+        "icon": "ability_kick",
+        "ranks": [13754, 13867],
+        "requires": []
+      },
+      "186": {
+        "id": 186,
+        "row": 2,
+        "col": 0,
+        "icon": "spell_nature_invisibilty",
+        "ranks": [13712, 13788, 13789],
+        "requires": []
+      },
+      "11171": {
+        "id": 11171,
+        "row": 2,
+        "col": 1,
+        "icon": "inv_sword_97",
+        "ranks": [84617],
+        "requires": []
+      },
+      "6511": {
+        "id": 6511,
+        "row": 2,
+        "col": 2,
+        "icon": "ability_rogue_reinforcedleather",
+        "ranks": [79077, 79079],
+        "requires": []
+      },
+      "203": {
+        "id": 203,
+        "row": 2,
+        "col": 3,
+        "icon": "ability_gouge",
+        "ranks": [13741, 13793],
+        "requires": []
+      },
+      "1825": {
+        "id": 1825,
+        "row": 3,
+        "col": 1,
+        "icon": "inv_weapon_shortblade_38",
+        "ranks": [35541, 35550, 35551],
+        "requires": []
+      },
+      "1706": {
+        "id": 1706,
+        "row": 3,
+        "col": 2,
+        "icon": "ability_rogue_bladetwisting",
+        "ranks": [31124, 31126],
+        "requires": []
+      },
+      "2072": {
+        "id": 2072,
+        "row": 4,
+        "col": 0,
+        "icon": "ability_rogue_throwingspecialization",
+        "ranks": [5952, 51679],
+        "requires": []
+      },
+      "205": {
+        "id": 205,
+        "row": 4,
+        "col": 1,
+        "icon": "spell_shadow_shadowworddominate",
+        "ranks": [13750],
+        "requires": []
+      },
+      "2074": {
+        "id": 2074,
+        "row": 4,
+        "col": 2,
+        "icon": "ability_creature_disease_03",
+        "ranks": [51682, 58413],
+        "requires": []
+      },
+      "11174": {
+        "id": 11174,
+        "row": 5,
+        "col": 0,
+        "icon": "ability_rogue_preyontheweak",
+        "ranks": [84652, 84653, 84654],
+        "requires": []
+      },
+      "6513": {
+        "id": 6513,
+        "row": 5,
+        "col": 2,
+        "icon": "ability_rogue_restlessblades",
+        "ranks": [79095, 79096],
+        "requires": []
+      },
+      "2076": {
+        "id": 2076,
+        "row": 6,
+        "col": 1,
+        "icon": "ability_rogue_murderspree",
+        "ranks": [51690],
+        "requires": [
+          {
+            "id": 205,
+            "qty": 1
+          }
+        ]
+      }
+    },
+    "Assassination": {
+      "6514": {
+        "id": 6514,
+        "row": 0,
+        "col": 0,
+        "icon": "ability_rogue_deadlymomentum",
+        "ranks": [79121, 79122],
+        "requires": []
+      },
+      "276": {
+        "id": 276,
+        "row": 0,
+        "col": 1,
+        "icon": "ability_rogue_eviscerate",
+        "ranks": [14162, 14163, 14164],
+        "requires": []
+      },
+      "269": {
+        "id": 269,
+        "row": 0,
+        "col": 2,
+        "icon": "ability_criticalstrike",
+        "ranks": [14128, 14132, 14135],
+        "requires": []
+      },
+      "273": {
+        "id": 273,
+        "row": 1,
+        "col": 0,
+        "icon": "ability_druid_disembowel",
+        "ranks": [14156, 14160, 14161],
+        "requires": []
+      },
+      "1721": {
+        "id": 1721,
+        "row": 1,
+        "col": 1,
+        "icon": "ability_rogue_quickrecovery",
+        "ranks": [31208, 31209],
+        "requires": []
+      },
+      "277": {
+        "id": 277,
+        "row": 1,
+        "col": 2,
+        "icon": "ability_backstab",
+        "ranks": [13733, 13865, 13866],
+        "requires": []
+      },
+      "6515": {
+        "id": 6515,
+        "row": 1,
+        "col": 3,
+        "icon": "ability_rogue_blackjack",
+        "ranks": [79123, 79125],
+        "requires": []
+      },
+      "2065": {
+        "id": 2065,
+        "row": 2,
+        "col": 0,
+        "icon": "ability_rogue_deadlybrew",
+        "ranks": [51625, 51626],
+        "requires": []
+      },
+      "280": {
+        "id": 280,
+        "row": 2,
+        "col": 1,
+        "icon": "spell_ice_lament",
+        "ranks": [14177],
+        "requires": []
+      },
+      "682": {
+        "id": 682,
+        "row": 2,
+        "col": 2,
+        "icon": "ability_rogue_feigndeath",
+        "ranks": [16513, 16514, 16515],
+        "requires": []
+      },
+      "11209": {
+        "id": 11209,
+        "row": 3,
+        "col": 0,
+        "icon": "ability_rogue_deadenednerves",
+        "ranks": [31380, 31382, 31383],
+        "requires": []
+      },
+      "283": {
+        "id": 283,
+        "row": 3,
+        "col": 1,
+        "icon": "ability_rogue_stayofexecution",
+        "ranks": [14186, 14190],
+        "requires": [
+          {
+            "id": 280,
+            "qty": 1
+          }
+        ]
+      },
+      "6516": {
+        "id": 6516,
+        "row": 4,
+        "col": 0,
+        "icon": "spell_shadow_deathscream",
+        "ranks": [14158, 14159],
+        "requires": []
+      },
+      "281": {
+        "id": 281,
+        "row": 4,
+        "col": 1,
+        "icon": "ability_hunter_rapidkilling",
+        "ranks": [58426],
+        "requires": []
+      },
+      "1715": {
+        "id": 1715,
+        "row": 4,
+        "col": 2,
+        "icon": "ability_creature_poison_06",
+        "ranks": [58410],
+        "requires": [
+          {
+            "id": 682,
+            "qty": 3
+          }
+        ]
+      },
+      "278": {
+        "id": 278,
+        "row": 4,
+        "col": 3,
+        "icon": "ability_warrior_riposte",
+        "ranks": [14168, 14169],
+        "requires": []
+      },
+      "2070": {
+        "id": 2070,
+        "row": 5,
+        "col": 1,
+        "icon": "ability_rogue_cuttothechase",
+        "ranks": [51664, 51665, 51667],
+        "requires": []
+      },
+      "6517": {
+        "id": 6517,
+        "row": 5,
+        "col": 2,
+        "icon": "ability_rogue_venomouswounds",
+        "ranks": [79133, 79134],
+        "requires": []
+      },
+      "2071": {
+        "id": 2071,
+        "row": 6,
+        "col": 1,
+        "icon": "ability_rogue_deadliness",
+        "ranks": [79140],
+        "requires": []
+      }
+    },
+    "Subtlety": {
+      "244": {
+        "id": 244,
+        "row": 0,
+        "col": 0,
+        "icon": "ability_stealth",
+        "ranks": [13975, 14062],
+        "requires": []
+      },
+      "263": {
+        "id": 263,
+        "row": 0,
+        "col": 1,
+        "icon": "ability_rogue_ambush",
+        "ranks": [14079, 14080, 84661],
+        "requires": []
+      },
+      "2244": {
+        "id": 2244,
+        "row": 0,
+        "col": 2,
+        "icon": "ability_warrior_decisivestrike",
+        "ranks": [14179, 58422, 58423],
+        "requires": []
+      },
+      "247": {
+        "id": 247,
+        "row": 1,
+        "col": 0,
+        "icon": "spell_magic_lesserinvisibilty",
+        "ranks": [13981, 14066],
+        "requires": []
+      },
+      "2077": {
+        "id": 2077,
+        "row": 1,
+        "col": 1,
+        "icon": "ability_rogue_waylay",
+        "ranks": [51692, 51696],
+        "requires": [
+          {
+            "id": 263,
+            "qty": 3
+          }
+        ]
+      },
+      "261": {
+        "id": 261,
+        "row": 1,
+        "col": 2,
+        "icon": "ability_rogue_bloodsplatter",
+        "ranks": [14057, 14072, 79141],
+        "requires": []
+      },
+      "245": {
+        "id": 245,
+        "row": 1,
+        "col": 3,
+        "icon": "spell_shadow_fumble",
+        "ranks": [13976, 13979],
+        "requires": []
+      },
+      "11665": {
+        "id": 11665,
+        "row": 2,
+        "col": 0,
+        "icon": "ability_rogue_sturdyrecuperate",
+        "ranks": [79150, 79151, 79152],
+        "requires": []
+      },
+      "6519": {
+        "id": 6519,
+        "row": 2,
+        "col": 1,
+        "icon": "ability_rogue_findweakness",
+        "ranks": [51632, 91023],
+        "requires": []
+      },
+      "681": {
+        "id": 681,
+        "row": 2,
+        "col": 2,
+        "icon": "spell_shadow_lifedrain",
+        "ranks": [16511],
+        "requires": []
+      },
+      "2078": {
+        "id": 2078,
+        "row": 3,
+        "col": 0,
+        "icon": "ability_rogue_honoramongstthieves",
+        "ranks": [51698, 51700, 51701],
+        "requires": []
+      },
+      "381": {
+        "id": 381,
+        "row": 3,
+        "col": 1,
+        "icon": "spell_shadow_possession",
+        "ranks": [14183],
+        "requires": []
+      },
+      "11664": {
+        "id": 11664,
+        "row": 3,
+        "col": 3,
+        "icon": "ability_rogue_envelopingshadows",
+        "ranks": [31211, 31212, 31213],
+        "requires": []
+      },
+      "1722": {
+        "id": 1722,
+        "row": 4,
+        "col": 0,
+        "icon": "ability_rogue_cheatdeath",
+        "ranks": [31228, 31229, 31230],
+        "requires": []
+      },
+      "284": {
+        "id": 284,
+        "row": 4,
+        "col": 1,
+        "icon": "ability_rogue_preparation",
+        "ranks": [14185],
+        "requires": []
+      },
+      "6520": {
+        "id": 6520,
+        "row": 4,
+        "col": 2,
+        "icon": "ability_rogue_sanguinaryvein",
+        "ranks": [79146, 79147],
+        "requires": [
+          {
+            "id": 681,
+            "qty": 1
+          }
+        ]
+      },
+      "2080": {
+        "id": 2080,
+        "row": 5,
+        "col": 1,
+        "icon": "ability_rogue_slaughterfromtheshadows",
+        "ranks": [51708, 51709, 51710],
+        "requires": []
+      },
+      "1123": {
+        "id": 1123,
+        "row": 5,
+        "col": 2,
+        "icon": "inv_sword_17",
+        "ranks": [14171, 14172],
+        "requires": []
+      },
+      "2081": {
+        "id": 2081,
+        "row": 6,
+        "col": 1,
+        "icon": "ability_rogue_shadowdance",
+        "ranks": [51713],
+        "requires": []
+      }
+    }
+  }
+}

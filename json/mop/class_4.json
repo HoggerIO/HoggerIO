@@ -1,0 +1,286 @@
+{
+  "glyphs": {
+    "Glyph of Shadow Walk": {
+      "id": 42954,
+      "icon": "ability_rogue_envelopingshadows",
+      "type": 1
+    },
+    "Glyph of Ambush": {
+      "id": 42955,
+      "icon": "ability_rogue_ambush",
+      "type": 1
+    },
+    "Glyph of Decoy": {
+      "id": 42956,
+      "icon": "ability_vanish",
+      "type": 2
+    },
+    "Glyph of Blade Flurry": {
+      "id": 42957,
+      "icon": "ability_warrior_punishingblow",
+      "type": 1
+    },
+    "Glyph of Sharpened Knives": {
+      "id": 42958,
+      "icon": "inv_stone_sharpeningstone_05",
+      "type": 1
+    },
+    "Glyph of Recuperate": {
+      "id": 42959,
+      "icon": "ability_rogue_recuperate",
+      "type": 1
+    },
+    "Glyph of Evasion": {
+      "id": 42960,
+      "icon": "spell_shadow_shadowward",
+      "type": 1
+    },
+    "Glyph of Recovery": {
+      "id": 42961,
+      "icon": "ability_rogue_sturdyrecuperate",
+      "type": 1
+    },
+    "Glyph of Expose Armor": {
+      "id": 42962,
+      "icon": "ability_warrior_riposte",
+      "type": 1
+    },
+    "Glyph of Feint": {
+      "id": 42963,
+      "icon": "ability_rogue_feint",
+      "type": 1
+    },
+    "Glyph of Garrote": {
+      "id": 42964,
+      "icon": "ability_rogue_garrote",
+      "type": 1
+    },
+    "Glyph of Detection": {
+      "id": 42965,
+      "icon": "ability_spy",
+      "type": 2
+    },
+    "Glyph of Gouge": {
+      "id": 42966,
+      "icon": "ability_gouge",
+      "type": 1
+    },
+    "Glyph of Hemorrhage": {
+      "id": 42967,
+      "icon": "spell_shadow_lifedrain",
+      "type": 2
+    },
+    "Glyph of Smoke Bomb": {
+      "id": 42968,
+      "icon": "ability_rogue_smoke",
+      "type": 1
+    },
+    "Glyph of Cheap Shot": {
+      "id": 42969,
+      "icon": "ability_cheapshot",
+      "type": 1
+    },
+    "Glyph of Hemorrhaging Veins": {
+      "id": 42970,
+      "icon": "spell_holy_sealofsacrifice",
+      "type": 1
+    },
+    "Glyph of Redirect": {
+      "id": 42972,
+      "icon": "ability_rogue_redirect",
+      "type": 1
+    },
+    "Glyph of Shiv": {
+      "id": 42973,
+      "icon": "inv_throwingknife_04",
+      "type": 1
+    },
+    "Glyph of Sprint": {
+      "id": 42974,
+      "icon": "ability_rogue_sprint",
+      "type": 1
+    },
+    "Glyph of Distract": {
+      "id": 43376,
+      "icon": "ability_rogue_distract",
+      "type": 2
+    },
+    "Glyph of Pick Lock": {
+      "id": 43377,
+      "icon": "spell_nature_moonkey",
+      "type": 2
+    },
+    "Glyph of Pick Pocket": {
+      "id": 43343,
+      "icon": "inv_misc_bag_11",
+      "type": 2
+    },
+    "Glyph of Safe Fall": {
+      "id": 43378,
+      "icon": "inv_feather_01",
+      "type": 2
+    },
+    "Glyph of Blurred Speed": {
+      "id": 43379,
+      "icon": "ability_rogue_sprint",
+      "type": 2
+    },
+    "Glyph of Poisons": {
+      "id": 43380,
+      "icon": "trade_brewpoison",
+      "type": 2
+    },
+    "Glyph of Vendetta": {
+      "id": 45761,
+      "icon": "ability_rogue_deadliness",
+      "type": 1
+    },
+    "Glyph of Killing Spree": {
+      "id": 45762,
+      "icon": "ability_rogue_murderspree",
+      "type": 2
+    },
+    "Glyph of Stealth": {
+      "id": 45764,
+      "icon": "ability_stealth",
+      "type": 1
+    },
+    "Glyph of Deadly Momentum": {
+      "id": 45766,
+      "icon": "ability_rogue_deadlymomentum",
+      "type": 1
+    },
+    "Glyph of Tricks of the Trade": {
+      "id": 45767,
+      "icon": "ability_rogue_tricksofthetrade",
+      "type": 2
+    },
+    "Glyph of Disguise": {
+      "id": 45768,
+      "icon": "ability_rogue_disguise",
+      "type": 2
+    },
+    "Glyph of Cloak of Shadows": {
+      "id": 45769,
+      "icon": "spell_shadow_nethercloak",
+      "type": 1
+    },
+    "Glyph of Vanish": {
+      "id": 63420,
+      "icon": "ability_vanish",
+      "type": 1
+    },
+    "Glyph of Kick": {
+      "id": 42971,
+      "icon": "ability_kick",
+      "type": 1
+    },
+    "Glyph of Blind": {
+      "id": 64493,
+      "icon": "spell_shadow_mindsteal",
+      "type": 1
+    },
+    "Glyph of the Headhunter": {
+      "id": 104123,
+      "icon": "inv_throwingaxe_03",
+      "type": 2
+    },
+    "Glyph of Improved Distraction": {
+      "id": 104124,
+      "icon": "ability_rogue_distract",
+      "type": 2
+    }
+  },
+  "talents": [
+    {
+      "id": 14062,
+      "icon": "ability_stealth",
+      "name": "Nightstalker"
+    },
+    {
+      "id": 108208,
+      "icon": "rogue_subterfuge",
+      "name": "Subterfuge"
+    },
+    {
+      "id": 108209,
+      "icon": "rogue_shadowfocus",
+      "name": "Shadow Focus"
+    },
+    {
+      "id": 26679,
+      "icon": "inv_throwingknife_06",
+      "name": "Deadly Throw"
+    },
+    {
+      "id": 108210,
+      "icon": "rogue_nerve-_strike",
+      "name": "Nerve Strike"
+    },
+    {
+      "id": 74001,
+      "icon": "ability_rogue_combatreadiness",
+      "name": "Combat Readiness"
+    },
+    {
+      "id": 31230,
+      "icon": "ability_rogue_cheatdeath",
+      "name": "Cheat Death"
+    },
+    {
+      "id": 108211,
+      "icon": "rogue_leeching_poison",
+      "name": "Leeching Poison"
+    },
+    {
+      "id": 79008,
+      "icon": "ability_rogue_turnthetables",
+      "name": "Elusiveness"
+    },
+    {
+      "id": 138106,
+      "icon": "ability_rogue_unfairadvantage",
+      "name": "Cloak and Dagger"
+    },
+    {
+      "id": 36554,
+      "icon": "ability_rogue_shadowstep",
+      "name": "Shadowstep"
+    },
+    {
+      "id": 108212,
+      "icon": "rogue_burstofspeed",
+      "name": "Burst of Speed"
+    },
+    {
+      "id": 131511,
+      "icon": "ability_rogue_preyontheweak",
+      "name": "Prey on the Weak"
+    },
+    {
+      "id": 108215,
+      "icon": "rogue_paralytic_poison",
+      "name": "Paralytic Poison"
+    },
+    {
+      "id": 108216,
+      "icon": "ability_rogue_dirtydeeds",
+      "name": "Dirty Tricks"
+    },
+    {
+      "id": 114014,
+      "icon": "inv_throwingknife_07",
+      "name": "Shuriken Toss"
+    },
+    {
+      "id": 137619,
+      "icon": "achievement_bg_killingblow_berserker",
+      "name": "Marked for Death"
+    },
+    {
+      "id": 114015,
+      "icon": "ability_rogue_slaughterfromtheshadows",
+      "name": "Anticipation"
+    }
+  ]
+}
