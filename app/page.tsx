@@ -21,11 +21,19 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <Box p={4} marginRight={"auto"} marginLeft="auto" maxWidth={"1300px"}>
-      <Box mb={5}>
+    <Box
+      display={"flex"}
+      flexDirection={"column"}
+      gap={4}
+      p={4}
+      marginRight={"auto"}
+      marginLeft="auto"
+      maxWidth={"1300px"}
+    >
+      <Box>
         <SearchBox linkPrefix={"character"} />
       </Box>
-      <Text textAlign={"center"} mb={2} fontSize={"x-large"}>
+      <Text textAlign={"center"} fontSize={"x-large"}>
         Recently updated characters
       </Text>
       <RecentlyUpdated />

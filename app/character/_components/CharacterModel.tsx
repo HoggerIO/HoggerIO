@@ -86,7 +86,7 @@ export const CharacterModel: React.FC<CharacterModelProps> = ({
       }
     }
     loadVisualCharacter();
-    // We intentionally only want to run this onceon mount
+    // We intentionally only want to run this once on mount
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 

@@ -52,7 +52,15 @@ export const Leaderboard: React.FC<LeaderboardProps> = ({ gameTypeQp, wowClass }
         ];
 
   return (
-    <Box p={4} marginRight={"auto"} marginLeft="auto" maxW={"1300px"}>
+    <Box
+      display={"flex"}
+      flexDirection={"column"}
+      gap={4}
+      p={4}
+      marginRight={"auto"}
+      marginLeft="auto"
+      maxW={"1300px"}
+    >
       <Text textAlign={"center"} fontSize={"xx-large"}>
         Leaderboards
       </Text>

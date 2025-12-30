@@ -30,7 +30,7 @@ const nextConfig = {
     return [
       {
         source: "/growth/:match*",
-        destination: "https://hogger.io/_vercel/insights/:match*", // this didn't work with just the relative path for some reason any not sure why
+        destination: "https://hogger.io/_vercel/insights/:match*",
       },
     ];
   },
