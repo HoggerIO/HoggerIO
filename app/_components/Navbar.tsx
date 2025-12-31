@@ -19,6 +19,7 @@ import { usePathname } from "next/navigation";
 import Image from "next/image";
 import hoggerImage from "../../images/hoggerIO.png";
 import discordImage from "../../images/discord-mark-blue.svg";
+import githubImage from "../../images/github.svg";
 import { IoPerson } from "react-icons/io5";
 import { HamburgerIcon } from "@chakra-ui/icons";
 import { GiTrophy } from "react-icons/gi";
@@ -57,7 +58,13 @@ export default function Navbar() {
           </Box>
         </Link>
 
-        <Box display={["none", "none", "flex"]} justifyContent={"end"} alignItems="center" flex={1}>
+        <Box
+          display={["none", "none", "flex"]}
+          gap={4}
+          justifyContent={"end"}
+          alignItems="center"
+          flex={1}
+        >
           <LinkButton href={HomeRoute} isSelected={isHomePage} text={"Characters"} />
           <LinkButton href={GuildRoute} isSelected={isGuildPage} text={"Guilds"} />
           <LinkButton
@@ -68,6 +75,11 @@ export default function Navbar() {
           <Link href={"https://discord.gg/8tZ4gENExS"} target="_blank">
             <Box _hover={{ opacity: "80%" }} cursor={"pointer"}>
               <Image src={discordImage} alt="discord" width={20} height={20} />
+            </Box>
+          </Link>
+          <Link href={"https://github.com/HoggerIO/HoggerIO"} target="_blank">
+            <Box _hover={{ opacity: "80%" }} cursor={"pointer"}>
+              <Image src={githubImage} alt="github" width={20} height={20} />
             </Box>
           </Link>
         </Box>
@@ -108,7 +120,6 @@ const LinkButton = ({ href, text, isSelected }) => {
       <Box
         cursor="pointer"
         textDecoration={isSelected ? "underline" : "none"}
-        mr={4}
         _hover={{ color: "white" }}
         appearance={"none"}
         padding={0}
