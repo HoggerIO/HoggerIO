@@ -10,6 +10,8 @@ A web application for viewing World of Warcraft Classic character profiles, guil
 
 🔗 **Live site**: [hogger.io](https://hogger.io)
 
+<img width="1200" height="800" alt="hoggerIO" src="https://github.com/user-attachments/assets/db93c327-2b88-44aa-86f1-4649c5c4fdb8" />
+
 ## Features
 
 - 🎮 **Character Profiles**: View detailed character stats, gear, talents, achievements, and PvP statistics
