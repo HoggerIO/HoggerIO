@@ -65,6 +65,10 @@ export const Item: React.FC<ItemProps> = ({ items, slotType, textOnLeft, isEra, 
       : "";
 
   const enchant = item.enchantments?.find((e) => e.enchantment_slot.id === 0);
+  // Extract the enchant name from the display string
+  const enchantText = enchant?.display_string
+    ?.replace(/^Enchanted:\s*/i, "")
+    .replace(/^Enchant:\s*/i, "");
   const maybeEnchant = enchant ? `&ench=${enchant.enchantment_id}` : "";
   return (
     <Box w={[215, 215, 315]}>
@@ -97,9 +101,11 @@ export const Item: React.FC<ItemProps> = ({ items, slotType, textOnLeft, isEra, 
             >
               {item.name}
             </Text>
-            <Text fontSize={"small"} textAlign={textOnLeft ? "end" : "start"}>
-              {item.itemLevel}
-            </Text>
+            {enchantText && (
+              <Text fontSize={"small"} textAlign={textOnLeft ? "end" : "start"} color={"#1eff00"}>
+                {enchantText}
+              </Text>
+            )}
           </Box>
 
           {textOnLeft && img}
