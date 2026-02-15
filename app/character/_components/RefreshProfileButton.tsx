@@ -2,13 +2,14 @@
 import { Button, useToast } from "@chakra-ui/react";
 import { useState } from "react";
 import refreshProfileData from "../../_serverFunctions/refreshProfileData";
+import { GameType } from "@prisma/client";
 
 interface Props {
   character: string;
   realm: string;
   region: string;
   disabled?: boolean;
-  isEra: boolean;
+  gameType: GameType;
 }
 
 export const RefreshProfileButton: React.FC<Props> = ({
@@ -16,14 +17,14 @@ export const RefreshProfileButton: React.FC<Props> = ({
   realm,
   region,
   disabled,
-  isEra,
+  gameType,
 }) => {
   const [isLoading, setIsLoading] = useState(false);
   const toast = useToast();
   const handleSubmit = async () => {
     try {
       setIsLoading(true);
-      await refreshProfileData(character, realm, region, isEra);
+      await refreshProfileData(character, realm, region, gameType);
       setIsLoading(false);
     } catch (e) {
       setIsLoading(false);

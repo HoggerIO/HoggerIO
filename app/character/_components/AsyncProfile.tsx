@@ -18,20 +18,22 @@ import { Parses } from "./Parses";
 import { RefreshParseButton } from "./RefreshParseButton";
 import { GameType } from "@prisma/client";
 import { RefreshProfileButton } from "./RefreshProfileButton";
+import { buildGuildPath, getMaxLevel, getModelType, supportsRunes } from "@/app/_utils/gameType";
+import { TbcTalents } from "./TbcTalents";
 
 interface ProfileProps {
   realm: string;
   character: string;
   region: string;
-  isEra: boolean;
+  gameType: GameType;
 }
 
 export const AsyncProfile = async (props: ProfileProps) => {
-  const { realm, character: unCleanCharacter, region, isEra } = props;
+  const { realm, character: unCleanCharacter, region, gameType } = props;
   const character = decodeURIComponent(unCleanCharacter);
   let profile: Profile | string;
   try {
-    profile = await fetchProfile(character, realm, region, false, isEra);
+    profile = await fetchProfile(character, realm, region, false, gameType);
   } catch (e: any) {
     console.error(e, "error");
     profile = e.toString();
@@ -60,7 +62,7 @@ export const AsyncProfile = async (props: ProfileProps) => {
       </Card>
     );
   }
-  const runes = isEra ? getRunes(profile.class, profile.items) : [];
+  const runes = supportsRunes(gameType) ? getRunes(profile.class, profile.items) : [];
   const items = profile.items;
   return (
     <Box width={"100%"} display={"flex"} alignContent={"center"} justifyContent={"center"} mt={3}>
@@ -78,7 +80,7 @@ export const AsyncProfile = async (props: ProfileProps) => {
               profile={profile}
               character={character}
               realm={realm}
-              isEra={isEra}
+              gameType={gameType}
               region={region}
             />
             <Box gap={"5px"} display={"flex"} justifyContent={"space-between"}>
@@ -89,7 +91,7 @@ export const AsyncProfile = async (props: ProfileProps) => {
                     key={slotType}
                     items={items}
                     slotType={slotType}
-                    isEra={isEra}
+                    gameType={gameType}
                   />
                 ))}
               </Box>
@@ -101,7 +103,7 @@ export const AsyncProfile = async (props: ProfileProps) => {
                     items={items}
                     slotType={slotType}
                     textOnLeft={true}
-                    isEra={isEra}
+                    gameType={gameType}
                   />
                 ))}
               </Box>
@@ -113,7 +115,7 @@ export const AsyncProfile = async (props: ProfileProps) => {
                   textOnLeft={idx === 0}
                   items={items}
                   slotType={slotType}
-                  isEra={isEra}
+                  gameType={gameType}
                 />
               ))}
             </Box>
@@ -124,11 +126,11 @@ export const AsyncProfile = async (props: ProfileProps) => {
               items={items}
               race={profile.race}
               gender={profile.gender}
-              modelType={isEra ? "classic" : "mists"}
+              modelType={getModelType(gameType)}
             />
           </Box>
         </Box>
-        {isEra && runes.length > 0 && (
+        {supportsRunes(gameType) && runes.length > 0 && (
           <Box mb={2} display={"flex"} width={"100%"} flexDir={"column"} alignItems={"center"}>
             <Text fontSize="xl" fontWeight="bold">
               Runes
@@ -165,15 +167,19 @@ export const AsyncProfile = async (props: ProfileProps) => {
             </Box>
           </Box>
         )}
-        {profile?.talents.length > 0 &&
+        {gameType === GameType.TBC ? (
+          <TbcTalents />
+        ) : profile?.talents.length > 0 &&
           profile.talents.findIndex != null &&
-          (isEra ? (
-            <Talents talents={profile?.talents ?? []} class={profile.class} />
-          ) : MopSpec.is(profile?.talents) ? (
-            <TalentsMOP talents={profile?.talents ?? []} class={profile.class} />
-          ) : (
-            <TalentsCata talents={profile?.talents ?? []} class={profile.class} />
-          ))}
+          (gameType === GameType.ERA ||
+            gameType === GameType.SEASONAL ||
+            gameType === GameType.HARDCORE) ? (
+          <Talents talents={profile?.talents ?? []} class={profile.class} />
+        ) : MopSpec.is(profile?.talents) ? (
+          <TalentsMOP talents={profile?.talents ?? []} class={profile.class} />
+        ) : (
+          <TalentsCata talents={profile?.talents ?? []} class={profile.class} />
+        )}
         <Divider mt={3} />
         <Stats profile={profile} />
         <Box display={"flex"} flexDir={"column"} justifyContent={"center"}>
@@ -186,7 +192,7 @@ export const AsyncProfile = async (props: ProfileProps) => {
               gameType={profile.gameType}
             />
           )}
-          {isMaxLevel(profile.level, profile.gameType) &&
+          {profile.level >= getMaxLevel(profile.gameType) &&
             (profile.parse == null ||
               // If the last parse is older than 24 hours
               new Date(profile.parse.lastUpdated) < new Date(Date.now() - 1000 * 60 * 60 * 24)) && (
@@ -207,15 +213,7 @@ export const AsyncProfile = async (props: ProfileProps) => {
   );
 };
 
-function isMaxLevel(level: number, gameType: GameType) {
-  if (gameType === "NORMAL") {
-    return level === 90;
-  } else {
-    return level === 60;
-  }
-}
-
-const TopBar = ({ profile, character, realm, isEra, region }) => {
+const TopBar = ({ profile, character, realm, gameType, region }) => {
   const [red, green, blue] =
     profile.gearscore != null ? getGearscoreColor(profile.gearscore) : [0, 0, 0];
 
@@ -250,16 +248,7 @@ const TopBar = ({ profile, character, realm, isEra, region }) => {
         {profile.guild && (
           <Link
             prefetch={false}
-            href={
-              isEra
-                ? `/guild/era/[region]/[realmName]/[guildName]`
-                : `/guild/[region]/[realmName]/[guildName]`
-            }
-            as={
-              isEra
-                ? `/guild/era/${profile.region}/${realm}/${profile.guild}`
-                : `/guild/${profile.region}/${realm}/${profile.guild}`
-            }
+            href={buildGuildPath(gameType, profile.region, realm, profile.guild)}
             target="_blank"
           >
             <Text
@@ -279,7 +268,7 @@ const TopBar = ({ profile, character, realm, isEra, region }) => {
           <Text
             fontWeight={"bold"}
             color={`rgb(${Math.round(red * 255)}, ${Math.round(green * 255)}, ${Math.round(
-              blue * 255
+              blue * 255,
             )})`}
           >
             gearscore: {profile.gearscore}
@@ -307,7 +296,7 @@ const TopBar = ({ profile, character, realm, isEra, region }) => {
           realm={realm}
           region={region}
           disabled={disableRefreshProfileButton}
-          isEra={isEra}
+          gameType={gameType}
         />
         <Text fontSize="sm" mt={2}>{`Last updated: ${timeAgo(new Date(profile.updatedAt))}`}</Text>
       </Box>
@@ -317,7 +306,7 @@ const TopBar = ({ profile, character, realm, isEra, region }) => {
 
 function getRunes(
   classId: number,
-  items: EquippedItem[]
+  items: EquippedItem[],
 ): {
   icon: string;
   name: string;

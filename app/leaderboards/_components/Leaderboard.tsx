@@ -9,7 +9,7 @@ interface LeaderboardProps {
   wowClass?: string;
   gameTypeQp?: string;
 }
-const gameTypes = ["NORMAL", "SEASONAL", "ERA", "HARDCORE"];
+const gameTypes = ["NORMAL", "SEASONAL", "ERA", "HARDCORE", "TBC"];
 
 export const Leaderboard: React.FC<LeaderboardProps> = ({ gameTypeQp, wowClass }) => {
   const gameType =

@@ -73,6 +73,52 @@ export default async function RecentlyUpdated() {
           />
         </Suspense>
       </Box>
+
+      <Box w={350}>
+        <Text mb={2} fontSize={"x-large"}>
+          Hardcore
+        </Text>
+        <Suspense
+          fallback={
+            <Box display={"flex"} justifyContent={"center"} alignItems={"center"} height={"100%"}>
+              <Spinner size={"xl"} />
+            </Box>
+          }
+        >
+          <AsyncCharacters
+            args={{
+              orderBy: { updatedAt: "desc" },
+              take: 5,
+              where: {
+                gameType: "HARDCORE",
+              },
+            }}
+          />
+        </Suspense>
+      </Box>
+
+      <Box w={350}>
+        <Text mb={2} fontSize={"x-large"}>
+          TBC
+        </Text>
+        <Suspense
+          fallback={
+            <Box display={"flex"} justifyContent={"center"} alignItems={"center"} height={"100%"}>
+              <Spinner size={"xl"} />
+            </Box>
+          }
+        >
+          <AsyncCharacters
+            args={{
+              orderBy: { updatedAt: "desc" },
+              take: 5,
+              where: {
+                gameType: "TBC",
+              },
+            }}
+          />
+        </Suspense>
+      </Box>
     </Box>
   );
 }

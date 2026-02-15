@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import { ProfilePage } from "@/app/character/_components/ProfilePage";
+import { GameType } from "@prisma/client";
 
 interface PageProps {
   params: Promise<{
@@ -13,14 +14,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const { character, realm } = await params;
   return {
     title: `${capitalizeFirstLetter(character)} - ${capitalizeFirstLetter(realm)}`,
-    description: `Word of Warcraft Season of Discovery Armory Profile for ${character} on ${realm}`,
+    description: `World of Warcraft Classic Era armory profile for ${character} on ${realm}`,
   };
 }
 
 const Page = async ({ params }: PageProps) => {
   const { realm, character, region } = await params;
 
-  return <ProfilePage realm={realm} character={character} region={region} isEra={true} />;
+  return <ProfilePage realm={realm} character={character} region={region} gameType={GameType.ERA} />;
 };
 
 export default Page;

@@ -2,16 +2,18 @@ import { Box, Text } from "@chakra-ui/react";
 import { EquippedItem } from "../../_types/types";
 import Image from "next/image";
 import { getItemQualityColor } from "../../_utils/colors";
+import { GameType } from "@prisma/client";
+import { getWowheadDomain } from "@/app/_utils/gameType";
 
 interface ItemProps {
   items: EquippedItem[] | undefined;
   slotType: string;
   textOnLeft?: boolean;
-  isEra: boolean;
+  gameType: GameType;
   isFirst?: boolean;
 }
 
-export const Item: React.FC<ItemProps> = ({ items, slotType, textOnLeft, isEra, isFirst }) => {
+export const Item: React.FC<ItemProps> = ({ items, slotType, textOnLeft, gameType, isFirst }) => {
   const item = items?.find((i) => i.slot.type === slotType);
   if (item == null) {
     return (
@@ -73,7 +75,7 @@ export const Item: React.FC<ItemProps> = ({ items, slotType, textOnLeft, isEra, 
   return (
     <Box w={[215, 215, 315]}>
       <a
-        href={`https://${isEra ? "classic" : "mists"}.wowhead.com/item=${
+        href={`https://${getWowheadDomain(gameType)}.wowhead.com/item=${
           item.id
         }${maybeSetBonus}${maybeEnchant}${maybeGem}`}
         target="_blank"

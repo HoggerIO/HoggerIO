@@ -19,6 +19,7 @@ export async function fetchRecentlyUpdatedGuilds(): Promise<Record<GameType, Gui
       SEASONAL: [],
       ERA: [],
       HARDCORE: [],
+      TBC: [],
     };
   }
 
@@ -52,12 +53,39 @@ export async function fetchRecentlyUpdatedGuilds(): Promise<Record<GameType, Gui
     take: 5,
   });
 
-  const [mop, sod, era] = await Promise.all([MopQuery, SodQuery, EraQuery]);
+  const HardcoreQuery = prisma.guild.findMany({
+    where: {
+      gameType: "HARDCORE",
+    },
+    orderBy: {
+      updatedAt: "desc",
+    },
+    take: 5,
+  });
+
+  const TbcQuery = prisma.guild.findMany({
+    where: {
+      gameType: "TBC",
+    },
+    orderBy: {
+      updatedAt: "desc",
+    },
+    take: 5,
+  });
+
+  const [mop, sod, era, hardcore, tbc] = await Promise.all([
+    MopQuery,
+    SodQuery,
+    EraQuery,
+    HardcoreQuery,
+    TbcQuery,
+  ]);
 
   return {
     NORMAL: normalizeGuilds(mop),
     SEASONAL: normalizeGuilds(sod),
     ERA: normalizeGuilds(era),
-    HARDCORE: [],
+    HARDCORE: normalizeGuilds(hardcore),
+    TBC: normalizeGuilds(tbc),
   };
 }

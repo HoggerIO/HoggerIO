@@ -3,19 +3,20 @@ import { Suspense } from "react";
 import Script from "next/script";
 import { SearchBox } from "../../_components/SearchBox";
 import { AsyncProfile } from "./AsyncProfile";
+import { GameType } from "@prisma/client";
 
 interface Props {
   realm: string;
   character: string;
   region: string;
-  isEra: boolean;
+  gameType: GameType;
 }
 
 /**
  * Shared page between the era and non-era profiles.
  */
 export const ProfilePage = (props: Props) => {
-  const { realm, character, region, isEra } = props;
+  const { realm, character, region, gameType } = props;
 
   return (
     <>
@@ -30,7 +31,7 @@ export const ProfilePage = (props: Props) => {
           }
         >
           <SearchBox linkPrefix={"character"} />
-          <AsyncProfile realm={realm} character={character} region={region} isEra={isEra} />
+          <AsyncProfile realm={realm} character={character} region={region} gameType={gameType} />
         </Suspense>
       </Box>
     </>

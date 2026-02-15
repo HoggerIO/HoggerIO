@@ -2,16 +2,17 @@ import { fetchGuild } from "../../_serverFunctions/fetchGuild";
 import { Box, Spinner, Text } from "@chakra-ui/react";
 import { Suspense } from "react";
 import { GuildTable } from "./GuildTable";
+import { GameType } from "@prisma/client";
 
 interface GuildProps {
   realm: string;
   guildName: string;
-  isEra: boolean;
+  gameType: GameType;
   region: string;
 }
 
 export const Guild = (props: GuildProps) => {
-  const { realm, guildName: unCleanGuildName, isEra, region } = props;
+  const { realm, guildName: unCleanGuildName, gameType, region } = props;
   const guildName = decodeURIComponent(unCleanGuildName.toLowerCase().replaceAll("%20", "-"));
   return (
     <Suspense
@@ -30,16 +31,16 @@ export const Guild = (props: GuildProps) => {
         </Box>
       }
     >
-      <AsyncGuild realm={realm} guildName={guildName} isEra={isEra} region={region} />
+      <AsyncGuild realm={realm} guildName={guildName} gameType={gameType} region={region} />
     </Suspense>
   );
 };
 
 const AsyncGuild = async (props: GuildProps) => {
-  const { realm, guildName, isEra, region } = props;
+  const { realm, guildName, gameType, region } = props;
 
   try {
-    const guild = await fetchGuild(guildName, realm, region, isEra);
+    const guild = await fetchGuild(guildName, realm, region, gameType);
 
     return (
       <Box p={5} maxWidth={"1000px"} mx={"auto"}>
@@ -48,7 +49,7 @@ const AsyncGuild = async (props: GuildProps) => {
           data={guild.members}
           realmName={realm}
           guildName={guild.displayName}
-          isEra={isEra}
+          gameType={gameType}
         />
       </Box>
     );

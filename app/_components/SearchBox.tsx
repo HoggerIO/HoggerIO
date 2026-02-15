@@ -6,6 +6,7 @@ import { REALM_TO_METADATA } from "../_utils/realm";
 import ReactSelect, { GroupBase, components } from "react-select";
 import { GameType } from "@prisma/client";
 import { useRouter } from "next/navigation";
+import { buildCharacterPath, buildGuildPath, GAME_TYPE_LABEL } from "../_utils/gameType";
 
 interface Props {
   linkPrefix: "character" | "guild";
@@ -36,11 +37,11 @@ export const SearchBox: React.FC<Props> = ({ linkPrefix }) => {
     if (selectedRealm == null) {
       return;
     }
-    router.push(
-      `/${linkPrefix}/${selectedRealm.type !== "NORMAL" ? "era/" : ""}${selectedRealm.region}/${
-        selectedRealm.id
-      }/${username}`
-    );
+    const path =
+      linkPrefix === "guild"
+        ? buildGuildPath(selectedRealm.type, selectedRealm.region, selectedRealm.id, username)
+        : buildCharacterPath(selectedRealm.type, selectedRealm.region, selectedRealm.id, username);
+    router.push(path);
   };
 
   const handleMenuItemClick = (realm: RealmItem) => {
@@ -171,7 +172,7 @@ const RealmSelect: React.FC<RealmSelectProps> = (props) => {
   const options = React.useMemo(() => {
     return Object.entries(REALM_TO_METADATA).map(([gameType, realms]) => {
       return {
-        label: gameType === GameType.NORMAL ? "Mists of Pandaria" : gameType.toLowerCase(),
+        label: GAME_TYPE_LABEL[gameType as GameType] ?? gameType.toLowerCase(),
         options: realms
           .map((realm) => ({
             ...realm,

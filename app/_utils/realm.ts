@@ -168,23 +168,11 @@ export const REALM_TO_METADATA: Record<
     { region: "eu", displayName: "Nek'Rosh", id: "nekrosh" },
     { region: "eu", displayName: "Stitches", id: "stitches" },
   ],
+  [GameType.TBC]: [
+    { region: "eu", displayName: "Spineshatter", id: "spineshatter" },
+    { region: "eu", displayName: "Thunderstrike", id: "thunderstrike" },
+    { region: "us", displayName: "Nightslayer", id: "nightslayer" },
+    { region: "us", displayName: "Dreamscythe", id: "dreamscythe" },
+    { region: "us", displayName: "Maladath (AU)", id: "maladath" },
+  ],
 };
-
-export function getGameType(realmName: string, isEra: boolean): GameType {
-  if (!isEra) {
-    return GameType.NORMAL;
-  }
-
-  if (REALM_TO_METADATA.SEASONAL.find((r) => r.id === realmName)) {
-    return GameType.SEASONAL;
-  }
-
-  if (REALM_TO_METADATA.ERA.find((r) => r.id === realmName)) {
-    return GameType.ERA;
-  }
-
-  if (REALM_TO_METADATA.HARDCORE.find((r) => r.id === realmName)) {
-    return GameType.HARDCORE;
-  }
-  throw new Error("Error: Realm not found");
-}

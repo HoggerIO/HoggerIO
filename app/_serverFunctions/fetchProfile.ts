@@ -10,13 +10,13 @@ import {
 } from "../_types/types";
 import { prisma } from "@/app/prisma";
 import { calculateGearScore } from "@/app/_utils/gearscore";
-import { getGameType } from "@/app/_utils/realm";
 import { Achievement, AchievementResponse } from "../_types/achievements";
 import { GameType } from "@prisma/client";
 import { compact } from "lodash";
 import { Achievements } from "../_types/achievements";
 import { getItemsByIds } from "@/app/_utils/itemsData";
 import { isDatabaseAvailable } from "@/app/_utils/isDatabaseAvailable";
+import { getProfileNamespace, supportsAchievements, useClassicSpecs } from "@/app/_utils/gameType";
 import {
   AuthTokenSchema,
   EquipmentResponseSchema,
@@ -32,7 +32,7 @@ const CLIENT_SECRET = process.env.BLIZZARD_CLIENT_SECRET;
 
 if (!CLIENT_ID || !CLIENT_SECRET) {
   throw new Error(
-    "Missing Blizzard API credentials. Please set BLIZZARD_CLIENT_ID and BLIZZARD_CLIENT_SECRET in your .env file."
+    "Missing Blizzard API credentials. Please set BLIZZARD_CLIENT_ID and BLIZZARD_CLIENT_SECRET in your .env file.",
   );
 }
 
@@ -41,10 +41,11 @@ export async function fetchProfile(
   realm: string,
   region: string,
   breakCache = false,
-  isEra = false
+  gameType: GameType = GameType.NORMAL,
 ): Promise<Profile> {
+  console.log(gameType, "gameType");
   const cleanCharacterName = decodeURIComponent(character.toLowerCase());
-  const gameType = getGameType(realm, isEra);
+  const namespace = getProfileNamespace(gameType, region);
 
   // Only check database cache if database is available
   const maybeProfile =
@@ -84,9 +85,7 @@ export async function fetchProfile(
   };
 
   function getApiUrl(extension?: string) {
-    return `https://${region}.api.blizzard.com/profile/wow/character/${realm}/${cleanCharacterName}${extension}?namespace=profile-classic${
-      isEra ? "1x" : ""
-    }-${region}&locale=en_US`;
+    return `https://${region}.api.blizzard.com/profile/wow/character/${realm}/${cleanCharacterName}${extension}?namespace=${namespace}&locale=en_US`;
   }
 
   const equipmentApi = getApiUrl("/equipment");
@@ -101,9 +100,9 @@ export async function fetchProfile(
     headers,
     next: { revalidate: 300 },
   });
-  const achievementFetch = isEra
-    ? Promise.resolve(new Response())
-    : fetch(achievementApi, { headers, next: { revalidate: 300 } });
+  const achievementFetch = supportsAchievements(gameType)
+    ? fetch(achievementApi, { headers, next: { revalidate: 300 } })
+    : Promise.resolve(new Response());
   const genericProfileFetch = fetch(genericProfileApi, {
     headers,
     next: { revalidate: 300 },
@@ -138,7 +137,9 @@ export async function fetchProfile(
       pvpResponse.json(),
     ]);
 
-    const achievementJson = isEra ? undefined : await achievementResponse.json();
+    const achievementJson = supportsAchievements(gameType)
+      ? await achievementResponse.json()
+      : undefined;
 
     // Validate critical responses
     const equipmentResult = EquipmentResponseSchema.safeParse(equipmentJson);
@@ -159,7 +160,7 @@ export async function fetchProfile(
       ? MediaResponseSchema.safeParse(mediaJson)
       : { success: true as const, data: undefined };
     const pvpResult = PvpResponseSchema.safeParse(pvpJson);
-    const specResult = isEra
+    const specResult = useClassicSpecs(gameType)
       ? ClassicSpecsResponseSchema.safeParse(specJson)
       : MopSpecsResponseSchema.safeParse(specJson);
 
@@ -185,7 +186,7 @@ export async function fetchProfile(
 
     // Get item data from JSON instead of database
     const itemIds = equippedItems.map((item) => item.item.id);
-    const items = getItemsByIds(itemIds, isEra);
+    const items = getItemsByIds(itemIds, gameType);
 
     const itemIDToItemLevel: ItemIdToInfo = items.reduce((acc, item) => {
       acc[item.id] = {
@@ -197,7 +198,9 @@ export async function fetchProfile(
     }, {} as ItemIdToInfo);
 
     const itemLevel = getItemLevel(equippedItems, itemIDToItemLevel);
-    const gearscore = isEra ? undefined : getGearScore(equippedItems, itemIDToItemLevel);
+    const gearscore = useClassicSpecs(gameType)
+      ? undefined
+      : getGearScore(equippedItems, itemIDToItemLevel);
 
     const cleanPVPData: Profile["pvp"] = pvpData
       ? {
@@ -263,7 +266,7 @@ export async function fetchProfile(
         gearscore,
         itemLevel,
         cleanPVPData,
-        mediaData
+        mediaData,
       );
     }
     const cleanItems: EquippedItem[] = equippedItems.map((item) => ({
@@ -280,13 +283,13 @@ export async function fetchProfile(
     }));
     const characterSpecs =
       // TODO better way to check if talent data is not MOP
-      isEra ? formatCharacterspecs(specData) : formatMopTalents(specData);
+      useClassicSpecs(gameType) ? formatCharacterspecs(specData) : formatMopTalents(specData);
 
     // Achievement data is optional - validate if present but don't fail if missing/invalid
-    const cleanedAchievementData: Achievements | undefined = isEra
-      ? undefined
-      : achievementJson
-      ? cleanAchievementData(achievementJson as AchievementResponse)
+    const cleanedAchievementData: Achievements | undefined = supportsAchievements(gameType)
+      ? achievementJson
+        ? cleanAchievementData(achievementJson as AchievementResponse)
+        : undefined
       : undefined;
 
     const metadata = {
@@ -348,14 +351,14 @@ export async function fetchProfile(
     throw new Error(
       equipmentResponse.status === 404
         ? "Character not found"
-        : `Failed to fetch character equipment ${errorText}`
+        : `Failed to fetch character equipment ${errorText}`,
     );
   }
 }
 
 function getItemLevel(
   equippedItems: EquippedItemResponse[],
-  itemIDToItemLevel: ItemIdToInfo
+  itemIDToItemLevel: ItemIdToInfo,
 ): number {
   if (equippedItems == null) return 0;
   let itemLevel = 0;
@@ -372,7 +375,7 @@ function getItemLevel(
 
 function getGearScore(
   equippedItems: EquippedItemResponse[],
-  itemIDToItemLevel: ItemIdToInfo
+  itemIDToItemLevel: ItemIdToInfo,
 ): number {
   const itemsForGearscore: {
     rarity: "Uncommon" | "Rare" | "Epic" | "Legendary" | "Common";
@@ -428,7 +431,7 @@ function cleanEnchantments(enchantments: any): EquippedItem["enchantments"] {
                 id: enchantment.source_item.id,
               },
       };
-    })
+    }),
   );
 }
 
@@ -562,7 +565,7 @@ async function maybeFetchExisitingProfile(
   character: string,
   realm: string,
   region: string,
-  gameType: GameType
+  gameType: GameType,
 ): Promise<Profile | undefined> {
   // Early return if database is not available
   if (!isDatabaseAvailable()) {
@@ -615,7 +618,7 @@ function createMockCharacter(
   gearscore: number | undefined,
   itemLevel: number,
   cleanPVPData: Profile["pvp"],
-  mediaData: any
+  mediaData: any,
 ) {
   return {
     id: 0,
@@ -642,7 +645,7 @@ const ITEMS_IGNORE_ITEM_LEVEL = new Set(["SHIRT", "TABARD", "BODY"]);
 
 const CATA_ID = 15096;
 function cleanAchievementData(
-  achievementData: AchievementResponse | undefined
+  achievementData: AchievementResponse | undefined,
 ): Achievements | undefined {
   if (!achievementData) return undefined;
 

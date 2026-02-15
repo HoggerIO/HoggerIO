@@ -2,6 +2,7 @@
 import { revalidatePath } from "next/cache";
 import { GameType } from "@prisma/client";
 import { MopSpec, Profile } from "../_types/types";
+import { buildCharacterPath, getWarcraftLogsSubdomain } from "../_utils/gameType";
 
 export interface Props {
   name: string;
@@ -14,7 +15,7 @@ export interface Props {
 }
 export async function refreshLogs(props: Props) {
   await refreshCharacterLogs({ ...props, lastUpdated: props.parse?.lastUpdated });
-  revalidatePath(`/character/${props.region}/${props.realm}/${props.name}`);
+  revalidatePath(buildCharacterPath(props.gameType, props.region, props.realm, props.name));
 }
 
 async function fetchWarcraftLogs(
@@ -39,9 +40,7 @@ async function fetchWarcraftLogs(
   }
 
   const response = await fetch(
-    `https://${
-      gameType === GameType.SEASONAL ? "sod" : gameType === GameType.NORMAL ? "classic" : "vanilla"
-    }.warcraftlogs.com/api/v2/client`,
+    `https://${getWarcraftLogsSubdomain(gameType)}.warcraftlogs.com/api/v2/client`,
     {
       method: "POST",
       headers: {
@@ -299,7 +298,7 @@ const SPEC_NAME_TO_METRIC = {
 
 async function fetchAccessToken(gameType: GameType) {
   const AUTH_URL = `https://${
-    gameType === GameType.SEASONAL ? "sod" : gameType === GameType.NORMAL ? "classic" : "vanilla"
+    getWarcraftLogsSubdomain(gameType)
   }.warcraftlogs.com/oauth/token`;
   const CLIENT_ID = process.env.WARCRAFTLOGS_CLIENT_ID;
   const CLIENT_SECRET = process.env.WARCRAFTLOGS_CLIENT_SECRET;

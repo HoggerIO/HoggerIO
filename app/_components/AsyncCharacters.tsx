@@ -8,6 +8,7 @@ import Link from "next/link";
 import { Character } from "@prisma/client";
 import React from "react";
 import { isEmpty } from "lodash";
+import { buildCharacterPath } from "../_utils/gameType";
 
 interface Props {
   args: any;
@@ -49,9 +50,7 @@ const CharacterInfo = React.memo(function CharacterInfo({
 
   return (
     <Link
-      href={`/character/${
-        character.gameType !== "NORMAL" ? "era/" : ""
-      }${region}/${realm}/${name.toLowerCase()}`}
+      href={buildCharacterPath(character.gameType, region, realm, name.toLowerCase())}
       prefetch={false}
     >
       <Box

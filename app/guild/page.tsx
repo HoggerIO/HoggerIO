@@ -5,6 +5,7 @@ import React, { Suspense } from "react";
 import { fetchRecentlyUpdatedGuilds } from "../_serverFunctions/fetchRecentGuilds";
 import { Guild } from "../_types/types";
 import { Metadata } from "next";
+import { buildGuildPath, GAME_TYPE_LABEL } from "../_utils/gameType";
 
 export const metadata: Metadata = {
   title: "Guilds - Hogger.io",
@@ -43,9 +44,7 @@ const RecentlyUpdatedGuilds: React.FC = async () => {
             <Box alignSelf={"center"} justifySelf={"center"} key={g.name + g.realm}>
               <Link
                 prefetch={false}
-                href={`/guild/${g.gameType !== "NORMAL" ? "era/" : ""}${g.region}/${g.realm}/${
-                  g.name
-                }`}
+                href={buildGuildPath(g.gameType, g.region, g.realm, g.name)}
               >
                 <Box
                   p={2}
@@ -83,21 +82,33 @@ const RecentlyUpdatedGuilds: React.FC = async () => {
       >
         <Box>
           <Text textAlign={"center"} fontSize={"x-large"}>
-            Mists of Pandaria
+            {GAME_TYPE_LABEL.NORMAL}
           </Text>
           {renderGuilds(guilds.NORMAL)}
         </Box>
         <Box>
           <Text textAlign={"center"} fontSize={"x-large"}>
-            Season of Discovery
+            {GAME_TYPE_LABEL.SEASONAL}
           </Text>
           {renderGuilds(guilds.SEASONAL)}
         </Box>
         <Box>
           <Text textAlign={"center"} fontSize={"x-large"}>
-            Classic Era
+            {GAME_TYPE_LABEL.ERA}
           </Text>
           {renderGuilds(guilds.ERA)}
+        </Box>
+        <Box>
+          <Text textAlign={"center"} fontSize={"x-large"}>
+            {GAME_TYPE_LABEL.HARDCORE}
+          </Text>
+          {renderGuilds(guilds.HARDCORE)}
+        </Box>
+        <Box>
+          <Text textAlign={"center"} fontSize={"x-large"}>
+            {GAME_TYPE_LABEL.TBC}
+          </Text>
+          {renderGuilds(guilds.TBC)}
         </Box>
       </Box>
     </Box>
