@@ -26,6 +26,7 @@ export const LeaderboardFilters: React.FC<LeaderboardFiltersProps> = ({ gameType
         <Radio value="SEASONAL">Season of Discovery</Radio>
         <Radio value="ERA">Classic Era</Radio>
         <Radio value="HARDCORE">Hardcore</Radio>
+        <Radio value="TBC">TBC</Radio>
       </Stack>
     </RadioGroup>
   );

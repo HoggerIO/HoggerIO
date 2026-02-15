@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import { Guild } from "../../../_components/Guild";
+import { GameType } from "@prisma/client";
 
 type Props = {
   params: Promise<{
@@ -27,7 +28,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 const Page = async ({ params }: Props) => {
   const { realmName, guildName, region } = await params;
-  return <Guild realm={realmName} guildName={guildName} isEra={false} region={region} />;
+  return (
+    <Guild realm={realmName} guildName={guildName} gameType={GameType.NORMAL} region={region} />
+  );
 };
 
 export default Page;

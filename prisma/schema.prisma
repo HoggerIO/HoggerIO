@@ -60,4 +60,5 @@ enum GameType {
   ERA
   SEASONAL
   HARDCORE
+  TBC
 }

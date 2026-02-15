@@ -4,6 +4,7 @@ import Link from "next/link";
 import { timeAgo } from "@/app/_utils/time";
 import { Profile } from "../../_types/types";
 import { GameType } from "@prisma/client";
+import { getWarcraftLogsSubdomain } from "@/app/_utils/gameType";
 
 interface ParseProps {
   name: string;
@@ -73,13 +74,11 @@ export const Parses: React.FC<ParseProps> = ({ parse, name, realm, region, gameT
                   ) : (
                     <Link
                       target="_blank"
-                      href={`https://${
-                        gameType === GameType.SEASONAL
-                          ? "sod"
-                          : gameType === GameType.NORMAL
-                          ? "classic"
-                          : "vanilla"
-                      }.warcraftlogs.com/character/${region}/${realm}/${name}#boss=${encounter.id}`}
+                      href={`https://${getWarcraftLogsSubdomain(
+                        gameType
+                      )}.warcraftlogs.com/character/${region}/${realm}/${name}#boss=${
+                        encounter.id
+                      }`}
                     >
                       <Text
                         color="#b4bdff"

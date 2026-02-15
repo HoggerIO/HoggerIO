@@ -1,5 +1,7 @@
 import itemsJson from "@/json/items.json";
 import itemsEraJson from "@/json/itemsEra.json";
+import { GameType } from "@prisma/client";
+import { useClassicItems } from "./gameType";
 
 interface ItemData {
   itemLevel: number;
@@ -18,11 +20,14 @@ const itemsEraMap: ItemsMap = itemsEraJson as ItemsMap;
 /**
  * Get items by their IDs from the appropriate items map
  * @param ids - Array of item IDs to fetch
- * @param isEra - Whether to use ERA items or regular items
+ * @param gameType - GameType used to decide the items map
  * @returns Array of items with their IDs included
  */
-export function getItemsByIds(ids: number[], isEra: boolean = false): ResolvedItemData[] {
-  const itemMapToUse = isEra ? itemsEraMap : itemsMap;
+export function getItemsByIds(
+  ids: number[],
+  gameType: GameType = GameType.NORMAL
+): ResolvedItemData[] {
+  const itemMapToUse = useClassicItems(gameType) ? itemsEraMap : itemsMap;
 
   return ids
     .map((id) => {

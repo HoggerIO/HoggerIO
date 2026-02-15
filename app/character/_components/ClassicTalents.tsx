@@ -197,7 +197,7 @@ export const Talents: React.FC<TalentProps> = (props) => {
   );
 };
 
-async function loadTalentsFromJson(classType: number, isEra: boolean = false) {
+async function loadTalentsFromJson(classType: number) {
   switch (classType) {
     case 1:
       return import("../../../json/classic/ClassicWarriorTalents.json");

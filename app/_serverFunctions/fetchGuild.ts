@@ -1,13 +1,13 @@
 import { Guild, GuildMember } from "../_types/types";
 import { prisma } from "@/app/prisma";
-import { getGameType } from "@/app/_utils/realm";
 import { isDatabaseAvailable } from "@/app/_utils/isDatabaseAvailable";
 import {
   GuildResponseSchema,
   AuthTokenSchema,
   GuildMembersArraySchema,
 } from "../_types/blizzardApiSchemas";
-import { Prisma } from "@prisma/client";
+import { Prisma, GameType } from "@prisma/client";
+import { getProfileNamespace } from "@/app/_utils/gameType";
 
 const CLIENT_ID = process.env.BLIZZARD_CLIENT_ID;
 const CLIENT_SECRET = process.env.BLIZZARD_CLIENT_SECRET;
@@ -16,10 +16,10 @@ export async function fetchGuild(
   guildName: string,
   realm: string,
   region: string,
-  isEra = false
+  gameType: GameType = GameType.NORMAL
 ): Promise<Guild> {
   const cleanGuildName = guildName;
-  const gameType = getGameType(realm, isEra);
+  const namespace = getProfileNamespace(gameType, region);
 
   // Check database cache if available
   if (isDatabaseAvailable()) {
@@ -68,9 +68,7 @@ export async function fetchGuild(
 
   const { access_token } = authResult.data;
 
-  const guildActivityApi = `https://${region}.api.blizzard.com/data/wow/guild/${realm}/${cleanGuildName}/roster?namespace=profile-classic${
-    isEra ? "1x" : ""
-  }-${region}&locale=en_US`;
+  const guildActivityApi = `https://${region}.api.blizzard.com/data/wow/guild/${realm}/${cleanGuildName}/roster?namespace=${namespace}&locale=en_US`;
   const guildResponse = await fetch(guildActivityApi, {
     headers: {
       Authorization: `Bearer ${access_token}`,

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import { Metadata } from "next";
 import { ProfilePage } from "@/app/character/_components/ProfilePage";
 import { GameType } from "@prisma/client";
 
@@ -15,8 +15,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return {
     title: `${capitalizeFirstLetter(character)} - ${capitalizeFirstLetter(
       realm
-    )} - Hogger.io - Mists of Pandaria`,
-    description: `World of Warcraft Mists of Pandaria armory profile for ${capitalizeFirstLetter(
+    )} - Hogger.io - TBC`,
+    description: `World of Warcraft The Burning Crusade armory profile for ${capitalizeFirstLetter(
       character
     )} on ${capitalizeFirstLetter(realm)}`,
   };
@@ -25,9 +25,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 const Page = async ({ params }: PageProps) => {
   const { realm, character, region } = await params;
 
-  return (
-    <ProfilePage realm={realm} character={character} region={region} gameType={GameType.NORMAL} />
-  );
+  return <ProfilePage realm={realm} character={character} region={region} gameType={GameType.TBC} />;
 };
 export default Page;
 

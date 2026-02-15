@@ -19,16 +19,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Guild ${capitalizeFirstLetter(guildName)} - ${capitalizeFirstLetter(
       realmName
-    )} - Hogger.io - Classic Era`,
+    )} - Hogger.io - TBC`,
     description: `${capitalizeFirstLetter(guildName)} on realm ${capitalizeFirstLetter(
       realmName
-    )} World of Warcraft classic era`,
+    )} World of Warcraft The Burning Crusade`,
   };
 }
 
 const Page = async ({ params }: Props) => {
   const { realmName, guildName, region } = await params;
-  return <Guild realm={realmName} guildName={guildName} gameType={GameType.ERA} region={region} />;
+  return <Guild realm={realmName} guildName={guildName} gameType={GameType.TBC} region={region} />;
 };
 
 export default Page;

@@ -24,12 +24,14 @@ import { useEffect, useMemo, useState } from "react";
 import { ArrowDownIcon, ArrowUpDownIcon, ArrowUpIcon } from "@chakra-ui/icons";
 import { classToColor } from "../../_utils/colors";
 import { debounce } from "lodash";
+import { GameType } from "@prisma/client";
+import { buildCharacterPath } from "@/app/_utils/gameType";
 
 interface Props {
   data: GuildMember[];
   realmName: string;
   guildName: string;
-  isEra: boolean;
+  gameType: GameType;
   region: string;
 }
 
@@ -41,7 +43,7 @@ interface GuildMember {
   rank: number;
 }
 
-export const GuildTable: React.FC<Props> = ({ data, realmName, guildName, isEra, region }) => {
+export const GuildTable: React.FC<Props> = ({ data, realmName, guildName, gameType, region }) => {
   const [sorting, setSorting] = useState<SortingState>([
     {
       id: "rank",
@@ -69,11 +71,7 @@ export const GuildTable: React.FC<Props> = ({ data, realmName, guildName, isEra,
       columnHelper.accessor("name", {
         cell: (info) => (
           <a
-            href={
-              isEra
-                ? `/character/era/${region}/${realmName}/${info.getValue()}`
-                : `/character/${region}/${realmName}/${info.getValue()}`
-            }
+            href={buildCharacterPath(gameType, region, realmName, info.getValue())}
             target="_blank"
           >
             <Text
@@ -143,7 +141,7 @@ export const GuildTable: React.FC<Props> = ({ data, realmName, guildName, isEra,
     ],
     // this is created on every render, so we need to disable the exhaustive deps warning
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    [isEra, realmName, region]
+    [gameType, realmName, region]
   );
 
   const table = useReactTable({
