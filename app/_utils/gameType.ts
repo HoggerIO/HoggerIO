@@ -25,7 +25,7 @@ export function buildCharacterPath(
   gameType: GameType,
   region: string,
   realm: string,
-  name: string
+  name: string,
 ): string {
   return `/character/${getGameTypePathPrefix(gameType)}${region}/${realm}/${name}`;
 }
@@ -34,7 +34,7 @@ export function buildGuildPath(
   gameType: GameType,
   region: string,
   realm: string,
-  name: string
+  name: string,
 ): string {
   return `/guild/${getGameTypePathPrefix(gameType)}${region}/${realm}/${name}`;
 }
@@ -67,8 +67,18 @@ export function getWowheadDomain(gameType: GameType): string {
   }
 }
 
-export function getModelType(gameType: GameType): "classic" | "mists" {
-  return gameType === GameType.NORMAL ? "mists" : "classic";
+export function getModelType(gameType: GameType): "classic" | "mists" | "tbc" {
+  switch (gameType) {
+    case GameType.NORMAL:
+      return "mists";
+    case GameType.TBC:
+      return "tbc";
+    case GameType.ERA:
+    case GameType.SEASONAL:
+    case GameType.HARDCORE:
+    default:
+      return "classic";
+  }
 }
 
 export function supportsRunes(gameType: GameType): boolean {
