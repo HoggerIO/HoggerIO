@@ -5,6 +5,7 @@ import {
   Button,
   Card,
   Divider,
+  IconButton,
   ListItem,
   Spinner,
   Text,
@@ -342,31 +343,20 @@ const TopBar = ({ profile, character, realm, gameType, region }) => {
       >
         {profile.level >= getMaxLevel(gameType) && (
           <Tooltip label="Warcraft Logs" placement="bottom">
-            <Link
+            <IconButton
+              as="a"
+              aria-label="Open Warcraft Logs"
               target="_blank"
+              rel="noopener noreferrer"
               href={`https://${getWarcraftLogsSubdomain(
                 gameType,
               )}.warcraftlogs.com/character/${region}/${realm}/${character}`}
-            >
-              <Box
-                width="34px"
-                height="34px"
-                display="flex"
-                alignItems="center"
-                justifyContent="center"
-                borderRadius="md"
-                bg="rgba(255,255,255,0.06)"
-                border="1px solid rgba(255,255,255,0.12)"
-                color="#b4bdff"
-                _hover={{
-                  color: "white",
-                  borderColor: "rgba(255,255,255,0.3)",
-                  bg: "rgba(255,255,255,0.1)",
-                }}
-              >
-                <FaChartBar />
-              </Box>
-            </Link>
+              icon={<FaChartBar />}
+              width="34px"
+              height="34px"
+              minW="34px"
+              variant="outline"
+            />
           </Tooltip>
         )}
       </Box>
