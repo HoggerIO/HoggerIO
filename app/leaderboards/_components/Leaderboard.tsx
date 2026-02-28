@@ -21,8 +21,10 @@ const gameTypes: string[] = [
 ];
 
 export const Leaderboard: React.FC<LeaderboardProps> = ({ gameTypeQp, wowClass }) => {
-  const gameType =
-    gameTypeQp != null && gameTypes.includes(gameTypeQp) ? gameTypeQp : GameType.NORMAL;
+  const gameType: GameType =
+    gameTypeQp != null && gameTypes.includes(gameTypeQp)
+      ? (gameTypeQp as GameType)
+      : GameType.NORMAL;
 
   const queries: {
     title: string;

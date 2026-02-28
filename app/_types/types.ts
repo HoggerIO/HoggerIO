@@ -80,7 +80,7 @@ export interface ProfileMetadata extends Character {
   parse?: ProfileParse;
 }
 
-export interface ProfileEra extends Omit<Profile, "achievementPoints" | "achievements"> {}
+export interface ProfileEra extends Omit<ProfileMetadata, "achievementPoints" | "achievements"> {}
 
 export interface ProfileInfoReponse {
   gender: { type: "MALE" | "FEMALE"; name: string };
