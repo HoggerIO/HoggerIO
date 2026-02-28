@@ -43,7 +43,6 @@ const RecentlyUpdatedGuilds: React.FC = async () => {
           return (
             <Box alignSelf={"center"} justifySelf={"center"} key={g.name + g.realm}>
               <Link
-                prefetch={false}
                 href={buildGuildPath(g.gameType, g.region, g.realm, g.name)}
               >
                 <Box

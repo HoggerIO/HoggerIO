@@ -1,4 +1,15 @@
-import { Box, Button, Card, Divider, ListItem, Text, UnorderedList } from "@chakra-ui/react";
+"use client";
+
+import {
+  Box,
+  Button,
+  Card,
+  Divider,
+  ListItem,
+  Spinner,
+  Text,
+  UnorderedList,
+} from "@chakra-ui/react";
 import { CharacterModel } from "./CharacterModel";
 import { EquippedItem, MopSpec, Profile } from "../../_types/types";
 import { Item } from "./Item";
@@ -9,7 +20,6 @@ import Link from "next/link";
 import { RACES_TO_NAME, RACE_TO_FACTION, CLASS_TO_NAME } from "../../_utils/mappings";
 import { timeAgo } from "../../_utils/time";
 import { Talents } from "./ClassicTalents";
-import { fetchProfile } from "../../_serverFunctions/fetchProfile";
 import Image from "next/image";
 import runes from "../[region]/[realm]/[character]/runes.json";
 import { TalentsCata } from "./CataTalents";
@@ -20,6 +30,8 @@ import { GameType } from "@prisma/client";
 import { RefreshProfileButton } from "./RefreshProfileButton";
 import { buildGuildPath, getMaxLevel, getModelType, supportsRunes } from "@/app/_utils/gameType";
 import { TbcTalents } from "./TbcTalents";
+import React from "react";
+import { useQuery } from "@tanstack/react-query";
 
 interface ProfileProps {
   realm: string;
@@ -28,23 +40,49 @@ interface ProfileProps {
   gameType: GameType;
 }
 
-export const AsyncProfile = async (props: ProfileProps) => {
+export const AsyncProfile = (props: ProfileProps) => {
   const { realm, character: unCleanCharacter, region, gameType } = props;
   const character = decodeURIComponent(unCleanCharacter);
-  let profile: Profile | string;
-  try {
-    profile = await fetchProfile(character, realm, region, false, gameType);
-  } catch (e: any) {
-    console.error(e, "error");
-    profile = e.toString();
+  const {
+    data: profile,
+    isLoading,
+    error,
+  } = useQuery({
+    queryKey: ["profile", gameType, region, realm, character],
+    queryFn: async () => {
+      const params = new URLSearchParams({
+        character,
+        realm,
+        region,
+        gameType: gameType.toString(),
+      });
+      const res = await fetch(`/api/profile?${params.toString()}`, { cache: "no-store" });
+      if (!res.ok) {
+        const payload = await res.json().catch(() => ({}));
+        throw new Error(payload?.error || "Failed to load profile");
+      }
+      const payload = (await res.json()) as { profile: Profile };
+      return payload.profile;
+    },
+    // 1 hour
+    staleTime: 1000 * 60 * 60,
+  });
+
+  if (isLoading) {
+    return (
+      <Box display={"flex"} flexDir={"column"} alignItems={"center"}>
+        <Spinner size={"xl"} />
+      </Box>
+    );
   }
 
-  if (typeof profile === "string") {
-    console.error("Error fetching character info", profile);
+  if (error || profile == null) {
+    const message = error instanceof Error ? error.message : "Failed to load profile";
+    console.error("Error fetching character info", message);
     return (
       <Card p={10} gap={3} alignItems="center" my={3} mx={"auto"} width={"450px"}>
         <Text>Error loading character info</Text>
-        <Text fontSize={"small"}>{profile}</Text>
+        <Text fontSize={"small"}>{message}</Text>
         <Text>Potential reasons:</Text>
         <UnorderedList fontSize={"small"}>
           <ListItem>There is a bug 🐛</ListItem>
@@ -56,7 +94,7 @@ export const AsyncProfile = async (props: ProfileProps) => {
           </ListItem>
         </UnorderedList>
 
-        <Link href={"/"} prefetch={false}>
+        <Link href={"/"}>
           <Button>Go back</Button>
         </Link>
       </Card>
@@ -247,7 +285,6 @@ const TopBar = ({ profile, character, realm, gameType, region }) => {
         <Text fontSize="m">{realm}</Text>
         {profile.guild && (
           <Link
-            prefetch={false}
             href={buildGuildPath(gameType, profile.region, realm, profile.guild)}
             target="_blank"
           >

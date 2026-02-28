@@ -1,52 +1,57 @@
+"use client";
+
 import { Box, Spinner, Text } from "@chakra-ui/react";
-import React, { Suspense } from "react";
-import AsyncCharacters from "../../_components/AsyncCharacters";
+import React from "react";
 import { isNumber } from "lodash";
 import { GameType } from "@prisma/client";
 import { LeaderboardFilters } from "./LeaderboardFilters";
+import { LeaderboardCharacters, LeaderboardCharacter } from "./LeaderboardCharacters";
+import { useQuery } from "@tanstack/react-query";
 
 interface LeaderboardProps {
   wowClass?: string;
   gameTypeQp?: string;
 }
-const gameTypes = ["NORMAL", "SEASONAL", "ERA", "HARDCORE", "TBC"];
+const gameTypes: GameType[] = [
+  GameType.NORMAL,
+  GameType.SEASONAL,
+  GameType.ERA,
+  GameType.HARDCORE,
+  GameType.TBC,
+];
 
 export const Leaderboard: React.FC<LeaderboardProps> = ({ gameTypeQp, wowClass }) => {
   const gameType =
-    gameTypeQp != null && gameTypes.includes(gameTypeQp) ? gameTypeQp : GameType.NORMAL;
+    gameTypeQp != null && gameTypes.includes(gameTypeQp as GameType)
+      ? (gameTypeQp as GameType)
+      : GameType.NORMAL;
 
   const queries: {
     title: string;
-    query: any;
     statToShow: "itemLevel" | "gearscore" | "achievementPoints" | "honorableKills";
   }[] =
     gameType === GameType.NORMAL
       ? [
           {
             title: "Gearscore",
-            query: constructQuery(GEARSCORE_QUERY, gameType, wowClass),
             statToShow: "gearscore",
           },
           {
             title: "Achievement points",
-            query: constructQuery(ACHIEVEMENT_QUERY, gameType, wowClass),
             statToShow: "achievementPoints",
           },
           {
             title: "Honorable kills",
-            query: constructQuery(HK_QUERY, gameType, wowClass),
             statToShow: "honorableKills",
           },
         ]
       : [
           {
             title: "Item level",
-            query: constructQuery(ITEM_LEVEL_QUERY, gameType, wowClass),
             statToShow: "itemLevel",
           },
           {
             title: "Honorable kills",
-            query: constructQuery(HK_QUERY, gameType, wowClass),
             statToShow: "honorableKills",
           },
         ];
@@ -67,70 +72,73 @@ export const Leaderboard: React.FC<LeaderboardProps> = ({ gameTypeQp, wowClass }
       <LeaderboardFilters gameType={gameType} />
       <Box display={"flex"} gap={3} justifyContent={"space-around"} flexWrap={"wrap"}>
         {queries.map((query) => (
-          <Box w={350} key={query.title}>
-            <Text textAlign={"center"} mb={2} fontSize={"x-large"}>
-              {query.title}
-            </Text>
-            <Suspense
-              fallback={
-                <Box
-                  display={"flex"}
-                  justifyContent={"center"}
-                  alignItems={"center"}
-                  height={"100%"}
-                >
-                  <Spinner size={"xl"} />
-                </Box>
-              }
-            >
-              <AsyncCharacters args={query.query} statToShow={query.statToShow} />
-            </Suspense>
-          </Box>
+          <LeaderboardCard
+            key={query.title}
+            title={query.title}
+            statToShow={query.statToShow}
+            gameType={gameType}
+            wowClass={wowClass}
+          />
         ))}
       </Box>
     </Box>
   );
 };
 
-function constructQuery(args: any, gameType?: string, wowClass?: string) {
-  const query = { ...args };
-  if (gameType && gameTypes.includes(gameType)) {
-    query.where = { ...query.where, gameType: gameType };
-  }
-  if (wowClass && isNumber(Number(wowClass))) {
-    query.where = { ...query.where, class: Number(wowClass) };
-  }
-  return query;
+interface LeaderboardCardProps {
+  title: string;
+  statToShow: "itemLevel" | "gearscore" | "achievementPoints" | "honorableKills";
+  gameType: GameType;
+  wowClass?: string;
 }
 
-const ACHIEVEMENT_QUERY = {
-  where: {
-    achievementPoints: { not: null },
-  },
-  orderBy: { achievementPoints: "desc" },
-  take: 5,
-};
+const LeaderboardCard: React.FC<LeaderboardCardProps> = ({
+  title,
+  statToShow,
+  gameType,
+  wowClass,
+}) => {
+  const { data, isLoading, error } = useQuery({
+    queryKey: ["leaderboards", gameType, wowClass, statToShow],
+    queryFn: async () => {
+      const params = new URLSearchParams({
+        gameType,
+        stat: statToShow,
+      });
+      if (wowClass && isNumber(Number(wowClass))) {
+        params.set("wowClass", wowClass);
+      }
+      const res = await fetch(`/api/leaderboards?${params.toString()}`, {
+        cache: "no-store",
+      });
+      if (!res.ok) {
+        const payload = await res.json().catch(() => ({}));
+        throw new Error(payload?.error || "Failed to load leaderboard");
+      }
+      const payload = (await res.json()) as { characters: LeaderboardCharacter[] };
+      return payload.characters;
+    },
+    staleTime: 1000 * 60 * 5,
+  });
 
-const GEARSCORE_QUERY = {
-  where: {
-    gearscore: { not: null },
-  },
-  orderBy: { gearscore: "desc" },
-  take: 5,
-};
-
-const HK_QUERY = {
-  where: {
-    honorableKills: { not: null },
-  },
-  orderBy: { honorableKills: "desc" },
-  take: 5,
-};
-
-const ITEM_LEVEL_QUERY = {
-  where: {
-    itemLevel: { not: null },
-  },
-  orderBy: { itemLevel: "desc" },
-  take: 5,
+  return (
+    <Box w={350}>
+      <Text textAlign={"center"} mb={2} fontSize={"x-large"}>
+        {title}
+      </Text>
+      {isLoading && (
+        <Box display={"flex"} justifyContent={"center"} alignItems={"center"} height={"100%"}>
+          <Spinner size={"xl"} />
+        </Box>
+      )}
+      {!isLoading && error && (
+        <Text textAlign={"center"} color="red.300">
+          Failed to load characters
+        </Text>
+      )}
+      {!isLoading && !error && data && (
+        <LeaderboardCharacters characters={data} statToShow={statToShow} />
+      )}
+    </Box>
+  );
 };

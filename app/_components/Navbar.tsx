@@ -49,7 +49,7 @@ export default function Navbar() {
         wrap="wrap"
         gap={5}
       >
-        <Link prefetch={false} href={HomeRoute}>
+        <Link href={HomeRoute}>
           <Box gap={5} display={"flex"} alignItems={"center"}>
             <Image src={hoggerImage} alt="Hogger.io" width={50} height={50} />
             <Heading as="h1" size="lg" cursor="pointer">
@@ -116,7 +116,7 @@ export default function Navbar() {
 
 const LinkButton = ({ href, text, isSelected }) => {
   return (
-    <Link href={href} prefetch={false}>
+    <Link href={href}>
       <Box
         cursor="pointer"
         textDecoration={isSelected ? "underline" : "none"}

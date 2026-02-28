@@ -5,6 +5,7 @@ import { CacheProvider } from "@emotion/react";
 import createCache from "@emotion/cache";
 import { useServerInsertedHTML } from "next/navigation";
 import { useState } from "react";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
 import { ButtonStyles, ProgressStyles } from "./chakraStyles";
 import Navbar from "./_components/Navbar";
@@ -41,11 +42,25 @@ export default function Providers({ children }: { children: React.ReactNode }) {
     );
   });
 
+  const [queryClient] = useState(
+    () =>
+      new QueryClient({
+        defaultOptions: {
+          queries: {
+            refetchOnWindowFocus: false,
+            retry: 1,
+          },
+        },
+      }),
+  );
+
   return (
     <CacheProvider value={emotionCache}>
       <ChakraProvider theme={theme}>
-        <Navbar />
-        {children}
+        <QueryClientProvider client={queryClient}>
+          <Navbar />
+          {children}
+        </QueryClientProvider>
       </ChakraProvider>
     </CacheProvider>
   );
