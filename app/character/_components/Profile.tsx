@@ -8,6 +8,7 @@ import {
   ListItem,
   Spinner,
   Text,
+  Tooltip,
   UnorderedList,
 } from "@chakra-ui/react";
 import { CharacterModel } from "./CharacterModel";
@@ -28,10 +29,17 @@ import { Parses } from "./Parses";
 import { RefreshParseButton } from "./RefreshParseButton";
 import { GameType } from "@prisma/client";
 import { RefreshProfileButton } from "./RefreshProfileButton";
-import { buildGuildPath, getMaxLevel, getModelType, supportsRunes } from "@/app/_utils/gameType";
+import {
+  buildGuildPath,
+  getMaxLevel,
+  getModelType,
+  getWarcraftLogsSubdomain,
+  supportsRunes,
+} from "@/app/_utils/gameType";
 import { TbcTalents } from "./TbcTalents";
 import React from "react";
 import { useQuery } from "@tanstack/react-query";
+import { FaChartBar } from "react-icons/fa";
 
 interface ProfileProps {
   realm: string;
@@ -104,16 +112,15 @@ export const Profile = (props: ProfileProps) => {
   const items = profile.items;
   return (
     <Box width={"100%"} display={"flex"} alignContent={"center"} justifyContent={"center"} mt={3}>
-      <Box width={170} />
-      <Box flex={1} width={"100%"}>
+      <Box flex={1} width={"100%"} display={"flex"} flexDir={"column"} gap={5}>
         <Box
-          mb={2}
           width={"100%"}
           display={"flex"}
+          gap={3}
           flexWrap={"wrap"}
           justifyContent={"space-between"}
         >
-          <Box mx={"auto"}>
+          <Box mx={"auto"} display={"flex"} flexDir={"column"} gap={5}>
             <TopBar
               profile={profile}
               character={character}
@@ -121,8 +128,19 @@ export const Profile = (props: ProfileProps) => {
               gameType={gameType}
               region={region}
             />
-            <Box gap={"5px"} display={"flex"} justifyContent={"space-between"}>
-              <Box flexDir={"column"} display={"flex"} gap={3}>
+            <Box
+              gap={"5px"}
+              display={"flex"}
+              justifyContent={"space-between"}
+              flexDir={{ base: "column", sm: "row" }}
+              alignItems={{ base: "center", sm: "stretch" }}
+            >
+              <Box
+                flexDir={"column"}
+                display={"flex"}
+                gap={3}
+                alignItems={{ base: "center", sm: "flex-start" }}
+              >
                 {LEFT_ITEMS.map((slotType, idx) => (
                   <Item
                     isFirst={idx === 0}
@@ -133,7 +151,12 @@ export const Profile = (props: ProfileProps) => {
                   />
                 ))}
               </Box>
-              <Box flexDir={"column"} display={"flex"} gap={3}>
+              <Box
+                flexDir={"column"}
+                display={"flex"}
+                gap={3}
+                alignItems={{ base: "center", sm: "flex-start" }}
+              >
                 {RIGHT_ITEMS.map((slotType, idx) => (
                   <Item
                     isFirst={idx === 0}
@@ -146,7 +169,7 @@ export const Profile = (props: ProfileProps) => {
                 ))}
               </Box>
             </Box>
-            <Box mt={2} display={"flex"} gap={5} justifyContent={"center"}>
+            <Box mt={2} display={"flex"} gap={5} justifyContent={"center"} flexWrap="wrap">
               {WEAPON_ITEMS.map((slotType, idx) => (
                 <Item
                   key={slotType}
@@ -158,7 +181,6 @@ export const Profile = (props: ProfileProps) => {
               ))}
             </Box>
           </Box>
-
           <Box alignSelf={"center"} mx={"auto"}>
             <CharacterModel
               items={items}
@@ -169,7 +191,7 @@ export const Profile = (props: ProfileProps) => {
           </Box>
         </Box>
         {supportsRunes(gameType) && runes.length > 0 && (
-          <Box mb={2} display={"flex"} width={"100%"} flexDir={"column"} alignItems={"center"}>
+          <Box display={"flex"} width={"100%"} flexDir={"column"} alignItems={"center"}>
             <Text fontSize="xl" fontWeight="bold">
               Runes
             </Text>
@@ -220,33 +242,7 @@ export const Profile = (props: ProfileProps) => {
         )}
         <Divider mt={3} />
         <Stats profile={profile} />
-        <Box display={"flex"} flexDir={"column"} justifyContent={"center"}>
-          {profile.parse && (
-            <Parses
-              name={profile.name}
-              realm={profile.realm}
-              region={profile.region}
-              parse={profile.parse}
-              gameType={profile.gameType}
-            />
-          )}
-          {profile.level >= getMaxLevel(profile.gameType) &&
-            (profile.parse == null ||
-              // If the last parse is older than 24 hours
-              new Date(profile.parse.lastUpdated) < new Date(Date.now() - 1000 * 60 * 60 * 24)) && (
-              <RefreshParseButton
-                parse={profile.parse}
-                name={profile.name}
-                realm={profile.realm}
-                region={profile.region}
-                gameType={profile.gameType}
-                id={profile.id}
-                talents={profile.talents}
-              />
-            )}
-        </Box>
       </Box>
-      <Box width={200}></Box>
     </Box>
   );
 };
@@ -262,10 +258,10 @@ const TopBar = ({ profile, character, realm, gameType, region }) => {
     <Box
       alignSelf={"center"}
       display={"flex"}
-      alignItems={"start"}
+      alignItems={"center"}
       textAlign={"center"}
-      gap={5}
-      mb={4}
+      gap={{ base: 3, md: 5 }}
+      flexDir={{ base: "column", md: "row" }}
     >
       <Image
         alt={"character"}
@@ -297,7 +293,7 @@ const TopBar = ({ profile, character, realm, gameType, region }) => {
           </Link>
         )}
       </Box>
-      <Box maxWidth={"150px"}>
+      <Box maxWidth={"200px"}>
         <Text mt={2}>
           Level {profile.level} {RACES_TO_NAME[profile.race]} {CLASS_TO_NAME[profile.class]}
         </Text>
@@ -336,6 +332,43 @@ const TopBar = ({ profile, character, realm, gameType, region }) => {
           gameType={gameType}
         />
         <Text fontSize="sm" mt={2}>{`Last updated: ${timeAgo(new Date(profile.updatedAt))}`}</Text>
+      </Box>
+      <Box
+        mt={2}
+        display="flex"
+        gap={2}
+        justifyContent={{ base: "center", sm: "flex-end" }}
+        alignItems="center"
+      >
+        {profile.level >= getMaxLevel(gameType) && (
+          <Tooltip label="Warcraft Logs" placement="bottom">
+            <Link
+              target="_blank"
+              href={`https://${getWarcraftLogsSubdomain(
+                gameType,
+              )}.warcraftlogs.com/character/${region}/${realm}/${character}`}
+            >
+              <Box
+                width="34px"
+                height="34px"
+                display="flex"
+                alignItems="center"
+                justifyContent="center"
+                borderRadius="md"
+                bg="rgba(255,255,255,0.06)"
+                border="1px solid rgba(255,255,255,0.12)"
+                color="#b4bdff"
+                _hover={{
+                  color: "white",
+                  borderColor: "rgba(255,255,255,0.3)",
+                  bg: "rgba(255,255,255,0.1)",
+                }}
+              >
+                <FaChartBar />
+              </Box>
+            </Link>
+          </Tooltip>
+        )}
       </Box>
     </Box>
   );

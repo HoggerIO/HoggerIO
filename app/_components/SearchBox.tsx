@@ -92,6 +92,8 @@ export const SearchBox: React.FC<Props> = ({ linkPrefix }) => {
       onSubmit={handleSubmit}
       textAlign="center"
       flexWrap={"wrap"}
+      alignItems="center"
+      width="100%"
       suppressHydrationWarning={true}
     >
       <Input
@@ -110,7 +112,7 @@ export const SearchBox: React.FC<Props> = ({ linkPrefix }) => {
             color: "gray.400",
           },
         }}
-        w={"300px"}
+        w={{ base: "100%", sm: "300px" }}
       />
       <RealmSelect onRealmChange={handleMenuItemClick} selectedValue={selectedRealm} />
       <Button colorScheme="blue" onClick={handleSubmit}>
@@ -197,29 +199,35 @@ const RealmSelect: React.FC<RealmSelectProps> = (props) => {
   React.useEffect(() => setIsMounted(true), []);
 
   if (!isMounted) {
-    return <Skeleton height="40px" width="300px" />;
+    return <Skeleton height="40px" width={{ base: "100%", sm: "300px" }} />;
   }
   return (
-    <ReactSelect<RealmItem, false, GroupType>
-      value={selectedValue}
-      onChange={onRealmChange}
-      options={options}
-      getOptionLabel={(realm) => realm.displayName}
-      getOptionValue={(realm) => realm.id}
-      components={SelectComponents}
-      styles={ReactSelectStyles}
-    />
+    <Box width={{ base: "100%", sm: "300px" }}>
+      <ReactSelect<RealmItem, false, GroupType>
+        value={selectedValue}
+        onChange={onRealmChange}
+        options={options}
+        getOptionLabel={(realm) => realm.displayName}
+        getOptionValue={(realm) => realm.id}
+        components={SelectComponents}
+        styles={ReactSelectStyles}
+      />
+    </Box>
   );
 };
 
 const ReactSelectStyles = {
+  container: (baseStyles) => ({
+    ...baseStyles,
+    width: "100%",
+  }),
   control: (baseStyles, state) => ({
     ...baseStyles,
     backgroundColor: "rgb(64 64 64)",
     borderColor: state.isFocused ? "rgb(163 163 163)" : "rgb(64 64 64)",
     borderWidth: 2,
     boxShadow: "none",
-    width: "300px",
+    width: "100%",
     "&:hover": {
       borderColor: state.isFocused ? "rgb(163 163 163)" : "rgb(115 115 115)",
     },

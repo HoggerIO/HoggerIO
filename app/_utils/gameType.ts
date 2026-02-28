@@ -118,7 +118,7 @@ export function getWarcraftLogsSubdomain(gameType: GameType): string {
     case GameType.NORMAL:
       return "classic";
     case GameType.TBC:
-      return "tbc";
+      return "fresh";
     case GameType.ERA:
     case GameType.HARDCORE:
     default:

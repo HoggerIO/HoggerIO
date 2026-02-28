@@ -19,7 +19,7 @@ export const ProfilePage = (props: Props) => {
 
   return (
     <>
-      <Box py={5} maxWidth={"2000px"} mx={"auto"}>
+      <Box py={5} maxWidth={"2000px"} mx={"auto"} width="100%" px={{ base: 4, md: 0 }}>
         <Script src="https://wow.zamimg.com/js/tooltips.js"></Script>
         <SearchBox linkPrefix={"character"} />
         <Profile realm={realm} character={character} region={region} gameType={gameType} />
