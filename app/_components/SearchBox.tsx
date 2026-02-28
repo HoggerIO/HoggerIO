@@ -20,16 +20,16 @@ interface RealmItem {
 }
 
 const DEFAULT_REALM = JSON.stringify({
-  type: GameType.SEASONAL,
+  type: GameType.TBC,
   region: "us",
-  id: "crusader-strike",
-  displayName: "Crusader Strike",
+  id: "nightslayer",
+  displayName: "Nightslayer",
 });
 
 export const SearchBox: React.FC<Props> = ({ linkPrefix }) => {
   const [username, setUsername] = React.useState("");
   const [selectedRealm, setSelectedRealm] = React.useState<RealmItem | undefined>(
-    JSON.parse(DEFAULT_REALM)
+    JSON.parse(DEFAULT_REALM),
   );
   const router = useRouter();
 

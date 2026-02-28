@@ -11,7 +11,7 @@ import {
   UnorderedList,
 } from "@chakra-ui/react";
 import { CharacterModel } from "./CharacterModel";
-import { EquippedItem, MopSpec, Profile } from "../../_types/types";
+import { EquippedItem, MopSpec, ProfileMetadata } from "../../_types/types";
 import { Item } from "./Item";
 import { Stats } from "./Stats";
 import { classToColor } from "../../_utils/colors";
@@ -40,7 +40,7 @@ interface ProfileProps {
   gameType: GameType;
 }
 
-export const AsyncProfile = (props: ProfileProps) => {
+export const Profile = (props: ProfileProps) => {
   const { realm, character: unCleanCharacter, region, gameType } = props;
   const character = decodeURIComponent(unCleanCharacter);
   const {
@@ -61,7 +61,7 @@ export const AsyncProfile = (props: ProfileProps) => {
         const payload = await res.json().catch(() => ({}));
         throw new Error(payload?.error || "Failed to load profile");
       }
-      const payload = (await res.json()) as { profile: Profile };
+      const payload = (await res.json()) as { profile: ProfileMetadata };
       return payload.profile;
     },
     // 1 hour
@@ -70,7 +70,7 @@ export const AsyncProfile = (props: ProfileProps) => {
 
   if (isLoading) {
     return (
-      <Box display={"flex"} flexDir={"column"} alignItems={"center"}>
+      <Box mt={10} display={"flex"} flexDir={"column"} alignItems={"center"}>
         <Spinner size={"xl"} />
       </Box>
     );

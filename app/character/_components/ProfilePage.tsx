@@ -1,7 +1,7 @@
 import { Box } from "@chakra-ui/react";
 import Script from "next/script";
 import { SearchBox } from "../../_components/SearchBox";
-import { AsyncProfile } from "./AsyncProfile";
+import { Profile } from "./Profile";
 import { GameType } from "@prisma/client";
 
 interface Props {
@@ -22,7 +22,7 @@ export const ProfilePage = (props: Props) => {
       <Box py={5} maxWidth={"2000px"} mx={"auto"}>
         <Script src="https://wow.zamimg.com/js/tooltips.js"></Script>
         <SearchBox linkPrefix={"character"} />
-        <AsyncProfile realm={realm} character={character} region={region} gameType={gameType} />
+        <Profile realm={realm} character={character} region={region} gameType={gameType} />
       </Box>
     </>
   );

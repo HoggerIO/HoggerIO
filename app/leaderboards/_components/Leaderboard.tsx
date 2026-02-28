@@ -12,7 +12,7 @@ interface LeaderboardProps {
   wowClass?: string;
   gameTypeQp?: string;
 }
-const gameTypes: GameType[] = [
+const gameTypes: string[] = [
   GameType.NORMAL,
   GameType.SEASONAL,
   GameType.ERA,
@@ -22,9 +22,7 @@ const gameTypes: GameType[] = [
 
 export const Leaderboard: React.FC<LeaderboardProps> = ({ gameTypeQp, wowClass }) => {
   const gameType =
-    gameTypeQp != null && gameTypes.includes(gameTypeQp as GameType)
-      ? (gameTypeQp as GameType)
-      : GameType.NORMAL;
+    gameTypeQp != null && gameTypes.includes(gameTypeQp) ? gameTypeQp : GameType.NORMAL;
 
   const queries: {
     title: string;

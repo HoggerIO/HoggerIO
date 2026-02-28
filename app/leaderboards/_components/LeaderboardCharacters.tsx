@@ -11,24 +11,7 @@ import Link from "next/link";
 import { isEmpty } from "lodash";
 import { buildCharacterPath } from "@/app/_utils/gameType";
 
-export type LeaderboardCharacter = Pick<
-  Character,
-  | "id"
-  | "name"
-  | "realm"
-  | "guild"
-  | "profileImageUrl"
-  | "class"
-  | "region"
-  | "gearscore"
-  | "itemLevel"
-  | "achievementPoints"
-  | "honorableKills"
-  | "level"
-  | "gameType"
-  | "race"
-  | "gender"
->;
+export type LeaderboardCharacter = Omit<Character, "createdAt" | "updatedAt" | "metadata">;
 
 interface Props {
   characters: LeaderboardCharacter[];

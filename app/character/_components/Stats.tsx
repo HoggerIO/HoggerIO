@@ -1,9 +1,9 @@
 import { Box, Text } from "@chakra-ui/react";
-import { Profile } from "../../_types/types";
+import { ProfileMetadata } from "../../_types/types";
 import { RaidProgression } from "./RaidProgression";
 
 interface StatsProps {
-  profile: Profile;
+  profile: ProfileMetadata;
 }
 export const Stats: React.FC<StatsProps> = ({ profile }) => {
   if (profile.achievements == null) return <></>;
