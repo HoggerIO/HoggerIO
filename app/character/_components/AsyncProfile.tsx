@@ -168,7 +168,7 @@ export const AsyncProfile = async (props: ProfileProps) => {
           </Box>
         )}
         {gameType === GameType.TBC ? (
-          <TbcTalents />
+          <TbcTalents talents={profile?.talents ?? []} class={profile.class} />
         ) : profile?.talents.length > 0 &&
           profile.talents.findIndex != null &&
           (gameType === GameType.ERA ||
