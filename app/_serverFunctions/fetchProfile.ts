@@ -1,5 +1,5 @@
 import {
-  Profile,
+  ProfileMetadata,
   EquippedItem,
   EquippedItemResponse,
   Spec,
@@ -42,7 +42,7 @@ export async function fetchProfile(
   region: string,
   breakCache = false,
   gameType: GameType = GameType.NORMAL,
-): Promise<Profile> {
+): Promise<ProfileMetadata> {
   console.log(gameType, "gameType");
   const cleanCharacterName = decodeURIComponent(character.toLowerCase());
   const namespace = getProfileNamespace(gameType, region);
@@ -202,7 +202,7 @@ export async function fetchProfile(
       ? undefined
       : getGearScore(equippedItems, itemIDToItemLevel);
 
-    const cleanPVPData: Profile["pvp"] = pvpData
+    const cleanPVPData: ProfileMetadata["pvp"] = pvpData
       ? {
           rank: pvpData.pvp_rank,
           honorable_kills: pvpData.honorable_kills,
@@ -330,7 +330,7 @@ export async function fetchProfile(
 
     const parse = isParse(databaseMetadata.parse) ? databaseMetadata.parse : undefined;
 
-    const profile: Profile = {
+    const profile: ProfileMetadata = {
       ...databaseCharacter,
       // not derived from db
       items: cleanItems,
@@ -522,17 +522,17 @@ function isAchievement(data: any): data is Achievements {
 function isItems(data: any): data is EquippedItem[] {
   return Array.isArray(data);
 }
-function isTalents(data: any): data is Profile["talents"] {
+function isTalents(data: any): data is ProfileMetadata["talents"] {
   return Array.isArray(data);
 }
-function isPvp(data: any): data is Profile["pvp"] {
+function isPvp(data: any): data is ProfileMetadata["pvp"] {
   return typeof data === "object";
 }
 function isDateLike(value: unknown): value is string | Date {
   return typeof value === "string" || value instanceof Date;
 }
 
-function isParse(data: any): data is Profile["parse"] {
+function isParse(data: any): data is ProfileMetadata["parse"] {
   if (data == null || typeof data !== "object") {
     return false;
   }
@@ -566,7 +566,7 @@ async function maybeFetchExisitingProfile(
   realm: string,
   region: string,
   gameType: GameType,
-): Promise<Profile | undefined> {
+): Promise<ProfileMetadata | undefined> {
   // Early return if database is not available
   if (!isDatabaseAvailable()) {
     return undefined;
@@ -595,7 +595,7 @@ async function maybeFetchExisitingProfile(
     }
 
     if (items && talents) {
-      const profile: Profile = {
+      const profile: ProfileMetadata = {
         ...maybeCharacter,
         achievements: isAchievement(achievements) ? achievements : undefined,
         items: isItems(items) ? items : [],
@@ -617,7 +617,7 @@ function createMockCharacter(
   gameType: GameType,
   gearscore: number | undefined,
   itemLevel: number,
-  cleanPVPData: Profile["pvp"],
+  cleanPVPData: ProfileMetadata["pvp"],
   mediaData: any,
 ) {
   return {

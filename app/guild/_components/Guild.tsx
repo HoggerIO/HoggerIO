@@ -1,8 +1,10 @@
-import { fetchGuild } from "../../_serverFunctions/fetchGuild";
+"use client";
+
 import { Box, Spinner, Text } from "@chakra-ui/react";
-import { Suspense } from "react";
 import { GuildTable } from "./GuildTable";
 import { GameType } from "@prisma/client";
+import { useQuery } from "@tanstack/react-query";
+import { Guild as GuildType } from "../../_types/types";
 
 interface GuildProps {
   realm: string;
@@ -14,59 +16,66 @@ interface GuildProps {
 export const Guild = (props: GuildProps) => {
   const { realm, guildName: unCleanGuildName, gameType, region } = props;
   const guildName = decodeURIComponent(unCleanGuildName.toLowerCase().replaceAll("%20", "-"));
-  return (
-    <Suspense
-      fallback={
-        <Box
-          width="100vw"
-          height="100vh"
-          display="flex"
-          alignItems={"center"}
-          justifyContent={"center"}
-        >
-          <Box display={"flex"} flexDir={"column"} alignItems={"center"}>
-            <Text mb={6}>Loading Guild data...</Text>
-            <Spinner size={"xl"} />
-          </Box>
-        </Box>
+
+  const { data, error, isLoading } = useQuery({
+    queryKey: ["guild", realm, guildName, region, gameType],
+    queryFn: async (): Promise<GuildType> => {
+      const response = await fetch(
+        `/api/guild?guildName=${encodeURIComponent(guildName)}&realm=${encodeURIComponent(
+          realm,
+        )}&region=${encodeURIComponent(region)}&gameType=${encodeURIComponent(gameType)}`,
+      );
+      if (!response.ok) {
+        const body = await response.json().catch(() => ({}));
+        throw new Error(body?.error ?? "Failed to load guild");
       }
-    >
-      <AsyncGuild realm={realm} guildName={guildName} gameType={gameType} region={region} />
-    </Suspense>
-  );
-};
+      const json = (await response.json()) as { guild: GuildType };
+      return json.guild;
+    },
+    staleTime: 1000 * 60 * 60,
+  });
 
-const AsyncGuild = async (props: GuildProps) => {
-  const { realm, guildName, gameType, region } = props;
-
-  try {
-    const guild = await fetchGuild(guildName, realm, region, gameType);
-
+  if (isLoading) {
     return (
-      <Box p={5} maxWidth={"1000px"} mx={"auto"}>
-        <GuildTable
-          region={region}
-          data={guild.members}
-          realmName={realm}
-          guildName={guild.displayName}
-          gameType={gameType}
-        />
-      </Box>
-    );
-  } catch (e: any) {
-    return (
-      <Box
-        width="100vw"
-        height="100vh"
-        display="flex"
-        alignItems={"center"}
-        justifyContent={"center"}
-      >
-        <Box display={"flex"} flexDir={"column"} alignItems={"center"}>
-          <Text mb={6}>Error loading Guild data</Text>
-          <Text mb={6}>{e.toString()}</Text>
+      <Box width="100vw" height="100vh" display="flex" alignItems="center" justifyContent="center">
+        <Box display="flex" flexDir="column" alignItems="center">
+          <Text mb={6}>Loading Guild data...</Text>
+          <Spinner size="xl" />
         </Box>
       </Box>
     );
   }
+
+  if (error != null) {
+    return (
+      <Box width="100vw" height="100vh" display="flex" alignItems="center" justifyContent="center">
+        <Box display="flex" flexDir="column" alignItems="center">
+          <Text mb={6}>Error loading Guild data</Text>
+          <Text mb={6}>{error.toString()}</Text>
+        </Box>
+      </Box>
+    );
+  }
+
+  if (data == null) {
+    return (
+      <Box width="100vw" height="100vh" display="flex" alignItems="center" justifyContent="center">
+        <Box display="flex" flexDir="column" alignItems="center">
+          <Text mb={6}>No guild data found</Text>
+        </Box>
+      </Box>
+    );
+  }
+
+  return (
+    <Box p={5} maxWidth={"1000px"} mx={"auto"}>
+      <GuildTable
+        region={region}
+        data={data.members}
+        realmName={realm}
+        guildName={data.displayName}
+        gameType={gameType}
+      />
+    </Box>
+  );
 };

@@ -1,17 +1,17 @@
 "use server";
 import { revalidatePath } from "next/cache";
 import { GameType } from "@prisma/client";
-import { MopSpec, Profile } from "../_types/types";
+import { MopSpec, ProfileMetadata } from "../_types/types";
 import { buildCharacterPath, getWarcraftLogsSubdomain } from "../_utils/gameType";
 
 export interface Props {
   name: string;
   realm: string;
   region: string;
-  parse?: Profile["parse"];
+  parse?: ProfileMetadata["parse"];
   gameType: GameType;
   id: number;
-  talents: Profile["talents"];
+  talents: ProfileMetadata["talents"];
 }
 export async function refreshLogs(props: Props) {
   await refreshCharacterLogs({ ...props, lastUpdated: props.parse?.lastUpdated });
@@ -114,7 +114,7 @@ async function refreshCharacterLogs(args: {
   realm: string;
   region: string;
   gameType: GameType;
-  talents: Profile["talents"];
+  talents: ProfileMetadata["talents"];
   lastUpdated: Date | undefined;
   id: number;
 }) {
@@ -235,7 +235,10 @@ async function refreshCharacterLogs(args: {
   });
 }
 
-function getSpecName(talents: Profile["talents"], checkIsActive: boolean): string | undefined {
+function getSpecName(
+  talents: ProfileMetadata["talents"],
+  checkIsActive: boolean,
+): string | undefined {
   if (MopSpec.is(talents)) {
     return talents.find((spec) => (checkIsActive ? spec.isActive : !spec.isActive))?.name;
   }

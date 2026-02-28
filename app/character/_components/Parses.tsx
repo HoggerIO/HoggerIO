@@ -2,7 +2,7 @@ import React from "react";
 import { Box, Table, Thead, Tbody, Tr, Th, Td, Flex, Text } from "@chakra-ui/react";
 import Link from "next/link";
 import { timeAgo } from "@/app/_utils/time";
-import { Profile } from "../../_types/types";
+import { ProfileMetadata } from "../../_types/types";
 import { GameType } from "@prisma/client";
 import { getWarcraftLogsSubdomain } from "@/app/_utils/gameType";
 
@@ -10,7 +10,7 @@ interface ParseProps {
   name: string;
   realm: string;
   region: string;
-  parse: Profile["parse"];
+  parse: ProfileMetadata["parse"];
   gameType: GameType;
 }
 

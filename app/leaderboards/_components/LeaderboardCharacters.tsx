@@ -1,44 +1,39 @@
+"use client";
+
+import React from "react";
 import { Box, Text } from "@chakra-ui/react";
-import { fetchCharacters } from "../_utils/leaderboard";
+import { Character } from "@prisma/client";
 import { classToColor } from "@/app/_utils/colors";
 import { GiAlliedStar } from "react-icons/gi";
 import Image from "next/image";
 import { getCssGearScoreColor } from "@/app/_utils/gearscore";
 import Link from "next/link";
-import { Character } from "@prisma/client";
-import React from "react";
 import { isEmpty } from "lodash";
-import { buildCharacterPath } from "../_utils/gameType";
+import { buildCharacterPath } from "@/app/_utils/gameType";
+
+export type LeaderboardCharacter = Omit<Character, "createdAt" | "updatedAt" | "metadata">;
 
 interface Props {
-  args: any;
+  characters: LeaderboardCharacter[];
   statToShow?: "itemLevel" | "gearscore" | "achievementPoints" | "honorableKills";
 }
 
-export default async function AsyncCharacters({ args, statToShow }: Props) {
-  try {
-    const characters = await fetchCharacters(args);
-
-    return (
-      <Box display={"flex"} flexDir={"column"} gap={5}>
-        {characters.map((character) => (
-          <CharacterInfo statToShow={statToShow} key={character.id} character={character} />
-        ))}
-        {characters.length === 0 && <div>No characters found</div>}
-      </Box>
-    );
-  } catch (e: any) {
-    console.error(e);
-    return (
-      <div>
-        <h2>Failed to load characters</h2>
-      </div>
-    );
+export const LeaderboardCharacters: React.FC<Props> = ({ characters, statToShow }) => {
+  if (characters.length === 0) {
+    return <Text textAlign={"center"}>No characters found</Text>;
   }
-}
+
+  return (
+    <Box display={"flex"} flexDir={"column"} gap={5}>
+      {characters.map((character) => (
+        <CharacterInfo statToShow={statToShow} key={character.id} character={character} />
+      ))}
+    </Box>
+  );
+};
 
 interface CharacterInfoProps {
-  character: Character;
+  character: LeaderboardCharacter;
   statToShow?: "itemLevel" | "gearscore" | "achievementPoints" | "honorableKills";
 }
 
@@ -49,9 +44,7 @@ const CharacterInfo = React.memo(function CharacterInfo({
   const { name, realm, guild, profileImageUrl, class: classId, region } = character;
 
   return (
-    <Link
-      href={buildCharacterPath(character.gameType, region, realm, name.toLowerCase())}
-    >
+    <Link href={buildCharacterPath(character.gameType, region, realm, name.toLowerCase())}>
       <Box
         display={"flex"}
         _hover={{
@@ -95,7 +88,9 @@ const CharacterInfo = React.memo(function CharacterInfo({
                 {character.gearscore}
               </Text>
             )}
-            {statToShow === "itemLevel" && <Text fontSize={"small"}>{character.itemLevel}</Text>}
+            {statToShow === "itemLevel" && (
+              <Text fontSize={"small"}>{character.itemLevel}</Text>
+            )}
             {statToShow === "honorableKills" && (
               <Text fontSize={"small"}>{character.honorableKills}</Text>
             )}

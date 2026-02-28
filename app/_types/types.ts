@@ -24,8 +24,10 @@ export interface EquippedItem {
   [key: string]: any;
 }
 
-export interface EquippedItemResponse
-  extends Pick<EquippedItem, "enchantments" | "slot" | "quality" | "name" | "set"> {
+export interface EquippedItemResponse extends Pick<
+  EquippedItem,
+  "enchantments" | "slot" | "quality" | "name" | "set"
+> {
   item: {
     id: number;
   };
@@ -61,7 +63,7 @@ export type ProfileParse =
       }[];
     };
 
-export interface Profile extends Character {
+export interface ProfileMetadata extends Character {
   achievements?: Achievements;
   pvp?: {
     rank: number;
@@ -78,7 +80,7 @@ export interface Profile extends Character {
   parse?: ProfileParse;
 }
 
-export interface ProfileEra extends Omit<Profile, "achievementPoints" | "achievements"> {}
+export interface ProfileEra extends Omit<ProfileMetadata, "achievementPoints" | "achievements"> {}
 
 export interface ProfileInfoReponse {
   gender: { type: "MALE" | "FEMALE"; name: string };

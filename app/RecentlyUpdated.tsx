@@ -27,10 +27,9 @@ export default async function RecentlyUpdated() {
           />
         </Suspense>
       </Box>
-
       <Box w={350}>
         <Text mb={2} fontSize={"x-large"}>
-          Season of discovery
+          TBC
         </Text>
         <Suspense
           fallback={
@@ -44,13 +43,12 @@ export default async function RecentlyUpdated() {
               orderBy: { updatedAt: "desc" },
               take: 5,
               where: {
-                gameType: "SEASONAL",
+                gameType: "TBC",
               },
             }}
           />
         </Suspense>
       </Box>
-
       <Box w={350}>
         <Text mb={2} fontSize={"x-large"}>
           Classic
@@ -96,10 +94,9 @@ export default async function RecentlyUpdated() {
           />
         </Suspense>
       </Box>
-
       <Box w={350}>
         <Text mb={2} fontSize={"x-large"}>
-          TBC
+          Season of discovery
         </Text>
         <Suspense
           fallback={
@@ -113,7 +110,7 @@ export default async function RecentlyUpdated() {
               orderBy: { updatedAt: "desc" },
               take: 5,
               where: {
-                gameType: "TBC",
+                gameType: "SEASONAL",
               },
             }}
           />
