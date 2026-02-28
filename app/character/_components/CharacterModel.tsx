@@ -79,7 +79,7 @@ export const CharacterModel: React.FC<CharacterModelProps> = ({
           1,
           `#model_3d`,
           characterModel,
-          process.env.NEXT_PUBLIC_CONTENT_PATH + `/modelviewer/${modelType}/`
+          process.env.NEXT_PUBLIC_CONTENT_PATH + `/modelviewer/${modelType}/`,
         );
       } catch (e) {
         console.error("Error", e);
@@ -93,8 +93,8 @@ export const CharacterModel: React.FC<CharacterModelProps> = ({
   return (
     <>
       <Box
-        height={["450px", "450px", "450px"]}
-        width={["450px", "450px", "450px"]}
+        height={["350px", "450px", "450px"]}
+        width={["350px", "450px", "450px"]}
         borderWidth="1px"
         borderRadius="lg"
         backgroundColor="rgb(43, 43, 43)"

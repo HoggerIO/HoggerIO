@@ -42,17 +42,19 @@ export default function Navbar() {
         marginLeft={"auto"}
         marginRight={"auto"}
         maxWidth={"1300px"}
+        width="100%"
+        px={{ base: 2, md: 0 }}
         color="white"
         as="nav"
         align="center"
         justify="space-between"
-        wrap="wrap"
-        gap={5}
+        wrap="nowrap"
+        gap={{ base: 3, md: 5 }}
       >
         <Link href={HomeRoute}>
-          <Box gap={5} display={"flex"} alignItems={"center"}>
-            <Image src={hoggerImage} alt="Hogger.io" width={50} height={50} />
-            <Heading as="h1" size="lg" cursor="pointer">
+          <Box gap={{ base: 3, md: 5 }} display={"flex"} alignItems={"center"} minW={0}>
+            <Image src={hoggerImage} alt="Hogger.io" width={44} height={44} />
+            <Heading as="h1" size={{ base: "md", md: "lg" }} cursor="pointer" noOfLines={1}>
               Hogger.io
             </Heading>
           </Box>
@@ -83,7 +85,7 @@ export default function Navbar() {
             </Box>
           </Link>
         </Box>
-        <Box display={["flex", "flex", "none"]}>
+        <Box display={["flex", "flex", "none"]} flexShrink={0}>
           <Menu>
             <MenuButton
               as={IconButton}
