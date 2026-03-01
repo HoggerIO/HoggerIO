@@ -29,7 +29,6 @@ import { TalentsMOP } from "./MopTalents";
 import { Parses } from "./Parses";
 import { RefreshParseButton } from "./RefreshParseButton";
 import { GameType } from "@prisma/client";
-import { RefreshProfileButton } from "./RefreshProfileButton";
 import {
   buildGuildPath,
   getMaxLevel,
@@ -39,8 +38,10 @@ import {
 } from "@/app/_utils/gameType";
 import { TbcTalents } from "./TbcTalents";
 import React from "react";
-import { useQuery } from "@tanstack/react-query";
+import { useMutation, useQuery } from "@tanstack/react-query";
 import { FaChartBar } from "react-icons/fa";
+import refreshProfileData from "../../_serverFunctions/refreshProfileData";
+import { useToast } from "@chakra-ui/react";
 
 interface ProfileProps {
   realm: string;
@@ -52,18 +53,40 @@ interface ProfileProps {
 export const Profile = (props: ProfileProps) => {
   const { realm, character: unCleanCharacter, region, gameType } = props;
   const character = decodeURIComponent(unCleanCharacter);
+  const [breakCacheNonce, setBreakCacheNonce] = React.useState(0);
+  const toast = useToast();
+
+  const refreshProfileMutation = useMutation({
+    mutationFn: async () => refreshProfileData(character, realm, region, gameType),
+    onSuccess: () => {
+      setBreakCacheNonce((current) => current + 1);
+    },
+    onError: (e) => {
+      const message = e instanceof Error ? e.message : "Unknown error";
+      toast({
+        title: "Error",
+        description: `Failed to refresh data for ${character}: ${message}`,
+        status: "error",
+        isClosable: true,
+        position: "top",
+      });
+      console.error(e);
+    },
+  });
+
   const {
     data: profile,
     isLoading,
     error,
   } = useQuery({
-    queryKey: ["profile", gameType, region, realm, character],
+    queryKey: ["profile", gameType, region, realm, character, breakCacheNonce],
     queryFn: async () => {
       const params = new URLSearchParams({
         character,
         realm,
         region,
         gameType: gameType.toString(),
+        breakCache: breakCacheNonce > 0 ? "1" : "0",
       });
       const res = await fetch(`/api/profile?${params.toString()}`, { cache: "no-store" });
       if (!res.ok) {
@@ -128,6 +151,8 @@ export const Profile = (props: ProfileProps) => {
               realm={realm}
               gameType={gameType}
               region={region}
+              onRefresh={refreshProfileMutation.mutate}
+              isRefreshing={refreshProfileMutation.isPending}
             />
             <Box
               gap={"5px"}
@@ -248,7 +273,7 @@ export const Profile = (props: ProfileProps) => {
   );
 };
 
-const TopBar = ({ profile, character, realm, gameType, region }) => {
+const TopBar = ({ profile, character, realm, gameType, region, onRefresh, isRefreshing }) => {
   const [red, green, blue] =
     profile.gearscore != null ? getGearscoreColor(profile.gearscore) : [0, 0, 0];
 
@@ -325,13 +350,13 @@ const TopBar = ({ profile, character, realm, gameType, region }) => {
         )}
       </Box>
       <Box>
-        <RefreshProfileButton
-          character={character}
-          realm={realm}
-          region={region}
-          disabled={disableRefreshProfileButton}
-          gameType={gameType}
-        />
+        <Button
+          isDisabled={disableRefreshProfileButton}
+          isLoading={isRefreshing}
+          onClick={onRefresh}
+        >
+          Refresh data
+        </Button>
         <Text fontSize="sm" mt={2}>{`Last updated: ${timeAgo(new Date(profile.updatedAt))}`}</Text>
       </Box>
       <Box

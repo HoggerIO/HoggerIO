@@ -10,6 +10,7 @@ export async function GET(req: NextRequest) {
   const realm = searchParams.get("realm");
   const region = searchParams.get("region");
   const gameTypeRaw = searchParams.get("gameType");
+  const breakCache = searchParams.get("breakCache");
 
   if (!character || !realm || !region || !gameTypeRaw) {
     return NextResponse.json({ error: "Missing required parameters" }, { status: 400 });
@@ -24,14 +25,17 @@ export async function GET(req: NextRequest) {
       character,
       realm,
       region,
-      false,
+      breakCache === "1",
       GameType[gameTypeRaw as keyof typeof GameType],
     );
     return NextResponse.json(
       { profile },
       {
         headers: {
-          "Cache-Control": "public, s-maxage=60, stale-while-revalidate=300",
+          "Cache-Control":
+            breakCache === "1"
+              ? "private, no-store, max-age=0"
+              : "public, s-maxage=60, stale-while-revalidate=300",
         },
       },
     );
