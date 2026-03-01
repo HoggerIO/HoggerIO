@@ -17,28 +17,39 @@ export const Item: React.FC<ItemProps> = ({ items, slotType, textOnLeft, gameTyp
   const item = items?.find((i) => i.slot.type === slotType);
   if (item == null) {
     return (
-      <Box
-        display={"flex"}
-        justifyContent={textOnLeft ? "flex-end" : "flex-start"}
-        key={slotType}
-        h={54}
-      >
-        <Image
-          unoptimized={true}
-          width={54}
-          height={54}
-          alt="image not found"
-          src={
-            "https://static.wikia.nocookie.net/wowpedia/images/1/1f/Ui-paperdoll-slot-tabard.png"
-          }
-        />
+      <Box w={[215, 215, 315]}>
+        <Box
+          display={"flex"}
+          justifyContent={textOnLeft ? "flex-end" : "flex-start"}
+          key={slotType}
+          h={54}
+          gap={"5px"}
+        >
+          <Box
+            key={slotType}
+            border={"1px solid"}
+            borderColor={"gray.500"}
+            w={54}
+            h={54}
+            flexShrink={0}
+            flexGrow={0}
+            flexBasis={"auto"}
+          >
+            <Image
+              unoptimized={true}
+              width={54}
+              height={54}
+              alt="image not found"
+              src={
+                "https://static.wikia.nocookie.net/wowpedia/images/1/1f/Ui-paperdoll-slot-tabard.png"
+              }
+            />
+          </Box>
+        </Box>
       </Box>
     );
   }
-  const imgSrc =
-    item == null
-      ? "https://static.wikia.nocookie.net/wowpedia/images/1/1f/Ui-paperdoll-slot-tabard.png"
-      : `https://wow.zamimg.com/images/wow/icons/large/${item.icon}.jpg`;
+  const imgSrc = `https://wow.zamimg.com/images/wow/icons/large/${item.icon}.jpg`;
 
   const img = (
     <Box

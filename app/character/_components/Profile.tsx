@@ -117,11 +117,11 @@ export const Profile = (props: ProfileProps) => {
         <Box
           width={"100%"}
           display={"flex"}
-          gap={3}
+          gap={"10px 10%"}
           flexWrap={"wrap"}
-          justifyContent={"space-between"}
+          justifyContent={"center"}
         >
-          <Box mx={"auto"} display={"flex"} flexDir={"column"} gap={5}>
+          <Box display={"flex"} flexDir={"column"} gap={5}>
             <TopBar
               profile={profile}
               character={character}
@@ -182,7 +182,7 @@ export const Profile = (props: ProfileProps) => {
               ))}
             </Box>
           </Box>
-          <Box alignSelf={"center"} mx={"auto"}>
+          <Box alignSelf={"center"}>
             <CharacterModel
               items={items}
               race={profile.race}
