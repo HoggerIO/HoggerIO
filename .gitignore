@@ -43,3 +43,6 @@ next-env.d.ts
 # raw item data exports (database dumps - regenerated when items are updated)
 /raw_items.json
 /raw_eraItems.json
+
+# LLM files
+AGENTS.md
