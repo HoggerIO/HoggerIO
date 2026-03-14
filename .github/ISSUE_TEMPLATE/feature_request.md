@@ -10,18 +10,6 @@ assignees: ""
 
 What’s the idea or improvement you’d like to see?
 
-### Motivation
-
-Why would this be useful or improve the experience?
-
-### Proposed Solution
-
-How do you imagine it working? (UI, API behavior, etc.)
-
-### Alternatives
-
-Any other approaches you’ve considered?
-
 ### Additional Context
 
 Links, screenshots, or anything else helpful.
